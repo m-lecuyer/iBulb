@@ -23,8 +23,8 @@
 @synthesize isTheirAFlashOnTheDevice;
 @synthesize torchIsOn;
 
-//@synthesize videoCaptureDevice;
-//@synthesize videoInput;
+@synthesize videoCaptureDevice;
+@synthesize videoInput;
 
 @synthesize adView;
 @synthesize bannerIsVisible;
@@ -69,32 +69,13 @@
 	
 	[self loadUserPreferences];
 
-	//if([UIImagePickerController isSourceTypeAvailable:UIImagePickerControllerSourceTypeCamera]){
+	if([UIImagePickerController isSourceTypeAvailable:UIImagePickerControllerSourceTypeCamera]){
     
-        //AVCaptureSession *captureSession = [[AVCaptureSession alloc] init];
-        //videoCaptureDevice = [AVCaptureDevice defaultDeviceWithMediaType:AVMediaTypeVideo];
+    AVCaptureSession *captureSession = [[AVCaptureSession alloc] init];
+    videoCaptureDevice = [AVCaptureDevice defaultDeviceWithMediaType:AVMediaTypeVideo];
 	
-	
-	
-	//------------------------
-	//------------------------
-	//------------------------
-	//------------------------
-    //à enlever !!!
     
-    flashAvailable = YES;
-    isTheirAFlashOnTheDevice = YES;
-    /*flashAvailable = NO;
-     isTheirAFlashOnTheDevice = NO;*/
-	
-	//------------------------
-	//------------------------
-	//------------------------
-	//------------------------
-    
-    
-    
-	/*	if ([videoCaptureDevice hasTorch]) {			
+     if ([videoCaptureDevice hasTorch]) {			
      NSError *error = nil; 
      videoInput = [AVCaptureDeviceInput deviceInputWithDevice:videoCaptureDevice error:&error];
      if (videoInput) { 
@@ -117,10 +98,10 @@
      isTheirAFlashOnTheDevice = NO;
      }
      }
-     else{
-     flashAvailable = NO;
-     isTheirAFlashOnTheDevice = NO;*/
-	//}
+        else{
+            flashAvailable = NO;
+            isTheirAFlashOnTheDevice = NO;
+	}
     
     if (flashAvailable) {
         onBrightness = brightness;
@@ -164,7 +145,6 @@
 		//-------------------------------------------------
 		//on rajoute la bannière de pub, et on la cache, elle s'ouvrira qd une pub sera chargée (normalement...)
 		adView = [[ADBannerView alloc] initWithFrame:CGRectZero];
-		adView.currentContentSizeIdentifier = ADBannerContentSizeIdentifierPortrait;
 		adView.delegate = self;
 		adView.tag = 1;
 		[self.view addSubview:adView];
@@ -316,14 +296,14 @@
 	if (withFlash) {
 		if (forStateOn) {
             [UIScreen mainScreen].brightness = onBrightness;
-			//[videoCaptureDevice setTorchMode:AVCaptureTorchModeOn];
+			[videoCaptureDevice setTorchMode:AVCaptureTorchModeOn];
 			torchIsOn = YES;
 			//on met la bonne image
 			self.myImageView.image = [UIImage imageNamed:@"on-up.png"];
 		}
 		else {
             [UIScreen mainScreen].brightness = brightness;
-			//[videoCaptureDevice setTorchMode:AVCaptureTorchModeOff];
+			[videoCaptureDevice setTorchMode:AVCaptureTorchModeOff];
 			torchIsOn = NO;
 			self.myImageView.image = [UIImage imageNamed:@"off-up.png"];
 		}
@@ -337,7 +317,7 @@
 			torchIsOn = YES;
 			
 			if (isTheirAFlashOnTheDevice) {
-				//[videoCaptureDevice setTorchMode:AVCaptureTorchModeOff];
+				[videoCaptureDevice setTorchMode:AVCaptureTorchModeOff];
 			}
 		}
 		else {
@@ -348,7 +328,7 @@
 			torchIsOn = NO;
             
 			if (isTheirAFlashOnTheDevice) {
-				//[videoCaptureDevice setTorchMode:AVCaptureTorchModeOff];
+				[videoCaptureDevice setTorchMode:AVCaptureTorchModeOff];
 			}
 		}
 	}

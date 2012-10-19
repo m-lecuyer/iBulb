@@ -262,7 +262,7 @@ static NSArray *contacts;
     [feedbackSMS setRecipients:recipients];
     [feedbackSMS setBody:[NSString stringWithFormat:@"Hey! I just invited you in a conversation on MojoGroups! Join the group and start chatting: http://www.mojogroups.com/get?code=%@", [[NSUserDefaults standardUserDefaults] objectForKey:@"inviteCode"]]];
     
-    [self presentModalViewController:feedbackSMS animated:YES];
+    [self presentViewController:feedbackSMS animated:YES completion:NULL];
     [feedbackSMS release];
 }
 
@@ -283,17 +283,17 @@ static NSArray *contacts;
     [feedbackMail setToRecipients:recipients];
     [feedbackMail setMessageBody:[NSString stringWithFormat:@"Hey! \n\nI just invited you in a conversation on MojoGroups! \n\nIt's free to download and to use. Join the group and start chatting: http://www.mojogroups.com/get?code=%@", [[NSUserDefaults standardUserDefaults] objectForKey:@"inviteCode"]] isHTML:NO];
     
-    [self presentModalViewController:feedbackMail animated:YES];
+    [self presentViewController:feedbackMail animated:YES completion:NULL];
     [feedbackMail release];
 }
 
 - (void)mailComposeController:(MFMailComposeViewController*)controller didFinishWithResult:(MFMailComposeResult)result error:(NSError*)error 
 {	
-    [self dismissModalViewControllerAnimated:YES];
+    [self dismissViewControllerAnimated:YES completion:NULL];
 }
 
 - (void)messageComposeViewController:(MFMessageComposeViewController *)controller didFinishWithResult:(MessageComposeResult)result {
-    [self dismissModalViewControllerAnimated:YES];
+    [self dismissViewControllerAnimated:YES completion:NULL];
 }
 
 /* 

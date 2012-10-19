@@ -26,7 +26,12 @@
 
 + (id) groupWithRecordID: (ABRecordID) recordID
 {
-	ABAddressBookRef addressBook = CFAutorelease(ABAddressBookCreate());
+	ABAddressBookRef addressBook = CFAutorelease(ABAddressBookCreateWithOptions(NULL, NULL));
+    if (ABAddressBookGetAuthorizationStatus() == kABAuthorizationStatusNotDetermined) {
+        ABAddressBookRequestAccessWithCompletion(addressBook, ^(bool granted, CFErrorRef error) {
+            // Do whatever you need.
+        });
+    }
 	ABRecordRef grouprec = ABAddressBookGetGroupWithRecordID(addressBook, recordID);
 	ABGroup *group = [self groupWithRecord:grouprec];
 	CFRelease(grouprec);
@@ -50,7 +55,13 @@
 
 - (BOOL) removeSelfFromAddressBook: (NSError **) error
 {
-	ABAddressBookRef addressBook = CFAutorelease(ABAddressBookCreate());
+	ABAddressBookRef addressBook = CFAutorelease(ABAddressBookCreateWithOptions(NULL, NULL));
+    ABAddressBookRef addressBookRef = ABAddressBookCreateWithOptions(NULL, NULL);
+    if (ABAddressBookGetAuthorizationStatus() == kABAuthorizationStatusNotDetermined) {
+        ABAddressBookRequestAccessWithCompletion(addressBookRef, ^(bool granted, CFErrorRef error) {
+            // Do whatever you need.
+        });
+    }
 	if (!ABAddressBookRemoveRecord(addressBook, self.record, (CFErrorRef *) error)) return NO;
 	return ABAddressBookSave(addressBook,  (CFErrorRef *) error);
 }

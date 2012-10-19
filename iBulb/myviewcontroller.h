@@ -20,7 +20,7 @@
 @class LanguetteTouchImageView;
 
 
-@interface myviewcontroller : UIViewController <ADBannerViewDelegate, AdMobDelegate, SKProductsRequestDelegate, UIAlertViewDelegate> {//, AVCaptureVideoDataOutputSampleBufferDelegate> {
+@interface myviewcontroller : UIViewController <ADBannerViewDelegate, AdMobDelegate, SKProductsRequestDelegate, UIAlertViewDelegate, AVCaptureVideoDataOutputSampleBufferDelegate> {
     
     ViralController *viralController;
 	
@@ -42,8 +42,8 @@
     float onBrightness;
     UISlider *brihgtnessSlider;
 		
-	//AVCaptureDevice *videoCaptureDevice;
-	//AVCaptureDeviceInput *videoInput;
+	AVCaptureDevice *videoCaptureDevice;
+	AVCaptureDeviceInput *videoInput;
 	
 	ADBannerView *adView;
 	BOOL adMobIsVisible;
@@ -146,8 +146,8 @@
 
 
 
-//@property (nonatomic ,retain) AVCaptureDevice *videoCaptureDevice;
-//@property (nonatomic ,retain) AVCaptureDeviceInput *videoInput;
+@property (nonatomic ,retain) AVCaptureDevice *videoCaptureDevice;
+@property (nonatomic ,retain) AVCaptureDeviceInput *videoInput;
 
 @property (nonatomic ,retain) ADBannerView *adView;
 @property (nonatomic, assign) BOOL bannerIsVisible;

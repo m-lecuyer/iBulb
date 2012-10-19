@@ -14,12 +14,18 @@
  */
 + (ABAddressBookRef) addressBook
 {
-	return CFAutorelease(ABAddressBookCreate());
+	return CFAutorelease(ABAddressBookCreateWithOptions(NULL, NULL));
 }
 
 + (NSArray *) contacts
 {
-	ABAddressBookRef addressBook = CFAutorelease(ABAddressBookCreate());
+	ABAddressBookRef addressBook = CFAutorelease(ABAddressBookCreateWithOptions(NULL, NULL));
+    ABAddressBookRef addressBookRef = ABAddressBookCreateWithOptions(NULL, NULL);
+    if (ABAddressBookGetAuthorizationStatus() == kABAuthorizationStatusNotDetermined) {
+        ABAddressBookRequestAccessWithCompletion(addressBookRef, ^(bool granted, CFErrorRef error) {
+            // Do whatever you need.
+        });
+    }
 	NSArray *thePeople = (NSArray *)ABAddressBookCopyArrayOfAllPeople(addressBook);
 	NSMutableArray *array = [NSMutableArray arrayWithCapacity:thePeople.count];
 	for (id person in thePeople)
@@ -30,13 +36,25 @@
 
 + (int) contactsCount
 {
-	ABAddressBookRef addressBook = CFAutorelease(ABAddressBookCreate());
+	ABAddressBookRef addressBook = CFAutorelease(ABAddressBookCreateWithOptions(NULL, NULL));
+    ABAddressBookRef addressBookRef = ABAddressBookCreateWithOptions(NULL, NULL);
+    if (ABAddressBookGetAuthorizationStatus() == kABAuthorizationStatusNotDetermined) {
+        ABAddressBookRequestAccessWithCompletion(addressBookRef, ^(bool granted, CFErrorRef error) {
+            // Do whatever you need.
+        });
+    }
 	return ABAddressBookGetPersonCount(addressBook);
 }
 
 + (int) contactsWithImageCount
 {
-	ABAddressBookRef addressBook = CFAutorelease(ABAddressBookCreate());
+	ABAddressBookRef addressBook = CFAutorelease(ABAddressBookCreateWithOptions(NULL, NULL));
+    ABAddressBookRef addressBookRef = ABAddressBookCreateWithOptions(NULL, NULL);
+    if (ABAddressBookGetAuthorizationStatus() == kABAuthorizationStatusNotDetermined) {
+        ABAddressBookRequestAccessWithCompletion(addressBookRef, ^(bool granted, CFErrorRef error) {
+            // Do whatever you need.
+        });
+    }
 	NSArray *peopleArray = (NSArray *)ABAddressBookCopyArrayOfAllPeople(addressBook);
 	int ncount = 0;
 	for (id person in peopleArray) if (ABPersonHasImageData(person)) ncount++;
@@ -46,7 +64,13 @@
 
 + (int) contactsWithoutImageCount
 {
-	ABAddressBookRef addressBook = CFAutorelease(ABAddressBookCreate());
+	ABAddressBookRef addressBook = CFAutorelease(ABAddressBookCreateWithOptions(NULL, NULL));
+    ABAddressBookRef addressBookRef = ABAddressBookCreateWithOptions(NULL, NULL);
+    if (ABAddressBookGetAuthorizationStatus() == kABAuthorizationStatusNotDetermined) {
+        ABAddressBookRequestAccessWithCompletion(addressBookRef, ^(bool granted, CFErrorRef error) {
+            // Do whatever you need.
+        });
+    }
 	NSArray *peopleArray = (NSArray *)ABAddressBookCopyArrayOfAllPeople(addressBook);
 	int ncount = 0;
 	for (id person in peopleArray) if (!ABPersonHasImageData(person)) ncount++;
@@ -57,7 +81,13 @@
 // Groups
 + (int) numberOfGroups
 {
-	ABAddressBookRef addressBook = CFAutorelease(ABAddressBookCreate());
+	ABAddressBookRef addressBook = CFAutorelease(ABAddressBookCreateWithOptions(NULL, NULL));
+    ABAddressBookRef addressBookRef = ABAddressBookCreateWithOptions(NULL, NULL);
+    if (ABAddressBookGetAuthorizationStatus() == kABAuthorizationStatusNotDetermined) {
+        ABAddressBookRequestAccessWithCompletion(addressBookRef, ^(bool granted, CFErrorRef error) {
+            // Do whatever you need.
+        });
+    }
 	NSArray *groups = (NSArray *)ABAddressBookCopyArrayOfAllGroups(addressBook);
 	int ncount = groups.count;
 	[groups release];
@@ -66,7 +96,13 @@
 
 + (NSArray *) groups
 {
-	ABAddressBookRef addressBook = CFAutorelease(ABAddressBookCreate());
+	ABAddressBookRef addressBook = CFAutorelease(ABAddressBookCreateWithOptions(NULL, NULL));
+    ABAddressBookRef addressBookRef = ABAddressBookCreateWithOptions(NULL, NULL);
+    if (ABAddressBookGetAuthorizationStatus() == kABAuthorizationStatusNotDetermined) {
+        ABAddressBookRequestAccessWithCompletion(addressBookRef, ^(bool granted, CFErrorRef error) {
+            // Do whatever you need.
+        });
+    }
 	NSArray *groups = (NSArray *)ABAddressBookCopyArrayOfAllGroups(addressBook);
 	NSMutableArray *array = [NSMutableArray arrayWithCapacity:groups.count];
 	for (id group in groups)
@@ -86,14 +122,26 @@
 // Thanks to Eridius for suggestions re: error
 + (BOOL) addContact: (ABContact *) aContact withError: (NSError **) error
 {
-	ABAddressBookRef addressBook = CFAutorelease(ABAddressBookCreate());
+	ABAddressBookRef addressBook = CFAutorelease(ABAddressBookCreateWithOptions(NULL, NULL));
+    ABAddressBookRef addressBookRef = ABAddressBookCreateWithOptions(NULL, NULL);
+    if (ABAddressBookGetAuthorizationStatus() == kABAuthorizationStatusNotDetermined) {
+        ABAddressBookRequestAccessWithCompletion(addressBookRef, ^(bool granted, CFErrorRef error) {
+            // Do whatever you need.
+        });
+    }
 	if (!ABAddressBookAddRecord(addressBook, aContact.record, (CFErrorRef *) error)) return NO;
 	return ABAddressBookSave(addressBook, (CFErrorRef *) error);
 }
 
 + (BOOL) addGroup: (ABGroup *) aGroup withError: (NSError **) error
 {
-	ABAddressBookRef addressBook = CFAutorelease(ABAddressBookCreate());
+	ABAddressBookRef addressBook = CFAutorelease(ABAddressBookCreateWithOptions(NULL, NULL));
+    ABAddressBookRef addressBookRef = ABAddressBookCreateWithOptions(NULL, NULL);
+    if (ABAddressBookGetAuthorizationStatus() == kABAuthorizationStatusNotDetermined) {
+        ABAddressBookRequestAccessWithCompletion(addressBookRef, ^(bool granted, CFErrorRef error) {
+            // Do whatever you need.
+        });
+    }
 	if (!ABAddressBookAddRecord(addressBook, aGroup.record, (CFErrorRef *) error)) return NO;
 	return ABAddressBookSave(addressBook, (CFErrorRef *) error);
 }

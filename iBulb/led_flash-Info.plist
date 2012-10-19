@@ -16,7 +16,7 @@
 		<string>logo57.png</string>
 	</array>
 	<key>CFBundleIdentifier</key>
-	<string>LED</string>
+	<string>com.mathiaslecuyer.ibulb</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>

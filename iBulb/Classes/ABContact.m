@@ -60,7 +60,13 @@
 
 + (id) contactWithRecordID: (ABRecordID) recordID
 {
-	ABAddressBookRef addressBook = ABAddressBookCreate();
+	ABAddressBookRef addressBook = ABAddressBookCreateWithOptions(NULL, NULL);
+    ABAddressBookRef addressBookRef = ABAddressBookCreateWithOptions(NULL, NULL);
+    if (ABAddressBookGetAuthorizationStatus() == kABAuthorizationStatusNotDetermined) {
+        ABAddressBookRequestAccessWithCompletion(addressBookRef, ^(bool granted, CFErrorRef error) {
+            // Do whatever you need.
+        });
+    }
 	ABRecordRef contactrec = ABAddressBookGetPersonWithRecordID(addressBook, recordID);
 	ABContact *contact = [self contactWithRecord:contactrec];
 	// CFRelease(contactrec); // Thanks Gary Fung
@@ -270,7 +276,7 @@
 // Thanks to Eridius for suggestions re: error
 - (BOOL) removeSelfFromAddressBook: (NSError **) error
 {
-	ABAddressBookRef addressBook = CFAutorelease(ABAddressBookCreate());
+	ABAddressBookRef addressBook = CFAutorelease(ABAddressBookCreateWithOptions(NULL, NULL));
 	if (!ABAddressBookRemoveRecord(addressBook, self.record, (CFErrorRef *) error)) return NO;
 	return ABAddressBookSave(addressBook,  (CFErrorRef *) error);
 }

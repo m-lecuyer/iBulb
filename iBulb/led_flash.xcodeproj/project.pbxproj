@@ -686,7 +686,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Mathias Lécuyer (C66X29YD5J)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Mathias Lecuyer (6XC3X7K5EU)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -700,7 +700,7 @@
 				);
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = led_flash;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "288CB057-85EF-4D64-ABD1-3EEEEF331A6F";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "08DA7A1F-BA76-42D6-93F3-DE0DA1CB07E5";
 			};
 			name = Debug;
 		};
