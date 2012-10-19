@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  led_flash
+
+  Created by Mathias Lécuyer on 25/07/12.
+  Copyright (c) 2012 Polytechnique. All rights reserved.
+*/
+
+"PURCHASE_ERROR_TITLE" = "Achat";
+"PURCHASE_ERROR_MESSAGE" = "Il y a eu un problème. Pas de panique, vous n'avez rien payé! Vous pouvez réessayer d'acheter la version sans pub maintenant, ou plus tard. Merci!";
+"PURCHASE_ERROR_CANCEL" = "Fermer";
+"PURCHASE_ERROR_TITLE" = "Réessayer";
+
+"INAPP_DISABLED_TITLE" = "Achats In-App";
+"INAPP_DISABLED_CORE" = "Les achats in-app sont désactivés. Vous pouvez les activer dans les réglages de l'iPhone!";

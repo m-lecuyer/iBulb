@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  led_flash
+
+  Created by Mathias Lécuyer on 25/07/12.
+  Copyright (c) 2012 Polytechnique. All rights reserved.
+*/
+
+"PURCHASE_ERROR_TITLE" = "Ad-Free purchase";
+"PURCHASE_ERROR_MESSAGE" = "An error occured, but don't worry, you didn't pay anything. You can try to download the AdFree version again now, or later. Thank you!";
+"PURCHASE_ERROR_CANCEL" = "Cancel";
+"PURCHASE_ERROR_TITLE" = "Retry";
+
+"INAPP_DISABLED_TITLE" = "In-App purchases";
+"INAPP_DISABLED_CORE" = "In app purchases are disabled. You can enable it in the iPhone's settings!";

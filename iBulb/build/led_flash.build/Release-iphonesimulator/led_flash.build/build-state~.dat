@@ -1,0 +1,408 @@
+Tled_flash
+v7
+r0
+t301304041.733595
+cCheck dependencies
+cProcessInfoPlistFile "/Users/Mathias/Desktop/led_flash 2/build/Release-iphonesimulator/led_flash.app/Info.plist" led_flash-Info.plist
+cCompileXIB "/Users/Mathias/Desktop/led_flash 2/MainWindow.xib"
+cCpResource build/Release-iphonesimulator/led_flash.app/flashlight-on.png flashlight-on.png
+cCpResource build/Release-iphonesimulator/led_flash.app/Icon.png Icon.png
+cCpResource build/Release-iphonesimulator/led_flash.app/flashlight-off-gris.png flashlight-off-gris.png
+cCpResource build/Release-iphonesimulator/led_flash.app/flashlight-on3GS.png flashlight-on3GS.png
+cCpResource build/Release-iphonesimulator/led_flash.app/flashlight-off.png flashlight-off.png
+cCpResource build/Release-iphonesimulator/led_flash.app/Icon-57.png Icon-57.png
+cCpResource build/Release-iphonesimulator/led_flash.app/Icon-72.png Icon-72.png
+cProcessPCH /var/folders/in/in++jmrvFvOGQ5zhHNaVTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/led_flash_Prefix-fsybdsnsubqipwawhktfourydmam/led_flash_Prefix.pch.gch led_flash_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/led_flash.build/Release-iphonesimulator/led_flash.build/Objects-normal/i386/main.o "/Users/Mathias/Desktop/led_flash 2/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/led_flash.build/Release-iphonesimulator/led_flash.build/Objects-normal/i386/led_flashAppDelegate.o "/Users/Mathias/Desktop/led_flash 2/Classes/led_flashAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/led_flash.build/Release-iphonesimulator/led_flash.build/Objects-normal/i386/myviewcontroller.o "/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
+c000000004C403E370000000000000132
+t1279278647
+s306
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004C01F5AE00000000000C05A0
+t1275196846
+s787872
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.h
+c000000004C01F5AA000000000000065C
+t1275196842
+s1628
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFDFE39000000000027C7D0
+t1274936889
+s2607056
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFDFE7C000000000029D5D0
+t1274936956
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFDFE6E0000000000001466
+t1274936942
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C0470BB00000000000009CD
+t1275359419
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C0471620000000001D47210
+t1275359586
+s30700048
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/iAd.framework/Headers/iAd.h
+c000000004C0473C80000000000000071
+t1275360200
+s113
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/iAd.framework/iAd
+c000000004C0473CB000000000004A930
+t1275360203
+s305456
+
+N/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m
+c000000004C405E8300000000000012DC
+t1279286915
+s4828
+i"myviewcontroller.h"
+
+N/Users/Mathias/Desktop/led_flash 2/Classes/led_flashAppDelegate.h
+c000000004C3B57DC0000000000000148
+t1278957532
+s328
+i<UIKit/UIKit.h>
+
+N/Users/Mathias/Desktop/led_flash 2/Classes/led_flashAppDelegate.m
+c000000004C3BA45F00000000000009FD
+t1278977119
+s2557
+i"led_flashAppDelegate.h"
+
+N/Users/Mathias/Desktop/led_flash 2/Icon-57.png
+c000000004C421DC2000000000000121A
+t1279401410
+s4634
+
+N/Users/Mathias/Desktop/led_flash 2/Icon-72.png
+c000000004C421DA3000000000000186A
+t1279401379
+s6250
+
+N/Users/Mathias/Desktop/led_flash 2/Icon.png
+c000000004C42199A0000000000003004
+t1279400346
+s12292
+
+N/Users/Mathias/Desktop/led_flash 2/MainWindow.xib
+c000000004C405E1800000000000060F9
+t1279286808
+s24825
+
+N/Users/Mathias/Desktop/led_flash 2/build/Release-iphonesimulator/led_flash.app
+t2
+s0
+
+N/Users/Mathias/Desktop/led_flash 2/build/Release-iphonesimulator/led_flash.app.dSYM
+t2
+s0
+
+N/Users/Mathias/Desktop/led_flash 2/build/Release-iphonesimulator/led_flash.app/Icon-57.png
+t1279611239
+s4634
+
+N/Users/Mathias/Desktop/led_flash 2/build/Release-iphonesimulator/led_flash.app/Icon-72.png
+t1279611239
+s6250
+
+N/Users/Mathias/Desktop/led_flash 2/build/Release-iphonesimulator/led_flash.app/Icon.png
+t1279611239
+s12292
+
+N/Users/Mathias/Desktop/led_flash 2/build/Release-iphonesimulator/led_flash.app/Info.plist
+t1279611239
+s700
+
+N/Users/Mathias/Desktop/led_flash 2/build/Release-iphonesimulator/led_flash.app/MainWindow.nib
+t1279611240
+s1938
+
+N/Users/Mathias/Desktop/led_flash 2/build/Release-iphonesimulator/led_flash.app/PkgInfo
+t1279611239
+s8
+
+N/Users/Mathias/Desktop/led_flash 2/build/Release-iphonesimulator/led_flash.app/flashlight-off-gris.png
+t1279611239
+s97823
+
+N/Users/Mathias/Desktop/led_flash 2/build/Release-iphonesimulator/led_flash.app/flashlight-off.png
+t1279611239
+s98781
+
+N/Users/Mathias/Desktop/led_flash 2/build/Release-iphonesimulator/led_flash.app/flashlight-on.png
+t1279611239
+s231755
+
+N/Users/Mathias/Desktop/led_flash 2/build/Release-iphonesimulator/led_flash.app/flashlight-on3GS.png
+t1279611239
+s226476
+
+N/Users/Mathias/Desktop/led_flash 2/build/Release-iphonesimulator/led_flash.app/led_flash
+t2
+s0
+
+N/Users/Mathias/Desktop/led_flash 2/build/led_flash.build/Release-iphonesimulator/led_flash.build/Objects-normal/i386/led_flash.LinkFileList
+c000000004C4551670000000000000190
+t1279611239
+s400
+
+N/Users/Mathias/Desktop/led_flash 2/build/led_flash.build/Release-iphonesimulator/led_flash.build/Objects-normal/i386/led_flashAppDelegate.o
+t1279611241
+s46232
+
+N/Users/Mathias/Desktop/led_flash 2/build/led_flash.build/Release-iphonesimulator/led_flash.build/Objects-normal/i386/main.o
+t1279611241
+s6280
+
+N/Users/Mathias/Desktop/led_flash 2/build/led_flash.build/Release-iphonesimulator/led_flash.build/Objects-normal/i386/myviewcontroller.o
+t2
+s0
+
+N/Users/Mathias/Desktop/led_flash 2/flashlight-off-gris.png
+c000000004C4057AB0000000000017E1F
+t1279285163
+s97823
+
+N/Users/Mathias/Desktop/led_flash 2/flashlight-off.png
+c000000004C40C88800000000000181DD
+t1279314056
+s98781
+
+N/Users/Mathias/Desktop/led_flash 2/flashlight-on.png
+c000000004C3EAA76000000000003894B
+t1279175286
+s231755
+
+N/Users/Mathias/Desktop/led_flash 2/flashlight-on3GS.png
+c000000004C4058EC00000000000374AC
+t1279285484
+s226476
+
+N/Users/Mathias/Desktop/led_flash 2/led_flash_Prefix.pch
+c000000004C3B4D2B00000000000000BB
+t1278954795
+s187
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/Mathias/Desktop/led_flash 2/main.m
+c000000004C3B4D2B0000000000000165
+t1278954795
+s357
+i<UIKit/UIKit.h>
+
+N/Users/Mathias/Desktop/led_flash 2/myviewcontroller.h
+c000000004C3FA07F0000000000000475
+t1279238271
+s1141
+i<UIKit/UIKit.h>
+i<AVFoundation/AVFoundation.h>
+i<iAd/iAd.h>
+
+N/var/folders/in/in++jmrvFvOGQ5zhHNaVTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/led_flash_Prefix-fsybdsnsubqipwawhktfourydmam/led_flash_Prefix.pch.gch
+t1279611241
+s14896144
+
+Nled_flash-Info.plist
+c000000004C45515D000000000000043A
+t1279611229
+s1082
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies301304038#301304039#0(0"0(0#1#0"8629427584#0"0#
+
+CCompileC build/led_flash.build/Release-iphonesimulator/led_flash.build/Objects-normal/i386/led_flashAppDelegate.o "/Users/Mathias/Desktop/led_flash 2/Classes/led_flashAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s301304041.453524
+e301304041.682965
+r1
+xCompileC
+xbuild/led_flash.build/Release-iphonesimulator/led_flash.build/Objects-normal/i386/led_flashAppDelegate.o
+x/Users/Mathias/Desktop/led_flash 2/Classes/led_flashAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/Mathias/Desktop/led_flash 2/Classes/led_flashAppDelegate.m: In function '-[led_flashAppDelegate applicationDidBecomeActive:]':
+o/Users/Mathias/Desktop/led_flash 2/Classes/led_flashAppDelegate.m:56: warning: 'UIViewController' may not respond to '-devientActive'
+o/Users/Mathias/Desktop/led_flash 2/Classes/led_flashAppDelegate.m:56: warning: (Messages without a matching method signature
+o/Users/Mathias/Desktop/led_flash 2/Classes/led_flashAppDelegate.m:56: warning: will be assumed to return 'id' and accept
+o/Users/Mathias/Desktop/led_flash 2/Classes/led_flashAppDelegate.m:56: warning: '...' as arguments.)
+lSLF07#2@73"Compile /Users/Mathias/Desktop/led_flash 2/Classes/led_flashAppDelegate.m301304041#301304041#0(614"/Users/Mathias/Desktop/led_flash 2/Classes/led_flashAppDelegate.m: In function '-[led_flashAppDelegate applicationDidBecomeActive:]':/Users/Mathias/Desktop/led_flash 2/Classes/led_flashAppDelegate.m:56: warning: 'UIViewController' may not respond to '-devientActive'/Users/Mathias/Desktop/led_flash 2/Classes/led_flashAppDelegate.m:56: warning: (Messages without a matching method signature/Users/Mathias/Desktop/led_flash 2/Classes/led_flashAppDelegate.m:56: warning: will be assumed to return 'id' and accept/Users/Mathias/Desktop/led_flash 2/Classes/led_flashAppDelegate.m:56: warning: '...' as arguments.)2(22@54"'UIViewController' may not respond to '-devientActive'301304041#134#134#0(6@65"/Users/Mathias/Desktop/led_flash 2/Classes/led_flashAppDelegate.m300669919#56#0#56#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)301304041#268#125#0(6@65"/Users/Mathias/Desktop/led_flash 2/Classes/led_flashAppDelegate.m300669919#56#0#56#0#0"0(0#0#65"/Users/Mathias/Desktop/led_flash 2/Classes/led_flashAppDelegate.m8612641920#2018"    cd "/Users/Mathias/Desktop/led_flash 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/Mathias/Desktop/led_flash 2/build/led_flash.build/Release-iphonesimulator/led_flash.build/led_flash-generated-files.hmap" "-I/Users/Mathias/Desktop/led_flash 2/build/led_flash.build/Release-iphonesimulator/led_flash.build/led_flash-own-target-headers.hmap" "-I/Users/Mathias/Desktop/led_flash 2/build/led_flash.build/Release-iphonesimulator/led_flash.build/led_flash-all-target-headers.hmap" -iquote "/Users/Mathias/Desktop/led_flash 2/build/led_flash.build/Release-iphonesimulator/led_flash.build/led_flash-project-headers.hmap" "-F/Users/Mathias/Desktop/led_flash 2/build/Release-iphonesimulator" "-I/Users/Mathias/Desktop/led_flash 2/build/Release-iphonesimulator/include" "-I/Users/Mathias/Desktop/led_flash 2/build/led_flash.build/Release-iphonesimulator/led_flash.build/DerivedSources/i386" "-I/Users/Mathias/Desktop/led_flash 2/build/led_flash.build/Release-iphonesimulator/led_flash.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/in/in++jmrvFvOGQ5zhHNaVTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/led_flash_Prefix-fsybdsnsubqipwawhktfourydmam/led_flash_Prefix.pch -c "/Users/Mathias/Desktop/led_flash 2/Classes/led_flashAppDelegate.m" -o "/Users/Mathias/Desktop/led_flash 2/build/led_flash.build/Release-iphonesimulator/led_flash.build/Objects-normal/i386/led_flashAppDelegate.o"0#
+
+CCompileC build/led_flash.build/Release-iphonesimulator/led_flash.build/Objects-normal/i386/main.o "/Users/Mathias/Desktop/led_flash 2/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s301304041.452463
+e301304041.640354
+r1
+xCompileC
+xbuild/led_flash.build/Release-iphonesimulator/led_flash.build/Objects-normal/i386/main.o
+x/Users/Mathias/Desktop/led_flash 2/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@49"Compile /Users/Mathias/Desktop/led_flash 2/main.m301304041#301304041#0(0"0(0#0#41"/Users/Mathias/Desktop/led_flash 2/main.m8611805568#1978"    cd "/Users/Mathias/Desktop/led_flash 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/Mathias/Desktop/led_flash 2/build/led_flash.build/Release-iphonesimulator/led_flash.build/led_flash-generated-files.hmap" "-I/Users/Mathias/Desktop/led_flash 2/build/led_flash.build/Release-iphonesimulator/led_flash.build/led_flash-own-target-headers.hmap" "-I/Users/Mathias/Desktop/led_flash 2/build/led_flash.build/Release-iphonesimulator/led_flash.build/led_flash-all-target-headers.hmap" -iquote "/Users/Mathias/Desktop/led_flash 2/build/led_flash.build/Release-iphonesimulator/led_flash.build/led_flash-project-headers.hmap" "-F/Users/Mathias/Desktop/led_flash 2/build/Release-iphonesimulator" "-I/Users/Mathias/Desktop/led_flash 2/build/Release-iphonesimulator/include" "-I/Users/Mathias/Desktop/led_flash 2/build/led_flash.build/Release-iphonesimulator/led_flash.build/DerivedSources/i386" "-I/Users/Mathias/Desktop/led_flash 2/build/led_flash.build/Release-iphonesimulator/led_flash.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/in/in++jmrvFvOGQ5zhHNaVTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/led_flash_Prefix-fsybdsnsubqipwawhktfourydmam/led_flash_Prefix.pch -c "/Users/Mathias/Desktop/led_flash 2/main.m" -o "/Users/Mathias/Desktop/led_flash 2/build/led_flash.build/Release-iphonesimulator/led_flash.build/Objects-normal/i386/main.o"0#
+
+CCompileC build/led_flash.build/Release-iphonesimulator/led_flash.build/Objects-normal/i386/myviewcontroller.o "/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s301304041.640456
+e301304041.733525
+r0
+xCompileC
+xbuild/led_flash.build/Release-iphonesimulator/led_flash.build/Objects-normal/i386/myviewcontroller.o
+x/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m:9:
+o/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.h:18: error: expected specifier-qualifier-list before 'AVCaptureDevice'
+o/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.h:19: error: expected specifier-qualifier-list before 'AVCaptureDeviceInput'
+o/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.h:30: error: expected specifier-qualifier-list before 'AVCaptureDevice'
+o/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.h:31: error: expected specifier-qualifier-list before 'AVCaptureDeviceInput'
+o/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m:16: error: no declaration of property 'videoCaptureDevice' found in the interface
+o/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m:17: error: no declaration of property 'videoInput' found in the interface
+o/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m: In function '-[myviewcontroller viewDidLoad]':
+o/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m:32: error: 'AVCaptureSession' undeclared (first use in this function)
+o/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m:32: error: (Each undeclared identifier is reported only once
+o/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m:32: error: for each function it appears in.)
+o/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m:32: error: 'captureSession' undeclared (first use in this function)
+o/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m:33: error: 'videoCaptureDevice' undeclared (first use in this function)
+o/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m:33: error: 'AVCaptureDevice' undeclared (first use in this function)
+o/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m:40: error: 'videoInput' undeclared (first use in this function)
+o/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m:40: error: 'AVCaptureDeviceInput' undeclared (first use in this function)
+o/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m:45: error: 'AVCaptureVideoDataOutput' undeclared (first use in this function)
+o/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m:45: error: 'videoOutput' undeclared (first use in this function)
+o/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m:54: error: 'AVCaptureTorchModeOn' undeclared (first use in this function)
+o/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m:66: warning: class 'myviewcontroller' does not implement the 'ADBannerViewDelegate' protocol
+o/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m: In function '-[myviewcontroller buttonTouched]':
+o/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m:77: error: 'videoInput' undeclared (first use in this function)
+o/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m:78: error: 'videoCaptureDevice' undeclared (first use in this function)
+o/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m:79: error: 'AVCaptureTorchModeOff' undeclared (first use in this function)
+o/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m:83: error: 'AVCaptureTorchModeOn' undeclared (first use in this function)
+o/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m: In function '-[myviewcontroller devientActive]':
+o/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m:105: error: 'videoCaptureDevice' undeclared (first use in this function)
+o/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m:105: error: 'AVCaptureTorchModeOn' undeclared (first use in this function)
+o/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m:109: error: 'videoInput' undeclared (first use in this function)
+o/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m: In function '-[myviewcontroller dealloc]':
+o/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m:180: error: 'videoCaptureDevice' undeclared (first use in this function)
+o/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m:181: error: 'videoInput' undeclared (first use in this function)
+lSLF07#2@72"Compile /Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m301304041#301304041#0(4212"In file included from /Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m:9:/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.h:18: error: expected specifier-qualifier-list before 'AVCaptureDevice'/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.h:19: error: expected specifier-qualifier-list before 'AVCaptureDeviceInput'/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.h:30: error: expected specifier-qualifier-list before 'AVCaptureDevice'/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.h:31: error: expected specifier-qualifier-list before 'AVCaptureDeviceInput'/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m:16: error: no declaration of property 'videoCaptureDevice' found in the interface/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m:17: error: no declaration of property 'videoInput' found in the interface/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m: In function '-[myviewcontroller viewDidLoad]':/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m:32: error: 'AVCaptureSession' undeclared (first use in this function)/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m:32: error: (Each undeclared identifier is reported only once/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m:32: error: for each function it appears in.)/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m:32: error: 'captureSession' undeclared (first use in this function)/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m:33: error: 'videoCaptureDevice' undeclared (first use in this function)/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m:33: error: 'AVCaptureDevice' undeclared (first use in this function)/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m:40: error: 'videoInput' undeclared (first use in this function)/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m:40: error: 'AVCaptureDeviceInput' undeclared (first use in this function)/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m:45: error: 'AVCaptureVideoDataOutput' undeclared (first use in this function)/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m:45: error: 'videoOutput' undeclared (first use in this function)/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m:54: error: 'AVCaptureTorchModeOn' undeclared (first use in this function)/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m:66: warning: class 'myviewcontroller' does not implement the 'ADBannerViewDelegate' protocol/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m: In function '-[myviewcontroller buttonTouched]':/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m:77: error: 'videoInput' undeclared (first use in this function)/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m:78: error: 'videoCaptureDevice' undeclared (first use in this function)/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m:79: error: 'AVCaptureTorchModeOff' undeclared (first use in this function)/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m:83: error: 'AVCaptureTorchModeOn' undeclared (first use in this function)/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m: In function '-[myviewcontroller devientActive]':/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m:105: error: 'videoCaptureDevice' undeclared (first use in this function)/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m:105: error: 'AVCaptureTorchModeOn' undeclared (first use in this function)/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m:109: error: 'videoInput' undeclared (first use in this function)/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m: In function '-[myviewcontroller dealloc]':/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m:180: error: 'videoCaptureDevice' undeclared (first use in this function)/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m:181: error: 'videoInput' undeclared (first use in this function)25(4@58"Expected specifier-qualifier-list before 'AVCaptureDevice'301304041#90#135#2(7@86"In file included from /Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m301304041#18446744073709551615#0#0(6@64"/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m300979715#9#0#9#0#0"0(13@126"Expected specifier-qualifier-list before 'AVCaptureDevice' in /Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.h301304041#18446744073709551615#0#0(6@64"/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.h300931071#18#0#18#0#0"0(6@64"/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.h300931071#18#0#18#0#19"expected * before *0(4@63"Expected specifier-qualifier-list before 'AVCaptureDeviceInput'301304041#225#140#2(7@86"In file included from /Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m301304041#18446744073709551615#0#0(6@64"/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m300979715#9#0#9#0#0"0(13@131"Expected specifier-qualifier-list before 'AVCaptureDeviceInput' in /Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.h301304041#18446744073709551615#0#0(6@64"/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.h300931071#19#0#19#0#0"0(6@64"/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.h300931071#19#0#19#0#19"expected * before *0(4@58"Expected specifier-qualifier-list before 'AVCaptureDevice'301304041#365#135#2(7@86"In file included from /Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m301304041#18446744073709551615#0#0(6@64"/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m300979715#9#0#9#0#0"0(13@126"Expected specifier-qualifier-list before 'AVCaptureDevice' in /Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.h301304041#18446744073709551615#0#0(6@64"/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.h300931071#30#0#30#0#0"0(6@64"/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.h300931071#30#0#30#0#19"expected * before *0(4@63"Expected specifier-qualifier-list before 'AVCaptureDeviceInput'301304041#500#140#2(7@86"In file included from /Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m301304041#18446744073709551615#0#0(6@64"/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m300979715#9#0#9#0#0"0(13@131"Expected specifier-qualifier-list before 'AVCaptureDeviceInput' in /Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.h301304041#18446744073709551615#0#0(6@64"/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.h300931071#31#0#31#0#0"0(6@64"/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.h300931071#31#0#31#0#19"expected * before *0(4@70"No declaration of property 'videoCaptureDevice' found in the interface301304041#640#147#0(6@64"/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m300979715#16#0#16#0#0"0(4@62"No declaration of property 'videoInput' found in the interface301304041#787#139#0(6@64"/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m300979715#17#0#17#0#0"0(4@58"'AVCaptureSession' undeclared (first use in this function)301304041#1039#135#0(6@64"/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m300979715#32#0#32#0#43"'*' undeclared (first use in this function)0(4@56"'captureSession' undeclared (first use in this function)301304041#1410#133#0(6@64"/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m300979715#32#0#32#0#43"'*' undeclared (first use in this function)0(4@60"'videoCaptureDevice' undeclared (first use in this function)301304041#1543#137#0(6@64"/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m300979715#33#0#33#0#43"'*' undeclared (first use in this function)0(4@57"'AVCaptureDevice' undeclared (first use in this function)301304041#1680#134#0(6@64"/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m300979715#33#0#33#0#43"'*' undeclared (first use in this function)0(4@52"'videoInput' undeclared (first use in this function)301304041#1814#129#0(6@64"/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m300979715#40#0#40#0#43"'*' undeclared (first use in this function)0(4@62"'AVCaptureDeviceInput' undeclared (first use in this function)301304041#1943#139#0(6@64"/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m300979715#40#0#40#0#43"'*' undeclared (first use in this function)0(4@66"'AVCaptureVideoDataOutput' undeclared (first use in this function)301304041#2082#143#0(6@64"/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m300979715#45#0#45#0#43"'*' undeclared (first use in this function)0(4@53"'videoOutput' undeclared (first use in this function)301304041#2225#130#0(6@64"/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m300979715#45#0#45#0#43"'*' undeclared (first use in this function)0(4@62"'AVCaptureTorchModeOn' undeclared (first use in this function)301304041#2355#139#0(6@64"/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m300979715#54#0#54#0#43"'*' undeclared (first use in this function)0(22@79"Class 'myviewcontroller' does not implement the 'ADBannerViewDelegate' protocol301304041#2494#158#0(6@64"/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m300979715#66#0#66#0#45"class '*' does not implement the '*' protocol0(4@52"'videoInput' undeclared (first use in this function)301304041#2767#129#0(6@64"/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m300979715#77#0#77#0#43"'*' undeclared (first use in this function)0(4@60"'videoCaptureDevice' undeclared (first use in this function)301304041#2896#137#0(6@64"/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m300979715#78#0#78#0#43"'*' undeclared (first use in this function)0(4@63"'AVCaptureTorchModeOff' undeclared (first use in this function)301304041#3033#140#0(6@64"/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m300979715#79#0#79#0#43"'*' undeclared (first use in this function)0(4@62"'AVCaptureTorchModeOn' undeclared (first use in this function)301304041#3173#139#0(6@64"/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m300979715#83#0#83#0#43"'*' undeclared (first use in this function)0(4@60"'videoCaptureDevice' undeclared (first use in this function)301304041#3427#138#0(6@64"/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m300979715#105#0#105#0#43"'*' undeclared (first use in this function)0(4@62"'AVCaptureTorchModeOn' undeclared (first use in this function)301304041#3565#140#0(6@64"/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m300979715#105#0#105#0#43"'*' undeclared (first use in this function)0(4@52"'videoInput' undeclared (first use in this function)301304041#3705#130#0(6@64"/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m300979715#109#0#109#0#43"'*' undeclared (first use in this function)0(4@60"'videoCaptureDevice' undeclared (first use in this function)301304041#3944#138#0(6@64"/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m300979715#180#0#180#0#43"'*' undeclared (first use in this function)0(4@52"'videoInput' undeclared (first use in this function)301304041#4082#130#0(6@64"/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m300979715#181#0#181#0#43"'*' undeclared (first use in this function)0(0#0#64"/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m8610585376#2013"    cd "/Users/Mathias/Desktop/led_flash 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/Mathias/Desktop/led_flash 2/build/led_flash.build/Release-iphonesimulator/led_flash.build/led_flash-generated-files.hmap" "-I/Users/Mathias/Desktop/led_flash 2/build/led_flash.build/Release-iphonesimulator/led_flash.build/led_flash-own-target-headers.hmap" "-I/Users/Mathias/Desktop/led_flash 2/build/led_flash.build/Release-iphonesimulator/led_flash.build/led_flash-all-target-headers.hmap" -iquote "/Users/Mathias/Desktop/led_flash 2/build/led_flash.build/Release-iphonesimulator/led_flash.build/led_flash-project-headers.hmap" "-F/Users/Mathias/Desktop/led_flash 2/build/Release-iphonesimulator" "-I/Users/Mathias/Desktop/led_flash 2/build/Release-iphonesimulator/include" "-I/Users/Mathias/Desktop/led_flash 2/build/led_flash.build/Release-iphonesimulator/led_flash.build/DerivedSources/i386" "-I/Users/Mathias/Desktop/led_flash 2/build/led_flash.build/Release-iphonesimulator/led_flash.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/in/in++jmrvFvOGQ5zhHNaVTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/led_flash_Prefix-fsybdsnsubqipwawhktfourydmam/led_flash_Prefix.pch -c "/Users/Mathias/Desktop/led_flash 2/Classes/../myviewcontroller.m" -o "/Users/Mathias/Desktop/led_flash 2/build/led_flash.build/Release-iphonesimulator/led_flash.build/Objects-normal/i386/myviewcontroller.o"1#
+
+CCompileXIB "/Users/Mathias/Desktop/led_flash 2/MainWindow.xib"
+s301304039.720451
+e301304040.299936
+r1
+xCompileXIB
+x/Users/Mathias/Desktop/led_flash 2/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib301304039#301304040#0(0"0(0#0#49"/Users/Mathias/Desktop/led_flash 2/MainWindow.xib8612638176#568"    cd "/Users/Mathias/Desktop/led_flash 2"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Mathias/Desktop/led_flash 2/build/Release-iphonesimulator/led_flash.app/MainWindow.nib" "/Users/Mathias/Desktop/led_flash 2/MainWindow.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCpResource build/Release-iphonesimulator/led_flash.app/Icon-57.png Icon-57.png
+s301304039.731114
+e301304039.748455
+r1
+xCpResource
+xbuild/Release-iphonesimulator/led_flash.app/Icon-57.png
+xIcon-57.png
+lSLF07#2@16"Copy Icon-57.png301304039#301304039#0(0"0(0#0#46"/Users/Mathias/Desktop/led_flash 2/Icon-57.png8611279168#474"    cd "/Users/Mathias/Desktop/led_flash 2"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/Mathias/Desktop/led_flash 2/Icon-57.png" "/Users/Mathias/Desktop/led_flash 2/build/Release-iphonesimulator/led_flash.app"0#
+
+CCpResource build/Release-iphonesimulator/led_flash.app/Icon-72.png Icon-72.png
+s301304039.732943
+e301304039.751475
+r1
+xCpResource
+xbuild/Release-iphonesimulator/led_flash.app/Icon-72.png
+xIcon-72.png
+lSLF07#2@16"Copy Icon-72.png301304039#301304039#0(0"0(0#0#46"/Users/Mathias/Desktop/led_flash 2/Icon-72.png8611110816#474"    cd "/Users/Mathias/Desktop/led_flash 2"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/Mathias/Desktop/led_flash 2/Icon-72.png" "/Users/Mathias/Desktop/led_flash 2/build/Release-iphonesimulator/led_flash.app"0#
+
+CCpResource build/Release-iphonesimulator/led_flash.app/Icon.png Icon.png
+s301304039.724002
+e301304039.736427
+r1
+xCpResource
+xbuild/Release-iphonesimulator/led_flash.app/Icon.png
+xIcon.png
+lSLF07#2@13"Copy Icon.png301304039#301304039#0(0"0(0#0#43"/Users/Mathias/Desktop/led_flash 2/Icon.png8611584896#471"    cd "/Users/Mathias/Desktop/led_flash 2"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/Mathias/Desktop/led_flash 2/Icon.png" "/Users/Mathias/Desktop/led_flash 2/build/Release-iphonesimulator/led_flash.app"0#
+
+CCpResource build/Release-iphonesimulator/led_flash.app/flashlight-off-gris.png flashlight-off-gris.png
+s301304039.725754
+e301304039.758248
+r1
+xCpResource
+xbuild/Release-iphonesimulator/led_flash.app/flashlight-off-gris.png
+xflashlight-off-gris.png
+lSLF07#2@28"Copy flashlight-off-gris.png301304039#301304039#0(0"0(0#0#58"/Users/Mathias/Desktop/led_flash 2/flashlight-off-gris.png8610158368#486"    cd "/Users/Mathias/Desktop/led_flash 2"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/Mathias/Desktop/led_flash 2/flashlight-off-gris.png" "/Users/Mathias/Desktop/led_flash 2/build/Release-iphonesimulator/led_flash.app"0#
+
+CCpResource build/Release-iphonesimulator/led_flash.app/flashlight-off.png flashlight-off.png
+s301304039.729212
+e301304039.760286
+r1
+xCpResource
+xbuild/Release-iphonesimulator/led_flash.app/flashlight-off.png
+xflashlight-off.png
+lSLF07#2@23"Copy flashlight-off.png301304039#301304039#0(0"0(0#0#53"/Users/Mathias/Desktop/led_flash 2/flashlight-off.png8611398016#481"    cd "/Users/Mathias/Desktop/led_flash 2"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/Mathias/Desktop/led_flash 2/flashlight-off.png" "/Users/Mathias/Desktop/led_flash 2/build/Release-iphonesimulator/led_flash.app"0#
+
+CCpResource build/Release-iphonesimulator/led_flash.app/flashlight-on.png flashlight-on.png
+s301304039.722246
+e301304039.802007
+r1
+xCpResource
+xbuild/Release-iphonesimulator/led_flash.app/flashlight-on.png
+xflashlight-on.png
+lSLF07#2@22"Copy flashlight-on.png301304039#301304039#0(0"0(0#0#52"/Users/Mathias/Desktop/led_flash 2/flashlight-on.png8611789888#480"    cd "/Users/Mathias/Desktop/led_flash 2"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/Mathias/Desktop/led_flash 2/flashlight-on.png" "/Users/Mathias/Desktop/led_flash 2/build/Release-iphonesimulator/led_flash.app"0#
+
+CCpResource build/Release-iphonesimulator/led_flash.app/flashlight-on3GS.png flashlight-on3GS.png
+s301304039.727461
+e301304039.796282
+r1
+xCpResource
+xbuild/Release-iphonesimulator/led_flash.app/flashlight-on3GS.png
+xflashlight-on3GS.png
+lSLF07#2@25"Copy flashlight-on3GS.png301304039#301304039#0(0"0(0#0#55"/Users/Mathias/Desktop/led_flash 2/flashlight-on3GS.png8608999072#483"    cd "/Users/Mathias/Desktop/led_flash 2"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/Mathias/Desktop/led_flash 2/flashlight-on3GS.png" "/Users/Mathias/Desktop/led_flash 2/build/Release-iphonesimulator/led_flash.app"0#
+
+CGenerateDSYMFile "/Users/Mathias/Desktop/led_flash 2/build/Release-iphonesimulator/led_flash.app.dSYM" "/Users/Mathias/Desktop/led_flash 2/build/Release-iphonesimulator/led_flash.app/led_flash"
+r0
+
+CLd "/Users/Mathias/Desktop/led_flash 2/build/Release-iphonesimulator/led_flash.app/led_flash" normal i386
+r0
+
+CProcessInfoPlistFile "/Users/Mathias/Desktop/led_flash 2/build/Release-iphonesimulator/led_flash.app/Info.plist" led_flash-Info.plist
+s301304039.699618
+e301304039.720354
+r1
+xProcessInfoPlistFile
+x/Users/Mathias/Desktop/led_flash 2/build/Release-iphonesimulator/led_flash.app/Info.plist
+xled_flash-Info.plist
+lSLF07#2@28"Process led_flash-Info.plist301304039#301304039#0(0"0(0#0#55"/Users/Mathias/Desktop/led_flash 2/led_flash-Info.plist8609520736#483"    cd "/Users/Mathias/Desktop/led_flash 2"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility led_flash-Info.plist -genpkginfo "/Users/Mathias/Desktop/led_flash 2/build/Release-iphonesimulator/led_flash.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/Mathias/Desktop/led_flash 2/build/Release-iphonesimulator/led_flash.app/Info.plist"0#
+
+CProcessPCH /var/folders/in/in++jmrvFvOGQ5zhHNaVTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/led_flash_Prefix-fsybdsnsubqipwawhktfourydmam/led_flash_Prefix.pch.gch led_flash_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s301304040.300065
+e301304041.452241
+r1
+xProcessPCH
+x/var/folders/in/in++jmrvFvOGQ5zhHNaVTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/led_flash_Prefix-fsybdsnsubqipwawhktfourydmam/led_flash_Prefix.pch.gch
+xled_flash_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile led_flash_Prefix.pch301304040#301304041#0(0"0(0#0#55"/Users/Mathias/Desktop/led_flash 2/led_flash_Prefix.pch8613570176#1868"    cd "/Users/Mathias/Desktop/led_flash 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/Mathias/Desktop/led_flash 2/build/led_flash.build/Release-iphonesimulator/led_flash.build/led_flash-generated-files.hmap" "-I/Users/Mathias/Desktop/led_flash 2/build/led_flash.build/Release-iphonesimulator/led_flash.build/led_flash-own-target-headers.hmap" "-I/Users/Mathias/Desktop/led_flash 2/build/led_flash.build/Release-iphonesimulator/led_flash.build/led_flash-all-target-headers.hmap" -iquote "/Users/Mathias/Desktop/led_flash 2/build/led_flash.build/Release-iphonesimulator/led_flash.build/led_flash-project-headers.hmap" "-F/Users/Mathias/Desktop/led_flash 2/build/Release-iphonesimulator" "-I/Users/Mathias/Desktop/led_flash 2/build/Release-iphonesimulator/include" "-I/Users/Mathias/Desktop/led_flash 2/build/led_flash.build/Release-iphonesimulator/led_flash.build/DerivedSources/i386" "-I/Users/Mathias/Desktop/led_flash 2/build/led_flash.build/Release-iphonesimulator/led_flash.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -c "/Users/Mathias/Desktop/led_flash 2/led_flash_Prefix.pch" -o /var/folders/in/in++jmrvFvOGQ5zhHNaVTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/led_flash_Prefix-fsybdsnsubqipwawhktfourydmam/led_flash_Prefix.pch.gch0#
+
+CTouch "/Users/Mathias/Desktop/led_flash 2/build/Release-iphonesimulator/led_flash.app"
+r0
+

@@ -1,0 +1,241 @@
+// !$*UTF8*$!
+{
+	1464EE5911EB84AB008D05F5 /* led_flash */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = led_flash;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	1464EE6311EB84CB008D05F5 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	1464EE6411EB84CB008D05F5 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	1464EE6911EB86FC008D05F5 /* myviewcontroller.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {962, 624}}";
+			sepNavSelRange = "{334, 0}";
+			sepNavVisRange = "{140, 698}";
+			sepNavWindowFrame = "{{88, 152}, {750, 558}}";
+		};
+	};
+	1464EE6A11EB86FC008D05F5 /* myviewcontroller.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {670, 1846}}";
+			sepNavSelRange = "{903, 0}";
+			sepNavVisRange = "{663, 457}";
+			sepNavWindowFrame = "{{19, 215}, {750, 558}}";
+		};
+	};
+	1464EF9A11EB8C2E008D05F5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1464EF9B11EB8C2E008D05F5 /* AVCaptureSession.h */;
+		name = "AVCaptureSession.h: 9";
+		rLen = 107;
+		rLoc = 113;
+		rType = 0;
+		vrLen = 1280;
+		vrLoc = 0;
+	};
+	1464EF9B11EB8C2E008D05F5 /* AVCaptureSession.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = AVCaptureSession.h;
+		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVCaptureSession.h;
+		sourceTree = "<absolute>";
+	};
+	1464EFBA11EB8F66008D05F5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* led_flashAppDelegate.h */;
+		name = "led_flashAppDelegate.h: 10";
+		rLen = 0;
+		rLoc = 168;
+		rType = 0;
+		vrLen = 328;
+		vrLoc = 0;
+	};
+	14A4064811F1006300B045F8 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 14E8716011EEE508006AC616 /* flashlight-on.png */;
+	};
+	14A4068B11F576BD00B045F8 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = C76B9D9F11F0907900138069 /* flashlight-on3GS.png */;
+	};
+	14A4068C11F576BD00B045F8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* led_flashAppDelegate.m */;
+		name = "led_flashAppDelegate.m: 56";
+		rLen = 0;
+		rLoc = 1975;
+		rType = 0;
+		vrLen = 852;
+		vrLoc = 1705;
+	};
+	14A4068D11F576BD00B045F8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1464EE6911EB86FC008D05F5 /* myviewcontroller.h */;
+		name = "myviewcontroller.h: 19";
+		rLen = 0;
+		rLoc = 334;
+		rType = 0;
+		vrLen = 698;
+		vrLoc = 140;
+	};
+	14A4068E11F576BD00B045F8 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 1414C83A11EEEDE400D5CD82 /* Icon.png */;
+	};
+	14A4068F11F576BD00B045F8 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = C76B9D9D11F08FF200138069 /* flashlight-off-gris.png */;
+	};
+	14A4069011F576BD00B045F8 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 14A4064211F1001B00B045F8 /* flashlight-off.png */;
+	};
+	14A4069111F576BD00B045F8 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* led_flash-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleExecutable,
+		);
+		name = "/Users/benoit/Documents/led_flash/led_flash-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	14A4069211F576BD00B045F8 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* led_flash-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundlePackageType,
+		);
+		name = "/Users/benoit/Documents/led_flash/led_flash-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	1D3623240D0F684500981E51 /* led_flashAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {962, 464}}";
+			sepNavSelRange = "{168, 0}";
+			sepNavVisRange = "{0, 328}";
+		};
+	};
+	1D3623250D0F684500981E51 /* led_flashAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 1053}}";
+			sepNavSelRange = "{1975, 0}";
+			sepNavVisRange = "{2036, 315}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* led_flash */ = {
+		activeExec = 0;
+		executables = (
+			1464EE5911EB84AB008D05F5 /* led_flash */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeExecutable = 1464EE5911EB84AB008D05F5 /* led_flash */;
+		activeSDKPreference = iphoneos4.0;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* led_flash */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* led_flash */,
+		);
+		codeSenseManager = 1464EE6411EB84CB008D05F5 /* Code sense */;
+		executables = (
+			1464EE5911EB84AB008D05F5 /* led_flash */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = 1;
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Errors_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					784,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 301079021;
+			PBXWorkspaceStateSaveDate = 301079021;
+		};
+		perUserProjectItems = {
+			1464EF9A11EB8C2E008D05F5 /* PBXTextBookmark */ = 1464EF9A11EB8C2E008D05F5 /* PBXTextBookmark */;
+			1464EFBA11EB8F66008D05F5 /* PBXTextBookmark */ = 1464EFBA11EB8F66008D05F5 /* PBXTextBookmark */;
+			14A4064811F1006300B045F8 /* PBXBookmark */ = 14A4064811F1006300B045F8 /* PBXBookmark */;
+			14A4068B11F576BD00B045F8 /* PBXBookmark */ = 14A4068B11F576BD00B045F8 /* PBXBookmark */;
+			14A4068C11F576BD00B045F8 /* PBXTextBookmark */ = 14A4068C11F576BD00B045F8 /* PBXTextBookmark */;
+			14A4068D11F576BD00B045F8 /* PBXTextBookmark */ = 14A4068D11F576BD00B045F8 /* PBXTextBookmark */;
+			14A4068E11F576BD00B045F8 /* PBXBookmark */ = 14A4068E11F576BD00B045F8 /* PBXBookmark */;
+			14A4068F11F576BD00B045F8 /* PBXBookmark */ = 14A4068F11F576BD00B045F8 /* PBXBookmark */;
+			14A4069011F576BD00B045F8 /* PBXBookmark */ = 14A4069011F576BD00B045F8 /* PBXBookmark */;
+			14A4069111F576BD00B045F8 /* PlistBookmark */ = 14A4069111F576BD00B045F8 /* PlistBookmark */;
+			14A4069211F576BD00B045F8 /* PlistBookmark */ = 14A4069211F576BD00B045F8 /* PlistBookmark */;
+		};
+		sourceControlManager = 1464EE6311EB84CB008D05F5 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {962, 429}}";
+			sepNavSelRange = "{354, 0}";
+			sepNavVisRange = "{0, 357}";
+		};
+	};
+	8D1107310486CEB800E47090 /* led_flash-Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{65, 173}, {750, 558}}";
+		};
+	};
+}

@@ -1,0 +1,396 @@
+Tled_flash
+v7
+r1
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
+c000000004C8BEA7E0000000000000132
+t1284237950
+s306
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004C01F5AE00000000000C05A0
+t1275196846
+s787872
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.h
+c000000004C01F5AA000000000000065C
+t1275196842
+s1628
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c000000004BFDFD850000000000236AB0
+t1274936709
+s2321072
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h
+c000000004BFDFD720000000000000AB3
+t1274936690
+s2739
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFDFE39000000000027C7D0
+t1274936889
+s2607056
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFDFE7C000000000029D5D0
+t1274936956
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFDFE6E0000000000001466
+t1274936942
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004C04586B00000000000000C4
+t1275353195
+s196
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004C0458E90000000000151D30
+t1275353321
+s1383728
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C0470BB00000000000009CD
+t1275359419
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C0471620000000001D47210
+t1275359586
+s30700048
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/iAd.framework/Headers/iAd.h
+c000000004C0473C80000000000000071
+t1275360200
+s113
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/iAd.framework/iAd
+c000000004C0473CB000000000004A930
+t1275360203
+s305456
+
+N/Users/Mathias/Desktop/iBulb v1.1 - test 3GS - copie/Classes/../LanguetteTouchImageView.m
+c000000004C89E7D20000000000001900
+t1284106194
+s6400
+i"LanguetteTouchImageView.h"
+i"PrincipalView.h"
+
+N/Users/Mathias/Desktop/iBulb v1.1 - test 3GS - copie/Classes/../PrincipalView.m
+c000000004C89E80900000000000014A1
+t1284106249
+s5281
+i"PrincipalView.h"
+i"myviewcontroller.h"
+
+N/Users/Mathias/Desktop/iBulb v1.1 - test 3GS - copie/Classes/../myviewcontroller.h
+c000000004C894B860000000000000E8D
+t1284066182
+s3725
+i<UIKit/UIKit.h>
+i<AVFoundation/AVFoundation.h>
+i<iAd/iAd.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/Mathias/Desktop/iBulb v1.1 - test 3GS - copie/Classes/../myviewcontroller.m
+c000000004C89E47D0000000000004FE2
+t1284105341
+s20450
+i"myviewcontroller.h"
+i"PrincipalView.h"
+i"LanguetteTouchImageView.h"
+
+N/Users/Mathias/Desktop/iBulb v1.1 - test 3GS - copie/Classes/led_flashAppDelegate.h
+c000000004C53EBC800000000000001D0
+t1280568264
+s464
+i<UIKit/UIKit.h>
+i"myviewcontroller.h"
+
+N/Users/Mathias/Desktop/iBulb v1.1 - test 3GS - copie/Classes/led_flashAppDelegate.m
+c000000004C54BA540000000000000A69
+t1280621140
+s2665
+i"led_flashAppDelegate.h"
+
+N/Users/Mathias/Desktop/iBulb v1.1 - test 3GS - copie/Icon-57.png
+c000000004C567AFE00000000000017BC
+t1280735998
+s6076
+
+N/Users/Mathias/Desktop/iBulb v1.1 - test 3GS - copie/Icon-72.png
+c000000004C567EF000000000000020F7
+t1280737008
+s8439
+
+N/Users/Mathias/Desktop/iBulb v1.1 - test 3GS - copie/Icon.png
+c000000004C565F8E0000000000003D90
+t1280728974
+s15760
+
+N/Users/Mathias/Desktop/iBulb v1.1 - test 3GS - copie/LanguetteTouchImageView.h
+c000000004C88A54B00000000000004BA
+t1284023627
+s1210
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+i<CoreFoundation/CoreFoundation.h>
+
+N/Users/Mathias/Desktop/iBulb v1.1 - test 3GS - copie/MainWindow.xib
+c000000004C89E5B800000000000149A3
+t1284105656
+s84387
+
+N/Users/Mathias/Desktop/iBulb v1.1 - test 3GS - copie/PrincipalView.h
+c000000004C89E81300000000000003F9
+t1284106259
+s1017
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+i<CoreFoundation/CoreFoundation.h>
+
+N/Users/Mathias/Desktop/iBulb v1.1 - test 3GS - copie/brightness_gray_44x44.png
+c000000004C5429CD0000000000000883
+t1280584141
+s2179
+
+N/Users/Mathias/Desktop/iBulb v1.1 - test 3GS - copie/btn-pressed-180.png
+c000000004C8551F00000000000002EDC
+t1283805680
+s11996
+
+N/Users/Mathias/Desktop/iBulb v1.1 - test 3GS - copie/btn.png
+c000000004C84C1640000000000001FD8
+t1283768676
+s8152
+
+N/Users/Mathias/Desktop/iBulb v1.1 - test 3GS - copie/build/Distribution-iphonesimulator/led_flash.app
+t2
+s0
+
+N/Users/Mathias/Desktop/iBulb v1.1 - test 3GS - copie/build/Distribution-iphonesimulator/led_flash.app.dSYM
+t2
+s0
+
+N/Users/Mathias/Desktop/iBulb v1.1 - test 3GS - copie/build/Distribution-iphonesimulator/led_flash.app/Icon-57.png
+t2
+s0
+
+N/Users/Mathias/Desktop/iBulb v1.1 - test 3GS - copie/build/Distribution-iphonesimulator/led_flash.app/Icon-72.png
+t2
+s0
+
+N/Users/Mathias/Desktop/iBulb v1.1 - test 3GS - copie/build/Distribution-iphonesimulator/led_flash.app/Icon.png
+t2
+s0
+
+N/Users/Mathias/Desktop/iBulb v1.1 - test 3GS - copie/build/Distribution-iphonesimulator/led_flash.app/Info.plist
+t2
+s0
+
+N/Users/Mathias/Desktop/iBulb v1.1 - test 3GS - copie/build/Distribution-iphonesimulator/led_flash.app/MainWindow.nib
+t2
+s0
+
+N/Users/Mathias/Desktop/iBulb v1.1 - test 3GS - copie/build/Distribution-iphonesimulator/led_flash.app/PkgInfo
+t2
+s0
+
+N/Users/Mathias/Desktop/iBulb v1.1 - test 3GS - copie/build/Distribution-iphonesimulator/led_flash.app/brightness_gray_44x44.png
+t2
+s0
+
+N/Users/Mathias/Desktop/iBulb v1.1 - test 3GS - copie/build/Distribution-iphonesimulator/led_flash.app/btn-pressed-180.png
+t2
+s0
+
+N/Users/Mathias/Desktop/iBulb v1.1 - test 3GS - copie/build/Distribution-iphonesimulator/led_flash.app/btn.png
+t2
+s0
+
+N/Users/Mathias/Desktop/iBulb v1.1 - test 3GS - copie/build/Distribution-iphonesimulator/led_flash.app/dark6.jpg
+t2
+s0
+
+N/Users/Mathias/Desktop/iBulb v1.1 - test 3GS - copie/build/Distribution-iphonesimulator/led_flash.app/fleche.png
+t2
+s0
+
+N/Users/Mathias/Desktop/iBulb v1.1 - test 3GS - copie/build/Distribution-iphonesimulator/led_flash.app/languette-left-6.png
+t2
+s0
+
+N/Users/Mathias/Desktop/iBulb v1.1 - test 3GS - copie/build/Distribution-iphonesimulator/led_flash.app/languette-middle-6.png
+t2
+s0
+
+N/Users/Mathias/Desktop/iBulb v1.1 - test 3GS - copie/build/Distribution-iphonesimulator/led_flash.app/led_flash
+t2
+s0
+
+N/Users/Mathias/Desktop/iBulb v1.1 - test 3GS - copie/build/Distribution-iphonesimulator/led_flash.app/light6.jpg
+t2
+s0
+
+N/Users/Mathias/Desktop/iBulb v1.1 - test 3GS - copie/build/Distribution-iphonesimulator/led_flash.app/pan-right.png
+t2
+s0
+
+N/Users/Mathias/Desktop/iBulb v1.1 - test 3GS - copie/build/led_flash.build/Distribution-iphonesimulator/led_flash.build/Objects-normal/i386/LanguetteTouchImageView.o
+t2
+s0
+
+N/Users/Mathias/Desktop/iBulb v1.1 - test 3GS - copie/build/led_flash.build/Distribution-iphonesimulator/led_flash.build/Objects-normal/i386/PrincipalView.o
+t2
+s0
+
+N/Users/Mathias/Desktop/iBulb v1.1 - test 3GS - copie/build/led_flash.build/Distribution-iphonesimulator/led_flash.build/Objects-normal/i386/led_flash.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/Mathias/Desktop/iBulb v1.1 - test 3GS - copie/build/led_flash.build/Distribution-iphonesimulator/led_flash.build/Objects-normal/i386/led_flashAppDelegate.o
+t2
+s0
+
+N/Users/Mathias/Desktop/iBulb v1.1 - test 3GS - copie/build/led_flash.build/Distribution-iphonesimulator/led_flash.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/Mathias/Desktop/iBulb v1.1 - test 3GS - copie/build/led_flash.build/Distribution-iphonesimulator/led_flash.build/Objects-normal/i386/myviewcontroller.o
+t2
+s0
+
+N/Users/Mathias/Desktop/iBulb v1.1 - test 3GS - copie/dark6.jpg
+c000000004C8873F10000000000004B0B
+t1284010993
+s19211
+
+N/Users/Mathias/Desktop/iBulb v1.1 - test 3GS - copie/fleche.png
+c000000004C8881AF00000000000004AD
+t1284014511
+s1197
+
+N/Users/Mathias/Desktop/iBulb v1.1 - test 3GS - copie/languette-left-6.png
+c000000004C88742F0000000000000EB2
+t1284011055
+s3762
+
+N/Users/Mathias/Desktop/iBulb v1.1 - test 3GS - copie/languette-middle-6.png
+c000000004C88741C000000000000041C
+t1284011036
+s1052
+
+N/Users/Mathias/Desktop/iBulb v1.1 - test 3GS - copie/led_flash_Prefix.pch
+c000000004C3B4D2B00000000000000BB
+t1278954795
+s187
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/Mathias/Desktop/iBulb v1.1 - test 3GS - copie/light6.jpg
+c000000004C8873E100000000000088E2
+t1284010977
+s35042
+
+N/Users/Mathias/Desktop/iBulb v1.1 - test 3GS - copie/main.m
+c000000004C3B4D2B0000000000000165
+t1278954795
+s357
+i<UIKit/UIKit.h>
+
+N/Users/Mathias/Desktop/iBulb v1.1 - test 3GS - copie/myviewcontroller.h
+c000000004C894B860000000000000E8D
+t1284066182
+s3725
+i<UIKit/UIKit.h>
+i<AVFoundation/AVFoundation.h>
+i<iAd/iAd.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/Mathias/Desktop/iBulb v1.1 - test 3GS - copie/pan-right.png
+c000000004C84C1D20000000000007199
+t1283768786
+s29081
+
+N/var/folders/in/in++jmrvFvOGQ5zhHNaVTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/led_flash_Prefix-dmcmenuuaxgejvbwvsaeygfoqrcx/led_flash_Prefix.pch.gch
+t2
+s0
+
+Nled_flash-Info.plist
+c000000004C8514E9000000000000042E
+t1283790057
+s1070
+
+CCompileC build/led_flash.build/Distribution-iphonesimulator/led_flash.build/Objects-normal/i386/LanguetteTouchImageView.o "/Users/Mathias/Desktop/iBulb v1.1 - test 3GS - copie/Classes/../LanguetteTouchImageView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/led_flash.build/Distribution-iphonesimulator/led_flash.build/Objects-normal/i386/PrincipalView.o "/Users/Mathias/Desktop/iBulb v1.1 - test 3GS - copie/Classes/../PrincipalView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/led_flash.build/Distribution-iphonesimulator/led_flash.build/Objects-normal/i386/led_flashAppDelegate.o "/Users/Mathias/Desktop/iBulb v1.1 - test 3GS - copie/Classes/led_flashAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/led_flash.build/Distribution-iphonesimulator/led_flash.build/Objects-normal/i386/main.o "/Users/Mathias/Desktop/iBulb v1.1 - test 3GS - copie/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/led_flash.build/Distribution-iphonesimulator/led_flash.build/Objects-normal/i386/myviewcontroller.o "/Users/Mathias/Desktop/iBulb v1.1 - test 3GS - copie/Classes/../myviewcontroller.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileXIB "/Users/Mathias/Desktop/iBulb v1.1 - test 3GS - copie/MainWindow.xib"
+r0
+
+CCpResource build/Distribution-iphonesimulator/led_flash.app/Icon-57.png Icon-57.png
+r0
+
+CCpResource build/Distribution-iphonesimulator/led_flash.app/Icon-72.png Icon-72.png
+r0
+
+CCpResource build/Distribution-iphonesimulator/led_flash.app/Icon.png Icon.png
+r0
+
+CCpResource build/Distribution-iphonesimulator/led_flash.app/brightness_gray_44x44.png brightness_gray_44x44.png
+r0
+
+CCpResource build/Distribution-iphonesimulator/led_flash.app/btn-pressed-180.png btn-pressed-180.png
+r0
+
+CCpResource build/Distribution-iphonesimulator/led_flash.app/btn.png btn.png
+r0
+
+CCpResource build/Distribution-iphonesimulator/led_flash.app/dark6.jpg dark6.jpg
+r0
+
+CCpResource build/Distribution-iphonesimulator/led_flash.app/fleche.png fleche.png
+r0
+
+CCpResource build/Distribution-iphonesimulator/led_flash.app/languette-left-6.png languette-left-6.png
+r0
+
+CCpResource build/Distribution-iphonesimulator/led_flash.app/languette-middle-6.png languette-middle-6.png
+r0
+
+CCpResource build/Distribution-iphonesimulator/led_flash.app/light6.jpg light6.jpg
+r0
+
+CCpResource build/Distribution-iphonesimulator/led_flash.app/pan-right.png pan-right.png
+r0
+
+CGenerateDSYMFile "/Users/Mathias/Desktop/iBulb v1.1 - test 3GS - copie/build/Distribution-iphonesimulator/led_flash.app.dSYM" "/Users/Mathias/Desktop/iBulb v1.1 - test 3GS - copie/build/Distribution-iphonesimulator/led_flash.app/led_flash"
+r0
+
+CLd "/Users/Mathias/Desktop/iBulb v1.1 - test 3GS - copie/build/Distribution-iphonesimulator/led_flash.app/led_flash" normal i386
+r0
+
+CProcessInfoPlistFile "/Users/Mathias/Desktop/iBulb v1.1 - test 3GS - copie/build/Distribution-iphonesimulator/led_flash.app/Info.plist" led_flash-Info.plist
+r0
+
+CProcessPCH /var/folders/in/in++jmrvFvOGQ5zhHNaVTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/led_flash_Prefix-dmcmenuuaxgejvbwvsaeygfoqrcx/led_flash_Prefix.pch.gch led_flash_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CTouch "/Users/Mathias/Desktop/iBulb v1.1 - test 3GS - copie/build/Distribution-iphonesimulator/led_flash.app"
+r0
+

@@ -1,0 +1,2300 @@
+Tled_flash
+v7
+r0
+t302182155.807653
+cCheck dependencies
+cCpResource build/Distribution-iphoneos/led_flash.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+cProcessInfoPlistFile "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos/led_flash.app/Info.plist" led_flash-Info.plist
+cCompileXIB "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/MainWindow.xib"
+cCopyPNGFile "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos/led_flash.app/flashlight-on.png" flashlight-on.png
+cCopyPNGFile "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos/led_flash.app/Icon.png" Icon.png
+cCopyPNGFile "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos/led_flash.app/flashlight-off-gris.png" flashlight-off-gris.png
+cCopyPNGFile "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos/led_flash.app/flashlight-on3GS.png" flashlight-on3GS.png
+cCopyPNGFile "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos/led_flash.app/flashlight-off.png" flashlight-off.png
+cCopyPNGFile "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos/led_flash.app/Icon-57.png" Icon-57.png
+cCopyPNGFile "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos/led_flash.app/Icon-72.png" Icon-72.png
+cProcessPCH /var/folders/in/in++jmrvFvOGQ5zhHNaVTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/led_flash_Prefix-dgotoulfgijkyhcmwbymzpcrfvhx/led_flash_Prefix.pch.gch led_flash_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/in/in++jmrvFvOGQ5zhHNaVTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/led_flash_Prefix-fluidjthzrhyhtblbmthiravbtvh/led_flash_Prefix.pch.gch led_flash_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/main.o "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/led_flashAppDelegate.o "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/Classes/led_flashAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/myviewcontroller.o "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/Classes/../myviewcontroller.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/main.o "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/led_flashAppDelegate.o "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/Classes/led_flashAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/myviewcontroller.o "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/Classes/../myviewcontroller.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/led_flash" normal armv6
+cLd "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/led_flash" normal armv7
+cCreateUniversalBinary "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos/led_flash.app/led_flash" normal "armv6 armv7"
+cGenerateDSYMFile "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos/led_flash.app.dSYM" "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos/led_flash.app/led_flash"
+cProcessProductPackaging "/Users/Mathias/Library/MobileDevice/Provisioning Profiles/7A33AEB0-B717-44B8-ABC9-DD3C89B534DB.mobileprovision" "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos/led_flash.app/embedded.mobileprovision"
+cTouch "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos/led_flash.app"
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/led_flash.xcent"
+cCodeSign "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos/led_flash.app"
+cValidate "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos/led_flash.app"
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk
+c000000004C403E120000000000000110
+t1279278610
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist
+c000000004C2A7DA700000000000001A7
+t1277853095
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+c000000004C2A7DA700000000000001E5
+t1277853095
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004C0473C400000000001AA470
+t1275360196
+s1746032
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.h
+c000000004C0473B9000000000000065C
+t1275360185
+s1628
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFE06FA000000000034A850
+t1274939130
+s3450960
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFE07D200000000003E1EB0
+t1274939346
+s4071088
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFE07B10000000000001466
+t1274939313
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C296E2A00000000000009CD
+t1277783594
+s2509
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C296F120000000002D563E0
+t1277783826
+s47539168
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/iAd.framework/Headers/iAd.h
+c000000004C0482160000000000000071
+t1275363862
+s113
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/iAd.framework/iAd
+c000000004C04821B0000000000080FB0
+t1275363867
+s528304
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004CC11C42000000000020BF30
+t1287724098
+s2146096
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.h
+c000000004CC11C240000000000000733
+t1287724068
+s1843
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004CC10EF400000000003B8CB0
+t1287720692
+s3902640
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c000000004CC10D9100000000003C3C10
+t1287720337
+s3947536
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h
+c000000004CC10D700000000000000AB3
+t1287720304
+s2739
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+c000000004CC2483E000000000038CF50
+t1287800894
+s3723088
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/MessageUI.framework/MessageUI
+c000000004CC11D2E0000000000112F80
+t1287724334
+s1126272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004CC1111C00000000000000C4
+t1287721244
+s196
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004CC1127D0000000000267530
+t1287721597
+s2520368
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/StoreKit.framework/Headers/StoreKit.h
+c000000004CC1290A000000000000016E
+t1287727370
+s366
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/StoreKit.framework/StoreKit
+c000000004CC1290E000000000001C890
+t1287727374
+s116880
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/iAd.framework/Headers/iAd.h
+c000000004CC12BDD0000000000000071
+t1287728093
+s113
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/iAd.framework/iAd
+c000000004CC12BE50000000000050EB0
+t1287728101
+s331440
+
+N/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/Classes/../myviewcontroller.m
+c000000004C4AAEFC000000000000124F
+t1279962876
+s4687
+i"myviewcontroller.h"
+
+N/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/Classes/led_flashAppDelegate.h
+c000000004C3B57DC0000000000000148
+t1278957532
+s328
+i<UIKit/UIKit.h>
+
+N/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/Classes/led_flashAppDelegate.m
+c000000004C3BA45F00000000000009FD
+t1278977119
+s2557
+i"led_flashAppDelegate.h"
+
+N/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/Icon-57.png
+c000000004C421DC2000000000000121A
+t1279401410
+s4634
+
+N/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/Icon-72.png
+c000000004C421DA3000000000000186A
+t1279401379
+s6250
+
+N/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/Icon.png
+c000000004C42199A0000000000003004
+t1279400346
+s12292
+
+N/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/MainWindow.xib
+c000000004C405E1800000000000060F9
+t1279286808
+s24825
+
+N/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos/led_flash.app
+t1280489355
+s578
+
+N/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos/led_flash.app.dSYM
+t1280489354
+s102
+
+N/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos/led_flash.app/Icon-57.png
+t1279618097
+s4624
+
+N/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos/led_flash.app/Icon-72.png
+t1279618097
+s6322
+
+N/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos/led_flash.app/Icon.png
+t1279618096
+s12386
+
+N/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos/led_flash.app/Info.plist
+t1279618095
+s816
+
+N/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos/led_flash.app/MainWindow.nib
+t1279618096
+s1938
+
+N/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos/led_flash.app/PkgInfo
+t1279618095
+s8
+
+N/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos/led_flash.app/ResourceRules.plist
+t1279618095
+s485
+
+N/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos/led_flash.app/embedded.mobileprovision
+t1279618100
+s7081
+
+N/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos/led_flash.app/flashlight-off-gris.png
+t1279618096
+s114021
+
+N/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos/led_flash.app/flashlight-off.png
+t1279618097
+s118049
+
+N/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos/led_flash.app/flashlight-on.png
+t1279618096
+s247294
+
+N/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos/led_flash.app/flashlight-on3GS.png
+t1279618097
+s243967
+
+N/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos/led_flash.app/led_flash
+t1280489354
+s58512
+
+N/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/led_flash
+t1280489354
+s25744
+
+N/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/led_flash.LinkFileList
+c000000004C52B7880000000000000232
+t1280489352
+s562
+
+N/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/led_flashAppDelegate.o
+t1280489354
+s45572
+
+N/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/main.o
+t1280489354
+s6540
+
+N/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/myviewcontroller.o
+t1280489354
+s51532
+
+N/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/led_flash
+t1280489354
+s25744
+
+N/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/led_flash.LinkFileList
+c000000004C52B7880000000000000232
+t1280489352
+s562
+
+N/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/led_flashAppDelegate.o
+t1280489354
+s45584
+
+N/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/main.o
+t1280489354
+s6520
+
+N/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/myviewcontroller.o
+t1280489354
+s51568
+
+N/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/com.apple.build-tools.platform.validate
+t2
+s0
+
+N/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/led_flash.xcent
+t1279618100
+s381
+
+N/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/flashlight-off-gris.png
+c000000004C4057AB0000000000017E1F
+t1279285163
+s97823
+
+N/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/flashlight-off.png
+c000000004C40C88800000000000181DD
+t1279314056
+s98781
+
+N/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/flashlight-on.png
+c000000004C3EAA76000000000003894B
+t1279175286
+s231755
+
+N/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/flashlight-on3GS.png
+c000000004C4058EC00000000000374AC
+t1279285484
+s226476
+
+N/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/led_flash_Prefix.pch
+c000000004C3B4D2B00000000000000BB
+t1278954795
+s187
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/main.m
+c000000004C3B4D2B0000000000000165
+t1278954795
+s357
+i<UIKit/UIKit.h>
+
+N/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/myviewcontroller.h
+c000000004C3FA07F0000000000000475
+t1279238271
+s1141
+i<UIKit/UIKit.h>
+i<AVFoundation/AVFoundation.h>
+i<iAd/iAd.h>
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/Classes/../LanguetteTouchImageView.m
+c000000004C8E35F90000000000001402
+t1284388345
+s5122
+i"LanguetteTouchImageView.h"
+i"PrincipalView.h"
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/Classes/../PrincipalView.m
+c000000004CBA2C4C0000000000001355
+t1287269452
+s4949
+i"PrincipalView.h"
+i"myviewcontroller.h"
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/Classes/../myviewcontroller.h
+c000000004CE86E1A000000000000129A
+t1290300954
+s4762
+i<UIKit/UIKit.h>
+i<AVFoundation/AVFoundation.h>
+i<iAd/iAd.h>
+i<QuartzCore/QuartzCore.h>
+i<StoreKit/StoreKit.h>
+i"AdMobView.h"
+i"AdMobDelegateProtocol.h"
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/Classes/../myviewcontroller.m
+c000000004CE8758E0000000000007B52
+t1290302862
+s31570
+i"myviewcontroller.h"
+i"PrincipalView.h"
+i"LanguetteTouchImageView.h"
+i"ChooseStyleViewController.h"
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/Classes/AdMobDelegateProtocol.h
+c000000004C8E531E0000000000002109
+t1284395806
+s8457
+i<UIKit/UIKit.h>
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/Classes/AdMobView.h
+c000000004C8E531E0000000000000A76
+t1284395806
+s2678
+i<UIKit/UIKit.h>
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/Classes/ChooseStyleSlideView.h
+c000000004C9FCF22000000000000018B
+t1285541666
+s395
+i<UIKit/UIKit.h>
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/Classes/ChooseStyleSlideView.m
+c000000004C9FCF1C0000000000000DAA
+t1285541660
+s3498
+i"ChooseStyleSlideView.h"
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/Classes/ChooseStyleView.xib
+c000000004C952AF600000000000056CD
+t1284844278
+s22221
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/Classes/ChooseStyleViewController.h
+c000000004C9FCE5D0000000000000193
+t1285541469
+s403
+i<UIKit/UIKit.h>
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/Classes/ChooseStyleViewController.m
+c000000004C9FD053000000000000081F
+t1285541971
+s2079
+i"ChooseStyleViewController.h"
+i"ChooseStyleSlideView.h"
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/Classes/MyStoreObserver.h
+c000000004CDDEEA8000000000000032C
+t1289612968
+s812
+i<Foundation/Foundation.h>
+i<StoreKit/StoreKit.h>
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/Classes/MyStoreObserver.m
+c000000004CE86FD90000000000000A19
+t1290301401
+s2585
+i"MyStoreObserver.h"
+i"led_flashAppDelegate.h"
+i"myviewcontroller.h"
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/Classes/led_flashAppDelegate.h
+c000000004CDDE4D20000000000000205
+t1289610450
+s517
+i<UIKit/UIKit.h>
+i<StoreKit/StoreKit.h>
+i"myviewcontroller.h"
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/Classes/led_flashAppDelegate.m
+c000000004CDDEED20000000000000B2D
+t1289613010
+s2861
+i"led_flashAppDelegate.h"
+i"MyStoreObserver.h"
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/Classes/libAdMob.a
+c000000004C8E531E000000000023DC9C
+t1284395806
+s2350236
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/Icon-57.png
+c000000004C567AFE00000000000017BC
+t1280735998
+s6076
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/Icon-72.png
+c000000004C567EF000000000000020F7
+t1280737008
+s8439
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/Icon.png
+c000000004C565F8E0000000000003D90
+t1280728974
+s15760
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/LanguetteTouchImageView.h
+c000000004C8D722A000000000000036E
+t1284338218
+s878
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+i<CoreFoundation/CoreFoundation.h>
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/MainWindow.xib
+c000000004CEAB4B00000000000019AD4
+t1290450096
+s105172
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/PrincipalView.h
+c000000004C8D72C70000000000000228
+t1284338375
+s552
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+i<CoreFoundation/CoreFoundation.h>
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/TouchJSON/CDataScanner.h
+c000000004C8E531E000000000000095B
+t1284395806
+s2395
+i<Foundation/Foundation.h>
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/TouchJSON/CDataScanner.m
+c000000004C8E531E0000000000001674
+t1284395806
+s5748
+i"CDataScanner.h"
+i"CDataScanner_Extensions.h"
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/TouchJSON/Extensions/CDataScanner_Extensions.h
+c000000004C8E531E00000000000005AD
+t1284395806
+s1453
+i"CDataScanner.h"
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/TouchJSON/Extensions/CDataScanner_Extensions.m
+c000000004C8E531E00000000000009EC
+t1284395806
+s2540
+i"CDataScanner_Extensions.h"
+i"NSCharacterSet_Extensions.h"
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/TouchJSON/Extensions/NSCharacterSet_Extensions.h
+c000000004C8E531E000000000000057A
+t1284395806
+s1402
+i<Foundation/Foundation.h>
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/TouchJSON/Extensions/NSCharacterSet_Extensions.m
+c000000004C8E531E0000000000000731
+t1284395806
+s1841
+i"NSCharacterSet_Extensions.h"
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/TouchJSON/Extensions/NSDictionary_JSONExtensions.h
+c000000004C8E531E0000000000000598
+t1284395806
+s1432
+i<Foundation/Foundation.h>
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/TouchJSON/Extensions/NSDictionary_JSONExtensions.m
+c000000004C8E531E0000000000000613
+t1284395806
+s1555
+i"NSDictionary_JSONExtensions.h"
+i"CJSONDeserializer.h"
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/TouchJSON/Extensions/NSScanner_Extensions.h
+c000000004C8E531E0000000000000656
+t1284395806
+s1622
+i<Foundation/Foundation.h>
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/TouchJSON/Extensions/NSScanner_Extensions.m
+c000000004C8E531E0000000000000D65
+t1284395806
+s3429
+i"NSScanner_Extensions.h"
+i"NSCharacterSet_Extensions.h"
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/TouchJSON/JSON/CJSONDataSerializer.h
+c000000004C8E531E0000000000000716
+t1284395806
+s1814
+i<Foundation/Foundation.h>
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/TouchJSON/JSON/CJSONDataSerializer.m
+c000000004C8E531E0000000000001AB2
+t1284395806
+s6834
+i"CJSONDataSerializer.h"
+i"CSerializedJSONData.h"
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/TouchJSON/JSON/CJSONDeserializer.h
+c000000004C8E531E0000000000000681
+t1284395806
+s1665
+i<Foundation/Foundation.h>
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/TouchJSON/JSON/CJSONDeserializer.m
+c000000004C8E531E0000000000000B3A
+t1284395806
+s2874
+i"CJSONDeserializer.h"
+i"CJSONScanner.h"
+i"CDataScanner.h"
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/TouchJSON/JSON/CJSONScanner.h
+c000000004C8E531E000000000000081C
+t1284395806
+s2076
+i"CDataScanner.h"
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/TouchJSON/JSON/CJSONScanner.m
+c000000004C8E531E00000000000039AA
+t1284395806
+s14762
+i"CJSONScanner.h"
+i"NSCharacterSet_Extensions.h"
+i"CDataScanner_Extensions.h"
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/TouchJSON/JSON/CJSONSerializer.h
+c000000004C8E531E0000000000000787
+t1284395806
+s1927
+i<Foundation/Foundation.h>
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/TouchJSON/JSON/CJSONSerializer.m
+c000000004C8E531E00000000000008C6
+t1284395806
+s2246
+i"CJSONSerializer.h"
+i"CJSONDataSerializer.h"
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/TouchJSON/JSON/CSerializedJSONData.h
+c000000004C8E531E00000000000005A9
+t1284395806
+s1449
+i<Foundation/Foundation.h>
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/TouchJSON/JSON/CSerializedJSONData.m
+c000000004C8E531E00000000000005FB
+t1284395806
+s1531
+i"CSerializedJSONData.h"
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/brightness_gray_44x44.png
+c000000004C5429CD0000000000000883
+t1280584141
+s2179
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/btn-pressed-180.png
+c000000004C8551F00000000000002EDC
+t1283805680
+s11996
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/btn.png
+c000000004C84C1640000000000001FD8
+t1283768676
+s8152
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/Distribution-iphoneos/led_flash.app
+t1280489355
+s578
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/Distribution-iphoneos/led_flash.app.dSYM
+t1280489354
+s102
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/Distribution-iphoneos/led_flash.app/ChooseStyleView.nib
+t2
+s0
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/Distribution-iphoneos/led_flash.app/Icon-57.png
+t1279618097
+s4624
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/Distribution-iphoneos/led_flash.app/Icon-72.png
+t1279618097
+s6322
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/Distribution-iphoneos/led_flash.app/Icon.png
+t1279618096
+s12386
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/Distribution-iphoneos/led_flash.app/Info.plist
+t1279618095
+s816
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/Distribution-iphoneos/led_flash.app/MainWindow.nib
+t1279618096
+s1938
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/Distribution-iphoneos/led_flash.app/PkgInfo
+t1279618095
+s8
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/Distribution-iphoneos/led_flash.app/ResourceRules.plist
+t1279618095
+s485
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/Distribution-iphoneos/led_flash.app/brightness_gray_44x44.png
+t2
+s0
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/Distribution-iphoneos/led_flash.app/btn-pressed-180.png
+t2
+s0
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/Distribution-iphoneos/led_flash.app/btn.png
+t2
+s0
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/Distribution-iphoneos/led_flash.app/dark6.jpg
+t2
+s0
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/Distribution-iphoneos/led_flash.app/embedded.mobileprovision
+t1279618100
+s7081
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/Distribution-iphoneos/led_flash.app/fleche.png
+t2
+s0
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/Distribution-iphoneos/led_flash.app/languette-left-6.png
+t2
+s0
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/Distribution-iphoneos/led_flash.app/languette-middle-6.png
+t2
+s0
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/Distribution-iphoneos/led_flash.app/led_flash
+t1280489354
+s68480
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/Distribution-iphoneos/led_flash.app/light6.jpg
+t2
+s0
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/Distribution-iphoneos/led_flash.app/morseCode.plist
+t2
+s0
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/Distribution-iphoneos/led_flash.app/pan-left.png
+t2
+s0
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/Distribution-iphoneos/led_flash.app/pan-right.png
+t2
+s0
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/CDataScanner.o
+t2
+s0
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/CDataScanner_Extensions.o
+t2
+s0
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/CJSONDataSerializer.o
+t2
+s0
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/CJSONDeserializer.o
+t2
+s0
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/CJSONScanner.o
+t2
+s0
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/CJSONSerializer.o
+t2
+s0
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/CSerializedJSONData.o
+t2
+s0
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/ChooseStyleSlideView.o
+t2
+s0
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/ChooseStyleViewController.o
+t2
+s0
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/LanguetteTouchImageView.o
+t2
+s0
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/MyStoreObserver.o
+t2
+s0
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/NSCharacterSet_Extensions.o
+t2
+s0
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/NSDictionary_JSONExtensions.o
+t2
+s0
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/NSScanner_Extensions.o
+t2
+s0
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/PrincipalView.o
+t2
+s0
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/led_flash
+t1280489354
+s25744
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/led_flash.LinkFileList
+c000000004C52B7880000000000000232
+t1280489352
+s562
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/led_flashAppDelegate.o
+t1280489354
+s45572
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/main.o
+t1280489354
+s6540
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/myviewcontroller.o
+t1280489354
+s51532
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/CDataScanner.o
+t2
+s0
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/CDataScanner_Extensions.o
+t2
+s0
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/CJSONDataSerializer.o
+t2
+s0
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/CJSONDeserializer.o
+t2
+s0
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/CJSONScanner.o
+t2
+s0
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/CJSONSerializer.o
+t2
+s0
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/CSerializedJSONData.o
+t2
+s0
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/ChooseStyleSlideView.o
+t2
+s0
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/ChooseStyleViewController.o
+t2
+s0
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/LanguetteTouchImageView.o
+t2
+s0
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/MyStoreObserver.o
+t2
+s0
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/NSCharacterSet_Extensions.o
+t2
+s0
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/NSDictionary_JSONExtensions.o
+t2
+s0
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/NSScanner_Extensions.o
+t2
+s0
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/PrincipalView.o
+t2
+s0
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/led_flash
+t1280489354
+s25744
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/led_flash.LinkFileList
+c000000004C52B7880000000000000232
+t1280489352
+s562
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/led_flashAppDelegate.o
+t1280489354
+s45584
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/main.o
+t1280489354
+s6520
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/myviewcontroller.o
+t1280489354
+s51568
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/led_flash.build/Distribution-iphoneos/led_flash.build/com.apple.build-tools.platform.validate
+t2
+s0
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/dark6.jpg
+c000000004C8873F10000000000004B0B
+t1284010993
+s19211
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/fleche.png
+c000000004C8881AF00000000000004AD
+t1284014511
+s1197
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/languette-left-6.png
+c000000004C88742F0000000000000EB2
+t1284011055
+s3762
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/languette-middle-6.png
+c000000004C88741C000000000000041C
+t1284011036
+s1052
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/led_flash_Prefix.pch
+c000000004C3B4D2B00000000000000BB
+t1278954795
+s187
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/light6.jpg
+c000000004C8873E100000000000088E2
+t1284010977
+s35042
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/main.m
+c000000004C3B4D2B0000000000000165
+t1278954795
+s357
+i<UIKit/UIKit.h>
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/morseCode.plist
+c000000004CBA112B000000000000045E
+t1287262507
+s1118
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/myviewcontroller.h
+c000000004CE86E1A000000000000129A
+t1290300954
+s4762
+i<UIKit/UIKit.h>
+i<AVFoundation/AVFoundation.h>
+i<iAd/iAd.h>
+i<QuartzCore/QuartzCore.h>
+i<StoreKit/StoreKit.h>
+i"AdMobView.h"
+i"AdMobDelegateProtocol.h"
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/pan-left.png
+c000000004CBA24C3000000000000AF30
+t1287267523
+s44848
+
+N/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/pan-right.png
+c000000004C84C1D20000000000007199
+t1283768786
+s29081
+
+N/Users/Mathias/Desktop/led_flash/Classes/../myviewcontroller.m
+c000000004C405E8300000000000012DC
+t1279286915
+s4828
+i"myviewcontroller.h"
+
+N/Users/Mathias/Desktop/led_flash/Classes/led_flashAppDelegate.h
+c000000004C3B57DC0000000000000148
+t1278957532
+s328
+i<UIKit/UIKit.h>
+
+N/Users/Mathias/Desktop/led_flash/Classes/led_flashAppDelegate.m
+c000000004C3BA45F00000000000009FD
+t1278977119
+s2557
+i"led_flashAppDelegate.h"
+
+N/Users/Mathias/Desktop/led_flash/Icon-57.png
+c000000004C421DC2000000000000121A
+t1279401410
+s4634
+
+N/Users/Mathias/Desktop/led_flash/Icon-72.png
+c000000004C421DA3000000000000186A
+t1279401379
+s6250
+
+N/Users/Mathias/Desktop/led_flash/Icon.png
+c000000004C42199A0000000000003004
+t1279400346
+s12292
+
+N/Users/Mathias/Desktop/led_flash/MainWindow.xib
+c000000004C405E1800000000000060F9
+t1279286808
+s24825
+
+N/Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/led_flash.app
+t1279618110
+s578
+
+N/Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/led_flash.app.dSYM
+t1279618100
+s102
+
+N/Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/led_flash.app/Icon-57.png
+t1279618097
+s4624
+
+N/Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/led_flash.app/Icon-72.png
+t1279618097
+s6322
+
+N/Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/led_flash.app/Icon.png
+t1279618096
+s12386
+
+N/Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/led_flash.app/Info.plist
+t1279618095
+s816
+
+N/Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/led_flash.app/MainWindow.nib
+t1279618096
+s1938
+
+N/Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/led_flash.app/PkgInfo
+t1279618095
+s8
+
+N/Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/led_flash.app/ResourceRules.plist
+t1279618095
+s485
+
+N/Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/led_flash.app/embedded.mobileprovision
+t1279618100
+s7081
+
+N/Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/led_flash.app/flashlight-off-gris.png
+t1279618096
+s114021
+
+N/Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/led_flash.app/flashlight-off.png
+t1279618097
+s118049
+
+N/Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/led_flash.app/flashlight-on.png
+t1279618096
+s247294
+
+N/Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/led_flash.app/flashlight-on3GS.png
+t1279618097
+s243967
+
+N/Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/led_flash.app/led_flash
+t1279618100
+s68144
+
+N/Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/led_flash
+t1279618100
+s25400
+
+N/Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/led_flash.LinkFileList
+c000000004C456C2F0000000000000187
+t1279618095
+s391
+
+N/Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/led_flashAppDelegate.o
+t1279618099
+s45456
+
+N/Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/main.o
+t1279618099
+s6424
+
+N/Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/myviewcontroller.o
+t1279618100
+s51708
+
+N/Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/led_flash
+t1279618100
+s25400
+
+N/Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/led_flash.LinkFileList
+c000000004C456C2F0000000000000187
+t1279618095
+s391
+
+N/Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/led_flashAppDelegate.o
+t1279618099
+s45472
+
+N/Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/main.o
+t1279618099
+s6404
+
+N/Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/myviewcontroller.o
+t1279618100
+s51764
+
+N/Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/com.apple.build-tools.platform.validate
+t2
+s0
+
+N/Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/led_flash.xcent
+t1279618100
+s381
+
+N/Users/Mathias/Desktop/led_flash/flashlight-off-gris.png
+c000000004C4057AB0000000000017E1F
+t1279285163
+s97823
+
+N/Users/Mathias/Desktop/led_flash/flashlight-off.png
+c000000004C40C88800000000000181DD
+t1279314056
+s98781
+
+N/Users/Mathias/Desktop/led_flash/flashlight-on.png
+c000000004C3EAA76000000000003894B
+t1279175286
+s231755
+
+N/Users/Mathias/Desktop/led_flash/flashlight-on3GS.png
+c000000004C4058EC00000000000374AC
+t1279285484
+s226476
+
+N/Users/Mathias/Desktop/led_flash/led_flash_Prefix.pch
+c000000004C3B4D2B00000000000000BB
+t1278954795
+s187
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/Mathias/Desktop/led_flash/main.m
+c000000004C3B4D2B0000000000000165
+t1278954795
+s357
+i<UIKit/UIKit.h>
+
+N/Users/Mathias/Desktop/led_flash/myviewcontroller.h
+c000000004C3FA07F0000000000000475
+t1279238271
+s1141
+i<UIKit/UIKit.h>
+i<AVFoundation/AVFoundation.h>
+i<iAd/iAd.h>
+
+N/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/Classes/../myviewcontroller.h
+c000000004C5425370000000000000783
+t1280582967
+s1923
+i<UIKit/UIKit.h>
+i<AVFoundation/AVFoundation.h>
+i<iAd/iAd.h>
+
+N/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/Classes/../myviewcontroller.m
+c000000004C54C9A400000000000037E4
+t1280625060
+s14308
+i"myviewcontroller.h"
+
+N/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/Classes/led_flashAppDelegate.h
+c000000004C53EBC800000000000001D0
+t1280568264
+s464
+i<UIKit/UIKit.h>
+i"myviewcontroller.h"
+
+N/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/Classes/led_flashAppDelegate.m
+c000000004C54BA540000000000000A69
+t1280621140
+s2665
+i"led_flashAppDelegate.h"
+
+N/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/Icon.png
+c000000004C565F8E0000000000003D90
+t1280728974
+s15760
+
+N/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/MainWindow.xib
+c000000004C542A630000000000009256
+t1280584291
+s37462
+
+N/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/brightness_gray.png
+c000000004C54241B000000000000090A
+t1280582683
+s2314
+
+N/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/brightness_gray_44x44.png
+c000000004C5429CD0000000000000883
+t1280584141
+s2179
+
+N/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/brightness_orange.png
+c000000004C54241F0000000000000AC4
+t1280582687
+s2756
+
+N/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/brightness_yellow.png
+c000000004C54241E000000000000086B
+t1280582686
+s2155
+
+N/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/brightness_yellow_brighter.png
+c000000004C54241C00000000000007E9
+t1280582684
+s2025
+
+N/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/build/Distribution-iphoneos/led_flash.app
+t1280489355
+s578
+
+N/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/build/Distribution-iphoneos/led_flash.app.dSYM
+t1280489354
+s102
+
+N/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/build/Distribution-iphoneos/led_flash.app/Icon.png
+t1279618096
+s12386
+
+N/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/build/Distribution-iphoneos/led_flash.app/Info.plist
+t1279618095
+s816
+
+N/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/build/Distribution-iphoneos/led_flash.app/MainWindow.nib
+t1279618096
+s1938
+
+N/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/build/Distribution-iphoneos/led_flash.app/PkgInfo
+t1279618095
+s8
+
+N/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/build/Distribution-iphoneos/led_flash.app/ResourceRules.plist
+t1279618095
+s485
+
+N/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/build/Distribution-iphoneos/led_flash.app/brightness_gray.png
+t2
+s0
+
+N/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/build/Distribution-iphoneos/led_flash.app/brightness_gray_44x44.png
+t2
+s0
+
+N/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/build/Distribution-iphoneos/led_flash.app/brightness_orange.png
+t2
+s0
+
+N/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/build/Distribution-iphoneos/led_flash.app/brightness_yellow.png
+t2
+s0
+
+N/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/build/Distribution-iphoneos/led_flash.app/brightness_yellow_brighter.png
+t2
+s0
+
+N/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/build/Distribution-iphoneos/led_flash.app/embedded.mobileprovision
+t1279618100
+s7081
+
+N/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/build/Distribution-iphoneos/led_flash.app/flashlight3GS_on_v2_avec_pionid.png
+t2
+s0
+
+N/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/build/Distribution-iphoneos/led_flash.app/flashlight3GS_on_v2_avec_pionid_petit.png
+t2
+s0
+
+N/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/build/Distribution-iphoneos/led_flash.app/flashlight3GS_on_v2_sans_pionid.png
+t2
+s0
+
+N/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/build/Distribution-iphoneos/led_flash.app/flashlight_off_v2_avec_pionid.png
+t2
+s0
+
+N/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/build/Distribution-iphoneos/led_flash.app/flashlight_off_v2_avec_pionid_petit.png
+t2
+s0
+
+N/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/build/Distribution-iphoneos/led_flash.app/flashlight_off_v2_sans_pionid.png
+t2
+s0
+
+N/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/build/Distribution-iphoneos/led_flash.app/flashlight_on_v2_avec_pionid.png
+t2
+s0
+
+N/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/build/Distribution-iphoneos/led_flash.app/flashlight_on_v2_avec_pionid_petit.png
+t2
+s0
+
+N/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/build/Distribution-iphoneos/led_flash.app/flashlight_on_v2_sans_pionid.png
+t2
+s0
+
+N/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/build/Distribution-iphoneos/led_flash.app/led_flash
+t1280489354
+s68480
+
+N/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/led_flash
+t1280489354
+s25744
+
+N/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/led_flash.LinkFileList
+c000000004C52B7880000000000000232
+t1280489352
+s562
+
+N/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/led_flashAppDelegate.o
+t1280489354
+s45572
+
+N/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/main.o
+t1280489354
+s6540
+
+N/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/myviewcontroller.o
+t1280489354
+s51532
+
+N/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/led_flash
+t1280489354
+s25744
+
+N/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/led_flash.LinkFileList
+c000000004C52B7880000000000000232
+t1280489352
+s562
+
+N/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/led_flashAppDelegate.o
+t1280489354
+s45584
+
+N/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/main.o
+t1280489354
+s6520
+
+N/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/myviewcontroller.o
+t1280489354
+s51568
+
+N/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/build/led_flash.build/Distribution-iphoneos/led_flash.build/com.apple.build-tools.platform.validate
+t2
+s0
+
+N/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/flashlight3GS_on_v2_avec_pionid.png
+c000000004C52E2350000000000030D35
+t1280500277
+s199989
+
+N/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/flashlight3GS_on_v2_avec_pionid_petit.png
+c000000004C52E23D000000000002FFAF
+t1280500285
+s196527
+
+N/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/flashlight3GS_on_v2_sans_pionid.png
+c000000004C52E236000000000002F4F6
+t1280500278
+s193782
+
+N/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/flashlight_off_v2_avec_pionid.png
+c000000004C52BFA60000000000018558
+t1280491430
+s99672
+
+N/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/flashlight_off_v2_avec_pionid_petit.png
+c000000004C52BFA700000000000176E3
+t1280491431
+s95971
+
+N/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/flashlight_off_v2_sans_pionid.png
+c000000004C52BFA80000000000016AAC
+t1280491432
+s92844
+
+N/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/flashlight_on_v2_avec_pionid.png
+c000000004C52BEDA0000000000038CEE
+t1280491226
+s232686
+
+N/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/flashlight_on_v2_avec_pionid_petit.png
+c000000004C52BED500000000000380A1
+t1280491221
+s229537
+
+N/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/flashlight_on_v2_sans_pionid.png
+c000000004C52BED70000000000037283
+t1280491223
+s225923
+
+N/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/led_flash_Prefix.pch
+c000000004C3B4D2B00000000000000BB
+t1278954795
+s187
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/main.m
+c000000004C3B4D2B0000000000000165
+t1278954795
+s357
+i<UIKit/UIKit.h>
+
+N/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/myviewcontroller.h
+c000000004C5425370000000000000783
+t1280582967
+s1923
+i<UIKit/UIKit.h>
+i<AVFoundation/AVFoundation.h>
+i<iAd/iAd.h>
+
+N/Users/Mathias/Library/MobileDevice/Provisioning Profiles/7A33AEB0-B717-44B8-ABC9-DD3C89B534DB.mobileprovision
+c000000004CE87C610000000000001BA9
+t1290304609
+s7081
+
+N/var/folders/in/in++jmrvFvOGQ5zhHNaVTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/led_flash_Prefix-athyrpbhoyzolzcjpftvdsgtndmm/led_flash_Prefix.pch.gch
+t1279618099
+s10090032
+
+N/var/folders/in/in++jmrvFvOGQ5zhHNaVTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/led_flash_Prefix-cclpmohvlygwtkgwlxqyzdvxxyoo/led_flash_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/in/in++jmrvFvOGQ5zhHNaVTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/led_flash_Prefix-dgotoulfgijkyhcmwbymzpcrfvhx/led_flash_Prefix.pch.gch
+t1280489354
+s9635376
+
+N/var/folders/in/in++jmrvFvOGQ5zhHNaVTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/led_flash_Prefix-eqbbpolexpoltcctuwkvvsgxivbd/led_flash_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/in/in++jmrvFvOGQ5zhHNaVTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/led_flash_Prefix-esvtxoluuipsitecaesvicpbpfdn/led_flash_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/in/in++jmrvFvOGQ5zhHNaVTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/led_flash_Prefix-fluidjthzrhyhtblbmthiravbtvh/led_flash_Prefix.pch.gch
+t1280489353
+s10090032
+
+N/var/folders/in/in++jmrvFvOGQ5zhHNaVTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/led_flash_Prefix-ftirfdmqchzxlbbspggvtkamesvb/led_flash_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/in/in++jmrvFvOGQ5zhHNaVTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/led_flash_Prefix-gcwqmifrczfkgkgyljnmbqcpxlsv/led_flash_Prefix.pch.gch
+t1279618099
+s9631280
+
+Nled_flash-Info.plist
+c000000004CE875BF000000000000042E
+t1290302911
+s1070
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies302182152#302182152#0(0"0(0#1#0"8616003488#0"0#
+
+CCodeSign "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos/led_flash.app"
+s302182154.883760
+e302182155.273287
+r1
+xCodeSign
+x/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos/led_flash.app
+lSLF07#2@50"CodeSign build/Distribution-iphoneos/led_flash.app302182154#302182155#0(0"0(0#0#131"/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos/led_flash.app8616375008#875"    cd "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Distribution: Pionid" "--resource-rules=/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos/led_flash.app/ResourceRules.plist" --entitlements "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/led_flash.xcent" "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos/led_flash.app"0#
+
+CCodeSign "/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/Distribution-iphoneos/led_flash.app"
+r0
+
+CCodeSign "/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/build/Distribution-iphoneos/led_flash.app"
+r0
+
+CCodeSign /Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/led_flash.app
+s301310900.298966
+e301310910.710172
+r1
+xCodeSign
+x/Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/led_flash.app
+lSLF07#2@50"CodeSign build/Distribution-iphoneos/led_flash.app301310900#301310910#0(0"0(0#0#74"/Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/led_flash.app8620630400#639"    cd /Users/Mathias/Desktop/led_flash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Distribution: Pionid" --resource-rules=/Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/led_flash.app/ResourceRules.plist --entitlements /Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/led_flash.xcent /Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/led_flash.app0#
+
+CCompileC build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/CDataScanner.o "/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/TouchJSON/CDataScanner.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/CDataScanner_Extensions.o "/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/TouchJSON/Extensions/CDataScanner_Extensions.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/CJSONDataSerializer.o "/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/TouchJSON/JSON/CJSONDataSerializer.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/CJSONDeserializer.o "/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/TouchJSON/JSON/CJSONDeserializer.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/CJSONScanner.o "/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/TouchJSON/JSON/CJSONScanner.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/CJSONSerializer.o "/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/TouchJSON/JSON/CJSONSerializer.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/CSerializedJSONData.o "/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/TouchJSON/JSON/CSerializedJSONData.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/ChooseStyleSlideView.o "/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/Classes/ChooseStyleSlideView.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/ChooseStyleViewController.o "/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/Classes/ChooseStyleViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/LanguetteTouchImageView.o "/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/Classes/../LanguetteTouchImageView.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/MyStoreObserver.o "/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/Classes/MyStoreObserver.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/NSCharacterSet_Extensions.o "/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/TouchJSON/Extensions/NSCharacterSet_Extensions.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/NSDictionary_JSONExtensions.o "/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/TouchJSON/Extensions/NSDictionary_JSONExtensions.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/NSScanner_Extensions.o "/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/TouchJSON/Extensions/NSScanner_Extensions.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/PrincipalView.o "/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/Classes/../PrincipalView.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/led_flashAppDelegate.o "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/Classes/led_flashAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s302182154.072002
+e302182154.246576
+r1
+xCompileC
+xbuild/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/led_flashAppDelegate.o
+x/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/Classes/led_flashAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/Classes/led_flashAppDelegate.m: In function '-[led_flashAppDelegate applicationDidBecomeActive:]':
+o/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/Classes/led_flashAppDelegate.m:56: warning: 'UIViewController' may not respond to '-devientActive'
+o/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/Classes/led_flashAppDelegate.m:56: warning: (Messages without a matching method signature
+o/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/Classes/led_flashAppDelegate.m:56: warning: will be assumed to return 'id' and accept
+o/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/Classes/led_flashAppDelegate.m:56: warning: '...' as arguments.)
+lSLF07#2@128"Compile /Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/Classes/led_flashAppDelegate.m302182154#302182154#0(889"/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/Classes/led_flashAppDelegate.m: In function '-[led_flashAppDelegate applicationDidBecomeActive:]':/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/Classes/led_flashAppDelegate.m:56: warning: 'UIViewController' may not respond to '-devientActive'/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/Classes/led_flashAppDelegate.m:56: warning: (Messages without a matching method signature/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/Classes/led_flashAppDelegate.m:56: warning: will be assumed to return 'id' and accept/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/Classes/led_flashAppDelegate.m:56: warning: '...' as arguments.)2(22@54"'UIViewController' may not respond to '-devientActive'302182154#188#188#0(6@120"/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/Classes/led_flashAppDelegate.m300669919#56#0#56#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)302182154#376#179#0(6@120"/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/Classes/led_flashAppDelegate.m300669919#56#0#56#0#0"0(0#0#120"/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/Classes/led_flashAppDelegate.m8617055904#2491"    cd "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/led_flash-generated-files.hmap" "-I/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/led_flash-own-target-headers.hmap" "-I/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/led_flash-all-target-headers.hmap" -iquote "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/led_flash-project-headers.hmap" "-F/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos" "-I/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos/include" "-I/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/DerivedSources/armv6" "-I/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/in/in++jmrvFvOGQ5zhHNaVTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/led_flash_Prefix-dgotoulfgijkyhcmwbymzpcrfvhx/led_flash_Prefix.pch -c "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/Classes/led_flashAppDelegate.m" -o "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/led_flashAppDelegate.o"0#
+
+CCompileC build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/led_flashAppDelegate.o "/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/Classes/led_flashAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/led_flashAppDelegate.o "/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/Classes/led_flashAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/led_flashAppDelegate.o /Users/Mathias/Desktop/led_flash/Classes/led_flashAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s301310899.484228
+e301310899.614397
+r1
+xCompileC
+xbuild/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/led_flashAppDelegate.o
+x/Users/Mathias/Desktop/led_flash/Classes/led_flashAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/Mathias/Desktop/led_flash/Classes/led_flashAppDelegate.m: In function '-[led_flashAppDelegate applicationDidBecomeActive:]':
+o/Users/Mathias/Desktop/led_flash/Classes/led_flashAppDelegate.m:56: warning: 'UIViewController' may not respond to '-devientActive'
+o/Users/Mathias/Desktop/led_flash/Classes/led_flashAppDelegate.m:56: warning: (Messages without a matching method signature
+o/Users/Mathias/Desktop/led_flash/Classes/led_flashAppDelegate.m:56: warning: will be assumed to return 'id' and accept
+o/Users/Mathias/Desktop/led_flash/Classes/led_flashAppDelegate.m:56: warning: '...' as arguments.)
+lSLF07#2@71"Compile /Users/Mathias/Desktop/led_flash/Classes/led_flashAppDelegate.m301310899#301310899#0(604"/Users/Mathias/Desktop/led_flash/Classes/led_flashAppDelegate.m: In function '-[led_flashAppDelegate applicationDidBecomeActive:]':/Users/Mathias/Desktop/led_flash/Classes/led_flashAppDelegate.m:56: warning: 'UIViewController' may not respond to '-devientActive'/Users/Mathias/Desktop/led_flash/Classes/led_flashAppDelegate.m:56: warning: (Messages without a matching method signature/Users/Mathias/Desktop/led_flash/Classes/led_flashAppDelegate.m:56: warning: will be assumed to return 'id' and accept/Users/Mathias/Desktop/led_flash/Classes/led_flashAppDelegate.m:56: warning: '...' as arguments.)2(22@54"'UIViewController' may not respond to '-devientActive'301310899#132#132#0(6@63"/Users/Mathias/Desktop/led_flash/Classes/led_flashAppDelegate.m300669919#56#0#56#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)301310899#264#123#0(6@63"/Users/Mathias/Desktop/led_flash/Classes/led_flashAppDelegate.m300669919#56#0#56#0#0"0(0#0#63"/Users/Mathias/Desktop/led_flash/Classes/led_flashAppDelegate.m8603510976#1842"    cd /Users/Mathias/Desktop/led_flash    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/led_flash-generated-files.hmap -I/Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/led_flash-own-target-headers.hmap -I/Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/led_flash-all-target-headers.hmap -iquote /Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/led_flash-project-headers.hmap -F/Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos -I/Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/include -I/Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/DerivedSources/armv6 -I/Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/in/in++jmrvFvOGQ5zhHNaVTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/led_flash_Prefix-gcwqmifrczfkgkgyljnmbqcpxlsv/led_flash_Prefix.pch -c /Users/Mathias/Desktop/led_flash/Classes/led_flashAppDelegate.m -o /Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/led_flashAppDelegate.o0#
+
+CCompileC build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/main.o "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s302182154.070666
+e302182154.158229
+r1
+xCompileC
+xbuild/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/main.o
+x/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@104"Compile /Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/main.m302182154#302182154#0(0"0(0#0#96"/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/main.m8601412672#2451"    cd "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/led_flash-generated-files.hmap" "-I/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/led_flash-own-target-headers.hmap" "-I/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/led_flash-all-target-headers.hmap" -iquote "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/led_flash-project-headers.hmap" "-F/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos" "-I/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos/include" "-I/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/DerivedSources/armv6" "-I/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/in/in++jmrvFvOGQ5zhHNaVTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/led_flash_Prefix-dgotoulfgijkyhcmwbymzpcrfvhx/led_flash_Prefix.pch -c "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/main.m" -o "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/main.o"0#
+
+CCompileC build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/main.o "/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/main.o "/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/main.o /Users/Mathias/Desktop/led_flash/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s301310899.482871
+e301310899.580017
+r1
+xCompileC
+xbuild/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/main.o
+x/Users/Mathias/Desktop/led_flash/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@47"Compile /Users/Mathias/Desktop/led_flash/main.m301310899#301310899#0(0"0(0#0#39"/Users/Mathias/Desktop/led_flash/main.m8608270560#1802"    cd /Users/Mathias/Desktop/led_flash    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/led_flash-generated-files.hmap -I/Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/led_flash-own-target-headers.hmap -I/Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/led_flash-all-target-headers.hmap -iquote /Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/led_flash-project-headers.hmap -F/Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos -I/Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/include -I/Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/DerivedSources/armv6 -I/Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/in/in++jmrvFvOGQ5zhHNaVTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/led_flash_Prefix-gcwqmifrczfkgkgyljnmbqcpxlsv/led_flash_Prefix.pch -c /Users/Mathias/Desktop/led_flash/main.m -o /Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/myviewcontroller.o "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/Classes/../myviewcontroller.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s302182154.158334
+e302182154.676721
+r1
+xCompileC
+xbuild/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/myviewcontroller.o
+x/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/Classes/../myviewcontroller.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/Classes/../myviewcontroller.m: In function '-[myviewcontroller viewDidLoad]':
+o/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/Classes/../myviewcontroller.m:46: warning: class 'myviewcontroller' does not implement the 'AVCaptureVideoDataOutputSampleBufferDelegate' protocol
+lSLF07#2@127"Compile /Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/Classes/../myviewcontroller.m302182154#302182154#0(405"/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/Classes/../myviewcontroller.m: In function '-[myviewcontroller viewDidLoad]':/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/Classes/../myviewcontroller.m:46: warning: class 'myviewcontroller' does not implement the 'AVCaptureVideoDataOutputSampleBufferDelegate' protocol1(22@103"Class 'myviewcontroller' does not implement the 'AVCaptureVideoDataOutputSampleBufferDelegate' protocol302182154#167#236#0(6@119"/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/Classes/../myviewcontroller.m301655676#46#0#46#0#45"class '*' does not implement the '*' protocol0(0#0#119"/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/Classes/../myviewcontroller.m8613808480#2486"    cd "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/led_flash-generated-files.hmap" "-I/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/led_flash-own-target-headers.hmap" "-I/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/led_flash-all-target-headers.hmap" -iquote "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/led_flash-project-headers.hmap" "-F/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos" "-I/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos/include" "-I/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/DerivedSources/armv6" "-I/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/in/in++jmrvFvOGQ5zhHNaVTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/led_flash_Prefix-dgotoulfgijkyhcmwbymzpcrfvhx/led_flash_Prefix.pch -c "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/Classes/../myviewcontroller.m" -o "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/myviewcontroller.o"0#
+
+CCompileC build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/myviewcontroller.o "/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/Classes/../myviewcontroller.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/myviewcontroller.o "/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/Classes/../myviewcontroller.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/myviewcontroller.o /Users/Mathias/Desktop/led_flash/Classes/../myviewcontroller.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s301310899.580127
+e301310900.117162
+r1
+xCompileC
+xbuild/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/myviewcontroller.o
+x/Users/Mathias/Desktop/led_flash/Classes/../myviewcontroller.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/Mathias/Desktop/led_flash/Classes/../myviewcontroller.m: In function '-[myviewcontroller viewDidLoad]':
+o/Users/Mathias/Desktop/led_flash/Classes/../myviewcontroller.m:46: warning: class 'myviewcontroller' does not implement the 'AVCaptureVideoDataOutputSampleBufferDelegate' protocol
+o/Users/Mathias/Desktop/led_flash/Classes/../myviewcontroller.m:66: warning: class 'myviewcontroller' does not implement the 'ADBannerViewDelegate' protocol
+lSLF07#2@70"Compile /Users/Mathias/Desktop/led_flash/Classes/../myviewcontroller.m301310899#301310900#0(447"/Users/Mathias/Desktop/led_flash/Classes/../myviewcontroller.m: In function '-[myviewcontroller viewDidLoad]':/Users/Mathias/Desktop/led_flash/Classes/../myviewcontroller.m:46: warning: class 'myviewcontroller' does not implement the 'AVCaptureVideoDataOutputSampleBufferDelegate' protocol/Users/Mathias/Desktop/led_flash/Classes/../myviewcontroller.m:66: warning: class 'myviewcontroller' does not implement the 'ADBannerViewDelegate' protocol2(22@103"Class 'myviewcontroller' does not implement the 'AVCaptureVideoDataOutputSampleBufferDelegate' protocol301310899#111#180#0(6@62"/Users/Mathias/Desktop/led_flash/Classes/../myviewcontroller.m300979715#46#0#46#0#45"class '*' does not implement the '*' protocol0(22@79"Class 'myviewcontroller' does not implement the 'ADBannerViewDelegate' protocol301310899#291#156#0(6@62"/Users/Mathias/Desktop/led_flash/Classes/../myviewcontroller.m300979715#66#0#66#0#45"class '*' does not implement the '*' protocol0(0#0#62"/Users/Mathias/Desktop/led_flash/Classes/../myviewcontroller.m8622348672#1837"    cd /Users/Mathias/Desktop/led_flash    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/led_flash-generated-files.hmap -I/Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/led_flash-own-target-headers.hmap -I/Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/led_flash-all-target-headers.hmap -iquote /Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/led_flash-project-headers.hmap -F/Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos -I/Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/include -I/Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/DerivedSources/armv6 -I/Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/in/in++jmrvFvOGQ5zhHNaVTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/led_flash_Prefix-gcwqmifrczfkgkgyljnmbqcpxlsv/led_flash_Prefix.pch -c /Users/Mathias/Desktop/led_flash/Classes/../myviewcontroller.m -o /Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/myviewcontroller.o0#
+
+CCompileC build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/CDataScanner.o "/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/TouchJSON/CDataScanner.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/CDataScanner_Extensions.o "/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/TouchJSON/Extensions/CDataScanner_Extensions.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/CJSONDataSerializer.o "/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/TouchJSON/JSON/CJSONDataSerializer.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/CJSONDeserializer.o "/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/TouchJSON/JSON/CJSONDeserializer.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/CJSONScanner.o "/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/TouchJSON/JSON/CJSONScanner.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/CJSONSerializer.o "/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/TouchJSON/JSON/CJSONSerializer.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/CSerializedJSONData.o "/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/TouchJSON/JSON/CSerializedJSONData.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/ChooseStyleSlideView.o "/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/Classes/ChooseStyleSlideView.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/ChooseStyleViewController.o "/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/Classes/ChooseStyleViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/LanguetteTouchImageView.o "/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/Classes/../LanguetteTouchImageView.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/MyStoreObserver.o "/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/Classes/MyStoreObserver.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/NSCharacterSet_Extensions.o "/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/TouchJSON/Extensions/NSCharacterSet_Extensions.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/NSDictionary_JSONExtensions.o "/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/TouchJSON/Extensions/NSDictionary_JSONExtensions.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/NSScanner_Extensions.o "/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/TouchJSON/Extensions/NSScanner_Extensions.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/PrincipalView.o "/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/Classes/../PrincipalView.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/led_flashAppDelegate.o "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/Classes/led_flashAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s302182154.318478
+e302182154.448445
+r1
+xCompileC
+xbuild/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/led_flashAppDelegate.o
+x/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/Classes/led_flashAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/Classes/led_flashAppDelegate.m: In function '-[led_flashAppDelegate applicationDidBecomeActive:]':
+o/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/Classes/led_flashAppDelegate.m:56: warning: 'UIViewController' may not respond to '-devientActive'
+o/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/Classes/led_flashAppDelegate.m:56: warning: (Messages without a matching method signature
+o/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/Classes/led_flashAppDelegate.m:56: warning: will be assumed to return 'id' and accept
+o/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/Classes/led_flashAppDelegate.m:56: warning: '...' as arguments.)
+lSLF07#2@128"Compile /Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/Classes/led_flashAppDelegate.m302182154#302182154#0(889"/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/Classes/led_flashAppDelegate.m: In function '-[led_flashAppDelegate applicationDidBecomeActive:]':/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/Classes/led_flashAppDelegate.m:56: warning: 'UIViewController' may not respond to '-devientActive'/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/Classes/led_flashAppDelegate.m:56: warning: (Messages without a matching method signature/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/Classes/led_flashAppDelegate.m:56: warning: will be assumed to return 'id' and accept/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/Classes/led_flashAppDelegate.m:56: warning: '...' as arguments.)2(22@54"'UIViewController' may not respond to '-devientActive'302182154#188#188#0(6@120"/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/Classes/led_flashAppDelegate.m300669919#56#0#56#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)302182154#376#179#0(6@120"/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/Classes/led_flashAppDelegate.m300669919#56#0#56#0#0"0(0#0#120"/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/Classes/led_flashAppDelegate.m8617059936#2491"    cd "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/led_flash-generated-files.hmap" "-I/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/led_flash-own-target-headers.hmap" "-I/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/led_flash-all-target-headers.hmap" -iquote "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/led_flash-project-headers.hmap" "-F/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos" "-I/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos/include" "-I/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/DerivedSources/armv7" "-I/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/in/in++jmrvFvOGQ5zhHNaVTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/led_flash_Prefix-fluidjthzrhyhtblbmthiravbtvh/led_flash_Prefix.pch -c "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/Classes/led_flashAppDelegate.m" -o "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/led_flashAppDelegate.o"0#
+
+CCompileC build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/led_flashAppDelegate.o "/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/Classes/led_flashAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/led_flashAppDelegate.o "/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/Classes/led_flashAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/led_flashAppDelegate.o /Users/Mathias/Desktop/led_flash/Classes/led_flashAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s301310899.679181
+e301310899.763326
+r1
+xCompileC
+xbuild/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/led_flashAppDelegate.o
+x/Users/Mathias/Desktop/led_flash/Classes/led_flashAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/Mathias/Desktop/led_flash/Classes/led_flashAppDelegate.m: In function '-[led_flashAppDelegate applicationDidBecomeActive:]':
+o/Users/Mathias/Desktop/led_flash/Classes/led_flashAppDelegate.m:56: warning: 'UIViewController' may not respond to '-devientActive'
+o/Users/Mathias/Desktop/led_flash/Classes/led_flashAppDelegate.m:56: warning: (Messages without a matching method signature
+o/Users/Mathias/Desktop/led_flash/Classes/led_flashAppDelegate.m:56: warning: will be assumed to return 'id' and accept
+o/Users/Mathias/Desktop/led_flash/Classes/led_flashAppDelegate.m:56: warning: '...' as arguments.)
+lSLF07#2@71"Compile /Users/Mathias/Desktop/led_flash/Classes/led_flashAppDelegate.m301310899#301310899#0(604"/Users/Mathias/Desktop/led_flash/Classes/led_flashAppDelegate.m: In function '-[led_flashAppDelegate applicationDidBecomeActive:]':/Users/Mathias/Desktop/led_flash/Classes/led_flashAppDelegate.m:56: warning: 'UIViewController' may not respond to '-devientActive'/Users/Mathias/Desktop/led_flash/Classes/led_flashAppDelegate.m:56: warning: (Messages without a matching method signature/Users/Mathias/Desktop/led_flash/Classes/led_flashAppDelegate.m:56: warning: will be assumed to return 'id' and accept/Users/Mathias/Desktop/led_flash/Classes/led_flashAppDelegate.m:56: warning: '...' as arguments.)2(22@54"'UIViewController' may not respond to '-devientActive'301310899#132#132#0(6@63"/Users/Mathias/Desktop/led_flash/Classes/led_flashAppDelegate.m300669919#56#0#56#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)301310899#264#123#0(6@63"/Users/Mathias/Desktop/led_flash/Classes/led_flashAppDelegate.m300669919#56#0#56#0#0"0(0#0#63"/Users/Mathias/Desktop/led_flash/Classes/led_flashAppDelegate.m8625180512#1842"    cd /Users/Mathias/Desktop/led_flash    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/led_flash-generated-files.hmap -I/Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/led_flash-own-target-headers.hmap -I/Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/led_flash-all-target-headers.hmap -iquote /Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/led_flash-project-headers.hmap -F/Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos -I/Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/include -I/Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/DerivedSources/armv7 -I/Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/in/in++jmrvFvOGQ5zhHNaVTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/led_flash_Prefix-athyrpbhoyzolzcjpftvdsgtndmm/led_flash_Prefix.pch -c /Users/Mathias/Desktop/led_flash/Classes/led_flashAppDelegate.m -o /Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/led_flashAppDelegate.o0#
+
+CCompileC build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/main.o "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s302182154.246708
+e302182154.318369
+r1
+xCompileC
+xbuild/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/main.o
+x/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@104"Compile /Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/main.m302182154#302182154#0(0"0(0#0#96"/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/main.m8613523392#2451"    cd "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/led_flash-generated-files.hmap" "-I/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/led_flash-own-target-headers.hmap" "-I/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/led_flash-all-target-headers.hmap" -iquote "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/led_flash-project-headers.hmap" "-F/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos" "-I/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos/include" "-I/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/DerivedSources/armv7" "-I/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/in/in++jmrvFvOGQ5zhHNaVTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/led_flash_Prefix-fluidjthzrhyhtblbmthiravbtvh/led_flash_Prefix.pch -c "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/main.m" -o "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/main.o"0#
+
+CCompileC build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/main.o "/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/main.o "/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/main.o /Users/Mathias/Desktop/led_flash/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s301310899.614491
+e301310899.678949
+r1
+xCompileC
+xbuild/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/main.o
+x/Users/Mathias/Desktop/led_flash/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@47"Compile /Users/Mathias/Desktop/led_flash/main.m301310899#301310899#0(0"0(0#0#39"/Users/Mathias/Desktop/led_flash/main.m8622268640#1802"    cd /Users/Mathias/Desktop/led_flash    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/led_flash-generated-files.hmap -I/Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/led_flash-own-target-headers.hmap -I/Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/led_flash-all-target-headers.hmap -iquote /Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/led_flash-project-headers.hmap -F/Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos -I/Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/include -I/Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/DerivedSources/armv7 -I/Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/in/in++jmrvFvOGQ5zhHNaVTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/led_flash_Prefix-athyrpbhoyzolzcjpftvdsgtndmm/led_flash_Prefix.pch -c /Users/Mathias/Desktop/led_flash/main.m -o /Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/main.o0#
+
+CCompileC build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/myviewcontroller.o "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/Classes/../myviewcontroller.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s302182154.448546
+e302182154.778625
+r1
+xCompileC
+xbuild/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/myviewcontroller.o
+x/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/Classes/../myviewcontroller.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/Classes/../myviewcontroller.m: In function '-[myviewcontroller viewDidLoad]':
+o/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/Classes/../myviewcontroller.m:46: warning: class 'myviewcontroller' does not implement the 'AVCaptureVideoDataOutputSampleBufferDelegate' protocol
+lSLF07#2@127"Compile /Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/Classes/../myviewcontroller.m302182154#302182154#0(405"/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/Classes/../myviewcontroller.m: In function '-[myviewcontroller viewDidLoad]':/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/Classes/../myviewcontroller.m:46: warning: class 'myviewcontroller' does not implement the 'AVCaptureVideoDataOutputSampleBufferDelegate' protocol1(22@103"Class 'myviewcontroller' does not implement the 'AVCaptureVideoDataOutputSampleBufferDelegate' protocol302182154#167#236#0(6@119"/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/Classes/../myviewcontroller.m301655676#46#0#46#0#45"class '*' does not implement the '*' protocol0(0#0#119"/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/Classes/../myviewcontroller.m8616205248#2486"    cd "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/led_flash-generated-files.hmap" "-I/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/led_flash-own-target-headers.hmap" "-I/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/led_flash-all-target-headers.hmap" -iquote "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/led_flash-project-headers.hmap" "-F/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos" "-I/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos/include" "-I/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/DerivedSources/armv7" "-I/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/in/in++jmrvFvOGQ5zhHNaVTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/led_flash_Prefix-fluidjthzrhyhtblbmthiravbtvh/led_flash_Prefix.pch -c "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/Classes/../myviewcontroller.m" -o "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/myviewcontroller.o"0#
+
+CCompileC build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/myviewcontroller.o "/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/Classes/../myviewcontroller.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/myviewcontroller.o "/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/Classes/../myviewcontroller.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/myviewcontroller.o /Users/Mathias/Desktop/led_flash/Classes/../myviewcontroller.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s301310899.763432
+e301310900.106708
+r1
+xCompileC
+xbuild/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/myviewcontroller.o
+x/Users/Mathias/Desktop/led_flash/Classes/../myviewcontroller.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/Mathias/Desktop/led_flash/Classes/../myviewcontroller.m: In function '-[myviewcontroller viewDidLoad]':
+o/Users/Mathias/Desktop/led_flash/Classes/../myviewcontroller.m:46: warning: class 'myviewcontroller' does not implement the 'AVCaptureVideoDataOutputSampleBufferDelegate' protocol
+o/Users/Mathias/Desktop/led_flash/Classes/../myviewcontroller.m:66: warning: class 'myviewcontroller' does not implement the 'ADBannerViewDelegate' protocol
+lSLF07#2@70"Compile /Users/Mathias/Desktop/led_flash/Classes/../myviewcontroller.m301310899#301310900#0(447"/Users/Mathias/Desktop/led_flash/Classes/../myviewcontroller.m: In function '-[myviewcontroller viewDidLoad]':/Users/Mathias/Desktop/led_flash/Classes/../myviewcontroller.m:46: warning: class 'myviewcontroller' does not implement the 'AVCaptureVideoDataOutputSampleBufferDelegate' protocol/Users/Mathias/Desktop/led_flash/Classes/../myviewcontroller.m:66: warning: class 'myviewcontroller' does not implement the 'ADBannerViewDelegate' protocol2(22@103"Class 'myviewcontroller' does not implement the 'AVCaptureVideoDataOutputSampleBufferDelegate' protocol301310899#111#180#0(6@62"/Users/Mathias/Desktop/led_flash/Classes/../myviewcontroller.m300979715#46#0#46#0#45"class '*' does not implement the '*' protocol0(22@79"Class 'myviewcontroller' does not implement the 'ADBannerViewDelegate' protocol301310899#291#156#0(6@62"/Users/Mathias/Desktop/led_flash/Classes/../myviewcontroller.m300979715#66#0#66#0#45"class '*' does not implement the '*' protocol0(0#0#62"/Users/Mathias/Desktop/led_flash/Classes/../myviewcontroller.m8622411200#1837"    cd /Users/Mathias/Desktop/led_flash    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/led_flash-generated-files.hmap -I/Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/led_flash-own-target-headers.hmap -I/Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/led_flash-all-target-headers.hmap -iquote /Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/led_flash-project-headers.hmap -F/Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos -I/Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/include -I/Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/DerivedSources/armv7 -I/Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/in/in++jmrvFvOGQ5zhHNaVTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/led_flash_Prefix-athyrpbhoyzolzcjpftvdsgtndmm/led_flash_Prefix.pch -c /Users/Mathias/Desktop/led_flash/Classes/../myviewcontroller.m -o /Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/myviewcontroller.o0#
+
+CCompileXIB "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/MainWindow.xib"
+r0
+
+CCompileXIB "/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/Classes/ChooseStyleView.xib"
+r0
+
+CCompileXIB "/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/MainWindow.xib"
+r0
+
+CCompileXIB "/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/MainWindow.xib"
+r0
+
+CCompileXIB /Users/Mathias/Desktop/led_flash/MainWindow.xib
+s301310895.683603
+e301310896.441937
+r1
+xCompileXIB
+x/Users/Mathias/Desktop/led_flash/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib301310895#301310896#0(0"0(0#0#47"/Users/Mathias/Desktop/led_flash/MainWindow.xib8629350592#533"    cd /Users/Mathias/Desktop/led_flash    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/led_flash.app/MainWindow.nib /Users/Mathias/Desktop/led_flash/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
+
+CCopyPNGFile "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos/led_flash.app/Icon-57.png" Icon-57.png
+r0
+
+CCopyPNGFile "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos/led_flash.app/Icon-72.png" Icon-72.png
+r0
+
+CCopyPNGFile "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos/led_flash.app/Icon.png" Icon.png
+r0
+
+CCopyPNGFile "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos/led_flash.app/flashlight-off-gris.png" flashlight-off-gris.png
+r0
+
+CCopyPNGFile "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos/led_flash.app/flashlight-off.png" flashlight-off.png
+r0
+
+CCopyPNGFile "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos/led_flash.app/flashlight-on.png" flashlight-on.png
+r0
+
+CCopyPNGFile "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos/led_flash.app/flashlight-on3GS.png" flashlight-on3GS.png
+r0
+
+CCopyPNGFile "/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/Distribution-iphoneos/led_flash.app/Icon-57.png" Icon-57.png
+r0
+
+CCopyPNGFile "/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/Distribution-iphoneos/led_flash.app/Icon-72.png" Icon-72.png
+r0
+
+CCopyPNGFile "/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/Distribution-iphoneos/led_flash.app/Icon.png" Icon.png
+r0
+
+CCopyPNGFile "/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/Distribution-iphoneos/led_flash.app/brightness_gray_44x44.png" brightness_gray_44x44.png
+r0
+
+CCopyPNGFile "/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/Distribution-iphoneos/led_flash.app/btn-pressed-180.png" btn-pressed-180.png
+r0
+
+CCopyPNGFile "/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/Distribution-iphoneos/led_flash.app/btn.png" btn.png
+r0
+
+CCopyPNGFile "/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/Distribution-iphoneos/led_flash.app/fleche.png" fleche.png
+r0
+
+CCopyPNGFile "/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/Distribution-iphoneos/led_flash.app/languette-left-6.png" languette-left-6.png
+r0
+
+CCopyPNGFile "/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/Distribution-iphoneos/led_flash.app/languette-middle-6.png" languette-middle-6.png
+r0
+
+CCopyPNGFile "/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/Distribution-iphoneos/led_flash.app/pan-left.png" pan-left.png
+r0
+
+CCopyPNGFile "/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/Distribution-iphoneos/led_flash.app/pan-right.png" pan-right.png
+r0
+
+CCopyPNGFile "/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/build/Distribution-iphoneos/led_flash.app/Icon.png" Icon.png
+r0
+
+CCopyPNGFile "/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/build/Distribution-iphoneos/led_flash.app/brightness_gray.png" brightness_gray.png
+r0
+
+CCopyPNGFile "/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/build/Distribution-iphoneos/led_flash.app/brightness_gray_44x44.png" brightness_gray_44x44.png
+r0
+
+CCopyPNGFile "/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/build/Distribution-iphoneos/led_flash.app/brightness_orange.png" brightness_orange.png
+r0
+
+CCopyPNGFile "/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/build/Distribution-iphoneos/led_flash.app/brightness_yellow.png" brightness_yellow.png
+r0
+
+CCopyPNGFile "/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/build/Distribution-iphoneos/led_flash.app/brightness_yellow_brighter.png" brightness_yellow_brighter.png
+r0
+
+CCopyPNGFile "/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/build/Distribution-iphoneos/led_flash.app/flashlight3GS_on_v2_avec_pionid.png" flashlight3GS_on_v2_avec_pionid.png
+r0
+
+CCopyPNGFile "/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/build/Distribution-iphoneos/led_flash.app/flashlight3GS_on_v2_avec_pionid_petit.png" flashlight3GS_on_v2_avec_pionid_petit.png
+r0
+
+CCopyPNGFile "/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/build/Distribution-iphoneos/led_flash.app/flashlight3GS_on_v2_sans_pionid.png" flashlight3GS_on_v2_sans_pionid.png
+r0
+
+CCopyPNGFile "/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/build/Distribution-iphoneos/led_flash.app/flashlight_off_v2_avec_pionid.png" flashlight_off_v2_avec_pionid.png
+r0
+
+CCopyPNGFile "/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/build/Distribution-iphoneos/led_flash.app/flashlight_off_v2_avec_pionid_petit.png" flashlight_off_v2_avec_pionid_petit.png
+r0
+
+CCopyPNGFile "/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/build/Distribution-iphoneos/led_flash.app/flashlight_off_v2_sans_pionid.png" flashlight_off_v2_sans_pionid.png
+r0
+
+CCopyPNGFile "/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/build/Distribution-iphoneos/led_flash.app/flashlight_on_v2_avec_pionid.png" flashlight_on_v2_avec_pionid.png
+r0
+
+CCopyPNGFile "/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/build/Distribution-iphoneos/led_flash.app/flashlight_on_v2_avec_pionid_petit.png" flashlight_on_v2_avec_pionid_petit.png
+r0
+
+CCopyPNGFile "/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/build/Distribution-iphoneos/led_flash.app/flashlight_on_v2_sans_pionid.png" flashlight_on_v2_sans_pionid.png
+r0
+
+CCopyPNGFile /Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/led_flash.app/Icon-57.png Icon-57.png
+s301310897.252859
+e301310897.301326
+r1
+xCopyPNGFile
+x/Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/led_flash.app/Icon-57.png
+xIcon-57.png
+lSLF07#2@77"CopyPNGFile build/Distribution-iphoneos/led_flash.app/Icon-57.png Icon-57.png301310897#301310897#0(0"0(0#0#44"/Users/Mathias/Desktop/led_flash/Icon-57.png8608200288#553"    cd /Users/Mathias/Desktop/led_flash    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Mathias/Desktop/led_flash/Icon-57.png /Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/led_flash.app/Icon-57.png0#
+
+CCopyPNGFile /Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/led_flash.app/Icon-72.png Icon-72.png
+s301310897.301428
+e301310897.350034
+r1
+xCopyPNGFile
+x/Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/led_flash.app/Icon-72.png
+xIcon-72.png
+lSLF07#2@77"CopyPNGFile build/Distribution-iphoneos/led_flash.app/Icon-72.png Icon-72.png301310897#301310897#0(0"0(0#0#44"/Users/Mathias/Desktop/led_flash/Icon-72.png8625585984#553"    cd /Users/Mathias/Desktop/led_flash    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Mathias/Desktop/led_flash/Icon-72.png /Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/led_flash.app/Icon-72.png0#
+
+CCopyPNGFile /Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/led_flash.app/Icon.png Icon.png
+s301310896.442032
+e301310896.503179
+r1
+xCopyPNGFile
+x/Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/led_flash.app/Icon.png
+xIcon.png
+lSLF07#2@71"CopyPNGFile build/Distribution-iphoneos/led_flash.app/Icon.png Icon.png301310896#301310896#0(0"0(0#0#41"/Users/Mathias/Desktop/led_flash/Icon.png8625664128#547"    cd /Users/Mathias/Desktop/led_flash    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Mathias/Desktop/led_flash/Icon.png /Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/led_flash.app/Icon.png0#
+
+CCopyPNGFile /Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/led_flash.app/flashlight-off-gris.png flashlight-off-gris.png
+s301310896.503270
+e301310896.933157
+r1
+xCopyPNGFile
+x/Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/led_flash.app/flashlight-off-gris.png
+xflashlight-off-gris.png
+lSLF07#2@101"CopyPNGFile build/Distribution-iphoneos/led_flash.app/flashlight-off-gris.png flashlight-off-gris.png301310896#301310896#0(0"0(0#0#56"/Users/Mathias/Desktop/led_flash/flashlight-off-gris.png8625339168#577"    cd /Users/Mathias/Desktop/led_flash    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Mathias/Desktop/led_flash/flashlight-off-gris.png /Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/led_flash.app/flashlight-off-gris.png0#
+
+CCopyPNGFile /Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/led_flash.app/flashlight-off.png flashlight-off.png
+s301310896.933250
+e301310897.252602
+r1
+xCopyPNGFile
+x/Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/led_flash.app/flashlight-off.png
+xflashlight-off.png
+lSLF07#2@91"CopyPNGFile build/Distribution-iphoneos/led_flash.app/flashlight-off.png flashlight-off.png301310896#301310897#0(0"0(0#0#51"/Users/Mathias/Desktop/led_flash/flashlight-off.png8620752640#567"    cd /Users/Mathias/Desktop/led_flash    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Mathias/Desktop/led_flash/flashlight-off.png /Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/led_flash.app/flashlight-off.png0#
+
+CCopyPNGFile /Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/led_flash.app/flashlight-on.png flashlight-on.png
+s301310895.684585
+e301310896.895823
+r1
+xCopyPNGFile
+x/Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/led_flash.app/flashlight-on.png
+xflashlight-on.png
+lSLF07#2@89"CopyPNGFile build/Distribution-iphoneos/led_flash.app/flashlight-on.png flashlight-on.png301310895#301310896#0(0"0(0#0#50"/Users/Mathias/Desktop/led_flash/flashlight-on.png8629100448#565"    cd /Users/Mathias/Desktop/led_flash    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Mathias/Desktop/led_flash/flashlight-on.png /Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/led_flash.app/flashlight-on.png0#
+
+CCopyPNGFile /Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/led_flash.app/flashlight-on3GS.png flashlight-on3GS.png
+s301310896.895913
+e301310897.854687
+r1
+xCopyPNGFile
+x/Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/led_flash.app/flashlight-on3GS.png
+xflashlight-on3GS.png
+lSLF07#2@95"CopyPNGFile build/Distribution-iphoneos/led_flash.app/flashlight-on3GS.png flashlight-on3GS.png301310896#301310897#0(0"0(0#0#53"/Users/Mathias/Desktop/led_flash/flashlight-on3GS.png8624894080#571"    cd /Users/Mathias/Desktop/led_flash    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Mathias/Desktop/led_flash/flashlight-on3GS.png /Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/led_flash.app/flashlight-on3GS.png0#
+
+CCopyPlistFile "/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/Distribution-iphoneos/led_flash.app/morseCode.plist" morseCode.plist
+r0
+
+CCpResource build/Distribution-iphoneos/led_flash.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+s301310895.604933
+e301310895.683485
+r1
+xCpResource
+xbuild/Distribution-iphoneos/led_flash.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist301310895#301310895#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist8618195232#498"    cd /Users/Mathias/Desktop/led_flash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist /Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/led_flash.app0#
+
+CCpResource build/Distribution-iphoneos/led_flash.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+r0
+
+CCpResource build/Distribution-iphoneos/led_flash.app/dark6.jpg dark6.jpg
+r0
+
+CCpResource build/Distribution-iphoneos/led_flash.app/light6.jpg light6.jpg
+r0
+
+CCreateUniversalBinary "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos/led_flash.app/led_flash" normal "armv6 armv7"
+s302182154.826480
+e302182154.830279
+r1
+xCreateUniversalBinary
+x/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos/led_flash.app/led_flash
+xnormal
+xarmv6 armv7
+lSLF07#2@94"CreateUniversalBinary build/Distribution-iphoneos/led_flash.app/led_flash normal "armv6 armv7"302182154#302182154#0(0"0(0#0#101"/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/armv6 armv78617416000#767"    cd "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/led_flash" "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/led_flash" -output "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos/led_flash.app/led_flash"0#
+
+CCreateUniversalBinary "/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/Distribution-iphoneos/led_flash.app/led_flash" normal "armv6 armv7"
+r0
+
+CCreateUniversalBinary "/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/build/Distribution-iphoneos/led_flash.app/led_flash" normal "armv6 armv7"
+r0
+
+CCreateUniversalBinary /Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/led_flash.app/led_flash normal "armv6 armv7"
+s301310900.231948
+e301310900.238108
+r1
+xCreateUniversalBinary
+x/Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/led_flash.app/led_flash
+xnormal
+xarmv6 armv7
+lSLF07#2@94"CreateUniversalBinary build/Distribution-iphoneos/led_flash.app/led_flash normal "armv6 armv7"301310900#301310900#0(0"0(0#0#44"/Users/Mathias/Desktop/led_flash/armv6 armv78629119872#531"    cd /Users/Mathias/Desktop/led_flash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/led_flash /Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/led_flash -output /Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/led_flash.app/led_flash0#
+
+CGenerateDSYMFile "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos/led_flash.app.dSYM" "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos/led_flash.app/led_flash"
+s302182154.830399
+e302182154.880231
+r1
+xGenerateDSYMFile
+x/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos/led_flash.app.dSYM
+x/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos/led_flash.app/led_flash
+lSLF07#2@115"GenerateDSYMFile build/Distribution-iphoneos/led_flash.app.dSYM build/Distribution-iphoneos/led_flash.app/led_flash302182154#302182154#0(0"0(0#0#141"/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos/led_flash.app/led_flash8616816288#541"    cd "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos/led_flash.app/led_flash" -o "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos/led_flash.app.dSYM"0#
+
+CGenerateDSYMFile "/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/Distribution-iphoneos/led_flash.app.dSYM" "/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/Distribution-iphoneos/led_flash.app/led_flash"
+r0
+
+CGenerateDSYMFile "/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/build/Distribution-iphoneos/led_flash.app.dSYM" "/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/build/Distribution-iphoneos/led_flash.app/led_flash"
+r0
+
+CGenerateDSYMFile /Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/led_flash.app.dSYM /Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/led_flash.app/led_flash
+s301310900.238196
+e301310900.272430
+r1
+xGenerateDSYMFile
+x/Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/led_flash.app.dSYM
+x/Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/led_flash.app/led_flash
+lSLF07#2@115"GenerateDSYMFile build/Distribution-iphoneos/led_flash.app.dSYM build/Distribution-iphoneos/led_flash.app/led_flash301310900#301310900#0(0"0(0#0#84"/Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/led_flash.app/led_flash8626069792#364"    cd /Users/Mathias/Desktop/led_flash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/led_flash.app/led_flash -o /Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/led_flash.app.dSYM0#
+
+CLd "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/led_flash" normal armv6
+s302182154.676933
+e302182154.725048
+r1
+xLd
+x/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/led_flash
+xnormal
+xarmv6
+lSLF07#2@185"Link /Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/led_flash302182154#302182154#0(0"0(0#0#0"8617660352#1203"    cd "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk "-L/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos" "-F/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos" -filelist "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/led_flash.LinkFileList" -dead_strip -miphoneos-version-min=4.0 -framework Foundation -framework UIKit -framework CoreGraphics -framework AVFoundation -framework iAd -o "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/led_flash"0#
+
+CLd "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/led_flash" normal armv7
+s302182154.778722
+e302182154.826380
+r1
+xLd
+x/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/led_flash
+xnormal
+xarmv7
+lSLF07#2@185"Link /Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/led_flash302182154#302182154#0(0"0(0#0#0"8616223008#1203"    cd "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk "-L/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos" "-F/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos" -filelist "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/led_flash.LinkFileList" -dead_strip -miphoneos-version-min=4.0 -framework Foundation -framework UIKit -framework CoreGraphics -framework AVFoundation -framework iAd -o "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/led_flash"0#
+
+CLd "/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/led_flash" normal armv6
+r0
+
+CLd "/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/led_flash" normal armv7
+r0
+
+CLd "/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/led_flash" normal armv6
+r0
+
+CLd "/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/led_flash" normal armv7
+r0
+
+CLd /Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/led_flash normal armv6
+s301310900.117262
+e301310900.231840
+r1
+xLd
+x/Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/led_flash
+xnormal
+xarmv6
+lSLF07#2@128"Link /Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/led_flash301310900#301310900#0(0"0(0#0#0"8609919648#908"    cd /Users/Mathias/Desktop/led_flash    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -L/Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos -F/Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos -filelist /Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/led_flash.LinkFileList -dead_strip -miphoneos-version-min=4.0 -framework Foundation -framework UIKit -framework CoreGraphics -framework AVFoundation -framework iAd -o /Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv6/led_flash0#
+
+CLd /Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/led_flash normal armv7
+s301310900.106799
+e301310900.220751
+r1
+xLd
+x/Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/led_flash
+xnormal
+xarmv7
+lSLF07#2@128"Link /Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/led_flash301310900#301310900#0(0"0(0#0#0"8620670432#908"    cd /Users/Mathias/Desktop/led_flash    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -L/Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos -F/Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos -filelist /Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/led_flash.LinkFileList -dead_strip -miphoneos-version-min=4.0 -framework Foundation -framework UIKit -framework CoreGraphics -framework AVFoundation -framework iAd -o /Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/Objects-normal/armv7/led_flash0#
+
+CProcessInfoPlistFile "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos/led_flash.app/Info.plist" led_flash-Info.plist
+r0
+
+CProcessInfoPlistFile "/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/Distribution-iphoneos/led_flash.app/Info.plist" led_flash-Info.plist
+r0
+
+CProcessInfoPlistFile "/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/build/Distribution-iphoneos/led_flash.app/Info.plist" led_flash-Info.plist
+r0
+
+CProcessInfoPlistFile /Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/led_flash.app/Info.plist led_flash-Info.plist
+s301310895.606598
+e301310895.642927
+r1
+xProcessInfoPlistFile
+x/Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/led_flash.app/Info.plist
+xled_flash-Info.plist
+lSLF07#2@28"Process led_flash-Info.plist301310895#301310895#0(0"0(0#0#53"/Users/Mathias/Desktop/led_flash/led_flash-Info.plist8602973024#567"    cd /Users/Mathias/Desktop/led_flash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility led_flash-Info.plist -genpkginfo /Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/led_flash.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/led_flash.app/ResourceRules.plist -o /Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/led_flash.app/Info.plist0#
+
+CProcessPCH /var/folders/in/in++jmrvFvOGQ5zhHNaVTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/led_flash_Prefix-athyrpbhoyzolzcjpftvdsgtndmm/led_flash_Prefix.pch.gch led_flash_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s301310897.855747
+e301310899.482754
+r1
+xProcessPCH
+x/var/folders/in/in++jmrvFvOGQ5zhHNaVTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/led_flash_Prefix-athyrpbhoyzolzcjpftvdsgtndmm/led_flash_Prefix.pch.gch
+xled_flash_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile led_flash_Prefix.pch301310897#301310899#0(0"0(0#0#53"/Users/Mathias/Desktop/led_flash/led_flash_Prefix.pch8621368832#1697"    cd /Users/Mathias/Desktop/led_flash    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/led_flash-generated-files.hmap -I/Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/led_flash-own-target-headers.hmap -I/Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/led_flash-all-target-headers.hmap -iquote /Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/led_flash-project-headers.hmap -F/Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos -I/Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/include -I/Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/DerivedSources/armv7 -I/Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/Mathias/Desktop/led_flash/led_flash_Prefix.pch -o /var/folders/in/in++jmrvFvOGQ5zhHNaVTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/led_flash_Prefix-athyrpbhoyzolzcjpftvdsgtndmm/led_flash_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/in/in++jmrvFvOGQ5zhHNaVTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/led_flash_Prefix-cclpmohvlygwtkgwlxqyzdvxxyoo/led_flash_Prefix.pch.gch led_flash_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/in/in++jmrvFvOGQ5zhHNaVTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/led_flash_Prefix-dgotoulfgijkyhcmwbymzpcrfvhx/led_flash_Prefix.pch.gch led_flash_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s302182152.956753
+e302182154.070563
+r1
+xProcessPCH
+x/var/folders/in/in++jmrvFvOGQ5zhHNaVTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/led_flash_Prefix-dgotoulfgijkyhcmwbymzpcrfvhx/led_flash_Prefix.pch.gch
+xled_flash_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile led_flash_Prefix.pch302182152#302182154#0(0"0(0#0#110"/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/led_flash_Prefix.pch8590328608#2287"    cd "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/led_flash-generated-files.hmap" "-I/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/led_flash-own-target-headers.hmap" "-I/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/led_flash-all-target-headers.hmap" -iquote "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/led_flash-project-headers.hmap" "-F/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos" "-I/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos/include" "-I/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/DerivedSources/armv6" "-I/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -c "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/led_flash_Prefix.pch" -o /var/folders/in/in++jmrvFvOGQ5zhHNaVTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/led_flash_Prefix-dgotoulfgijkyhcmwbymzpcrfvhx/led_flash_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/in/in++jmrvFvOGQ5zhHNaVTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/led_flash_Prefix-eqbbpolexpoltcctuwkvvsgxivbd/led_flash_Prefix.pch.gch led_flash_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/in/in++jmrvFvOGQ5zhHNaVTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/led_flash_Prefix-esvtxoluuipsitecaesvicpbpfdn/led_flash_Prefix.pch.gch led_flash_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/in/in++jmrvFvOGQ5zhHNaVTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/led_flash_Prefix-fluidjthzrhyhtblbmthiravbtvh/led_flash_Prefix.pch.gch led_flash_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s302182152.958006
+e302182153.939135
+r1
+xProcessPCH
+x/var/folders/in/in++jmrvFvOGQ5zhHNaVTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/led_flash_Prefix-fluidjthzrhyhtblbmthiravbtvh/led_flash_Prefix.pch.gch
+xled_flash_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile led_flash_Prefix.pch302182152#302182153#0(0"0(0#0#110"/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/led_flash_Prefix.pch8615596960#2287"    cd "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/led_flash-generated-files.hmap" "-I/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/led_flash-own-target-headers.hmap" "-I/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/led_flash-all-target-headers.hmap" -iquote "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/led_flash-project-headers.hmap" "-F/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos" "-I/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos/include" "-I/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/DerivedSources/armv7" "-I/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -c "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/led_flash_Prefix.pch" -o /var/folders/in/in++jmrvFvOGQ5zhHNaVTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/led_flash_Prefix-fluidjthzrhyhtblbmthiravbtvh/led_flash_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/in/in++jmrvFvOGQ5zhHNaVTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/led_flash_Prefix-ftirfdmqchzxlbbspggvtkamesvb/led_flash_Prefix.pch.gch led_flash_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/in/in++jmrvFvOGQ5zhHNaVTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/led_flash_Prefix-gcwqmifrczfkgkgyljnmbqcpxlsv/led_flash_Prefix.pch.gch led_flash_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s301310897.854820
+e301310899.482411
+r1
+xProcessPCH
+x/var/folders/in/in++jmrvFvOGQ5zhHNaVTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/led_flash_Prefix-gcwqmifrczfkgkgyljnmbqcpxlsv/led_flash_Prefix.pch.gch
+xled_flash_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile led_flash_Prefix.pch301310897#301310899#0(0"0(0#0#53"/Users/Mathias/Desktop/led_flash/led_flash_Prefix.pch8625168608#1697"    cd /Users/Mathias/Desktop/led_flash    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/led_flash-generated-files.hmap -I/Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/led_flash-own-target-headers.hmap -I/Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/led_flash-all-target-headers.hmap -iquote /Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/led_flash-project-headers.hmap -F/Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos -I/Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/include -I/Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/DerivedSources/armv6 -I/Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/Mathias/Desktop/led_flash/led_flash_Prefix.pch -o /var/folders/in/in++jmrvFvOGQ5zhHNaVTk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/led_flash_Prefix-gcwqmifrczfkgkgyljnmbqcpxlsv/led_flash_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/Mathias/Library/MobileDevice/Provisioning Profiles/7A33AEB0-B717-44B8-ABC9-DD3C89B534DB.mobileprovision" "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos/led_flash.app/embedded.mobileprovision"
+r0
+
+CProcessProductPackaging "/Users/Mathias/Library/MobileDevice/Provisioning Profiles/7A33AEB0-B717-44B8-ABC9-DD3C89B534DB.mobileprovision" "/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/Distribution-iphoneos/led_flash.app/embedded.mobileprovision"
+r0
+
+CProcessProductPackaging "/Users/Mathias/Library/MobileDevice/Provisioning Profiles/7A33AEB0-B717-44B8-ABC9-DD3C89B534DB.mobileprovision" "/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/build/Distribution-iphoneos/led_flash.app/embedded.mobileprovision"
+r0
+
+CProcessProductPackaging "/Users/Mathias/Library/MobileDevice/Provisioning Profiles/7A33AEB0-B717-44B8-ABC9-DD3C89B534DB.mobileprovision" /Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/led_flash.app/embedded.mobileprovision
+s301310900.272532
+e301310900.274006
+r1
+xProcessProductPackaging
+x/Users/Mathias/Library/MobileDevice/Provisioning Profiles/7A33AEB0-B717-44B8-ABC9-DD3C89B534DB.mobileprovision
+x/Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/led_flash.app/embedded.mobileprovision
+lSLF07#2@203"ProcessProductPackaging "/Users/Mathias/Library/MobileDevice/Provisioning Profiles/7A33AEB0-B717-44B8-ABC9-DD3C89B534DB.mobileprovision" build/Distribution-iphoneos/led_flash.app/embedded.mobileprovision301310900#301310900#0(0"0(0#0#99"/Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/led_flash.app/embedded.mobileprovision8625001056#422"    cd /Users/Mathias/Desktop/led_flash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/Mathias/Library/MobileDevice/Provisioning Profiles/7A33AEB0-B717-44B8-ABC9-DD3C89B534DB.mobileprovision" -o /Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/led_flash.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/led_flash.build/Distribution-iphoneos/led_flash.build/led_flash.xcent"
+r0
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist "/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/build/led_flash.build/Distribution-iphoneos/led_flash.build/led_flash.xcent"
+r0
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist /Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/led_flash.xcent
+s301310900.277864
+e301310900.298861
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist
+x/Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/led_flash.xcent
+lSLF07#2@188"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist build/led_flash.build/Distribution-iphoneos/led_flash.build/led_flash.xcent301310900#301310900#0(0"0(0#0#108"/Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/led_flash.xcent8621174624#433"    cd /Users/Mathias/Desktop/led_flash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/Mathias/Desktop/led_flash/build/led_flash.build/Distribution-iphoneos/led_flash.build/led_flash.xcent0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist "/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/led_flash.build/Distribution-iphoneos/led_flash.build/led_flash.xcent"
+r0
+
+CTouch "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos/led_flash.app"
+s302182154.880376
+e302182154.883626
+r1
+xTouch
+x/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos/led_flash.app
+lSLF07#2@137"Touch /Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos/led_flash.app302182154#302182154#0(0"0(0#0#0"8616668096#379"    cd "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos/led_flash.app"0#
+
+CTouch "/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/Distribution-iphoneos/led_flash.app"
+r0
+
+CTouch "/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/build/Distribution-iphoneos/led_flash.app"
+r0
+
+CTouch /Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/led_flash.app
+s301310900.274067
+e301310900.277767
+r1
+xTouch
+x/Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/led_flash.app
+lSLF07#2@80"Touch /Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/led_flash.app301310900#301310900#0(0"0(0#0#0"8622386816#261"    cd /Users/Mathias/Desktop/led_flash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/led_flash.app0#
+
+CValidate "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos/led_flash.app"
+s302182155.273374
+e302182155.807605
+r1
+xValidate
+x/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos/led_flash.app
+lSLF07#2@50"Validate build/Distribution-iphoneos/led_flash.app302182155#302182155#0(0"0(0#0#131"/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos/led_flash.app8613899840#488"    cd "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PRODUCT_TYPE com.apple.product-type.application    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/Validation "/Users/Mathias/Desktop/Applis finies/FlashLight/led_flash - version soumise 1 - refusée/build/Distribution-iphoneos/led_flash.app"0#
+
+CValidate "/Users/Mathias/Desktop/iBulb v2.3 - test 3GS/build/Distribution-iphoneos/led_flash.app"
+r0
+
+CValidate "/Users/Mathias/Desktop/led_flash_v2 - (version type test 3GS)/build/Distribution-iphoneos/led_flash.app"
+r0
+
+CValidate /Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/led_flash.app
+s301311711.615875
+e301311711.800159
+r1
+xValidate
+x/Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/led_flash.app
+lSLF07#2@50"Validate build/Distribution-iphoneos/led_flash.app301311711#301311711#0(0"0(0#0#74"/Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/led_flash.app8620984960#370"    cd /Users/Mathias/Desktop/led_flash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PRODUCT_TYPE com.apple.product-type.application    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/Validation /Users/Mathias/Desktop/led_flash/build/Distribution-iphoneos/led_flash.app0#
+

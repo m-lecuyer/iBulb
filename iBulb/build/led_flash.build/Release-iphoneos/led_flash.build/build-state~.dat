@@ -1,0 +1,540 @@
+Tled_flash
+v7
+r0
+t301091847.906818
+cCheck dependencies
+cCpResource build/Release-iphoneos/led_flash.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/benoit/Documents/led_flash/build/Release-iphoneos/led_flash.app/Info.plist led_flash-Info.plist
+cCompileXIB /Users/benoit/Documents/led_flash/MainWindow.xib
+cCopyPNGFile /Users/benoit/Documents/led_flash/build/Release-iphoneos/led_flash.app/flashlight-on.png flashlight-on.png
+cCopyPNGFile /Users/benoit/Documents/led_flash/build/Release-iphoneos/led_flash.app/Icon.png Icon.png
+cCopyPNGFile /Users/benoit/Documents/led_flash/build/Release-iphoneos/led_flash.app/flashlight-off-gris.png flashlight-off-gris.png
+cCopyPNGFile /Users/benoit/Documents/led_flash/build/Release-iphoneos/led_flash.app/flashlight-on3GS.png flashlight-on3GS.png
+cCopyPNGFile /Users/benoit/Documents/led_flash/build/Release-iphoneos/led_flash.app/flashlight-off.png flashlight-off.png
+cProcessPCH /var/folders/Oc/Oc-C5LQlEmyHldr4jELwU++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/led_flash_Prefix-cgbgsdhdbcfcgmfzxciricmidsqr/led_flash_Prefix.pch.gch led_flash_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/Oc/Oc-C5LQlEmyHldr4jELwU++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/led_flash_Prefix-amweompvkxydcsgmjaigbkxcacqd/led_flash_Prefix.pch.gch led_flash_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/led_flash.build/Release-iphoneos/led_flash.build/Objects-normal/armv6/main.o /Users/benoit/Documents/led_flash/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/led_flash.build/Release-iphoneos/led_flash.build/Objects-normal/armv6/led_flashAppDelegate.o /Users/benoit/Documents/led_flash/Classes/led_flashAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/led_flash.build/Release-iphoneos/led_flash.build/Objects-normal/armv6/myviewcontroller.o /Users/benoit/Documents/led_flash/Classes/../myviewcontroller.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/led_flash.build/Release-iphoneos/led_flash.build/Objects-normal/armv7/main.o /Users/benoit/Documents/led_flash/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/benoit/Documents/led_flash/build/led_flash.build/Release-iphoneos/led_flash.build/Objects-normal/armv6/led_flash normal armv6
+cCompileC build/led_flash.build/Release-iphoneos/led_flash.build/Objects-normal/armv7/led_flashAppDelegate.o /Users/benoit/Documents/led_flash/Classes/led_flashAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/led_flash.build/Release-iphoneos/led_flash.build/Objects-normal/armv7/myviewcontroller.o /Users/benoit/Documents/led_flash/Classes/../myviewcontroller.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/benoit/Documents/led_flash/build/led_flash.build/Release-iphoneos/led_flash.build/Objects-normal/armv7/led_flash normal armv7
+cCreateUniversalBinary /Users/benoit/Documents/led_flash/build/Release-iphoneos/led_flash.app/led_flash normal "armv6 armv7"
+cGenerateDSYMFile /Users/benoit/Documents/led_flash/build/Release-iphoneos/led_flash.app.dSYM /Users/benoit/Documents/led_flash/build/Release-iphoneos/led_flash.app/led_flash
+cProcessProductPackaging "/Users/benoit/Library/MobileDevice/Provisioning Profiles/8ABA2C0D-E644-4B13-9DEB-807CD4E54588.mobileprovision" /Users/benoit/Documents/led_flash/build/Release-iphoneos/led_flash.app/embedded.mobileprovision
+cTouch /Users/benoit/Documents/led_flash/build/Release-iphoneos/led_flash.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist /Users/benoit/Documents/led_flash/build/led_flash.build/Release-iphoneos/led_flash.build/led_flash.xcent
+cCodeSign /Users/benoit/Documents/led_flash/build/Release-iphoneos/led_flash.app
+cValidate /Users/benoit/Documents/led_flash/build/Release-iphoneos/led_flash.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk
+c000000004C40C3E80000000000000110
+t1279312872
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist
+c000000004C2A7DA700000000000001A7
+t1277853095
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+c000000004C2A7DA700000000000001E5
+t1277853095
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004C0473C400000000001AA470
+t1275360196
+s1746032
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.h
+c000000004C0473B9000000000000065C
+t1275360185
+s1628
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFE06FA000000000034A850
+t1274939130
+s3450960
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFE07D200000000003E1EB0
+t1274939346
+s4071088
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFE07B10000000000001466
+t1274939313
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C296E2A00000000000009CD
+t1277783594
+s2509
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C296F120000000002D563E0
+t1277783826
+s47539168
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/iAd.framework/Headers/iAd.h
+c000000004C0482160000000000000071
+t1275363862
+s113
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/iAd.framework/iAd
+c000000004C04821B0000000000080FB0
+t1275363867
+s528304
+
+N/Users/benoit/Documents/led_flash/Classes/../myviewcontroller.m
+c000000004C405E8300000000000012DC
+t1279286915
+s4828
+i"myviewcontroller.h"
+
+N/Users/benoit/Documents/led_flash/Classes/led_flashAppDelegate.h
+c000000004C3B57DC0000000000000148
+t1278957532
+s328
+i<UIKit/UIKit.h>
+
+N/Users/benoit/Documents/led_flash/Classes/led_flashAppDelegate.m
+c000000004C3BA45F00000000000009FD
+t1278977119
+s2557
+i"led_flashAppDelegate.h"
+
+N/Users/benoit/Documents/led_flash/Icon.png
+c000000004C41F3B1000000000001F21B
+t1279390641
+s127515
+
+N/Users/benoit/Documents/led_flash/MainWindow.xib
+c000000004C405E1800000000000060F9
+t1279286808
+s24825
+
+N/Users/benoit/Documents/led_flash/build/Release-iphoneos/led_flash.app
+t1279399047
+s510
+
+N/Users/benoit/Documents/led_flash/build/Release-iphoneos/led_flash.app.dSYM
+t1279399046
+s102
+
+N/Users/benoit/Documents/led_flash/build/Release-iphoneos/led_flash.app/Icon.png
+t1279399030
+s150180
+
+N/Users/benoit/Documents/led_flash/build/Release-iphoneos/led_flash.app/Info.plist
+t1279399027
+s773
+
+N/Users/benoit/Documents/led_flash/build/Release-iphoneos/led_flash.app/MainWindow.nib
+t1279399040
+s1938
+
+N/Users/benoit/Documents/led_flash/build/Release-iphoneos/led_flash.app/PkgInfo
+t1279399027
+s8
+
+N/Users/benoit/Documents/led_flash/build/Release-iphoneos/led_flash.app/ResourceRules.plist
+t1279399027
+s485
+
+N/Users/benoit/Documents/led_flash/build/Release-iphoneos/led_flash.app/embedded.mobileprovision
+t1279399046
+s9376
+
+N/Users/benoit/Documents/led_flash/build/Release-iphoneos/led_flash.app/flashlight-off-gris.png
+t1279399031
+s114021
+
+N/Users/benoit/Documents/led_flash/build/Release-iphoneos/led_flash.app/flashlight-off.png
+t1279399032
+s118049
+
+N/Users/benoit/Documents/led_flash/build/Release-iphoneos/led_flash.app/flashlight-on.png
+t1279399030
+s247294
+
+N/Users/benoit/Documents/led_flash/build/Release-iphoneos/led_flash.app/flashlight-on3GS.png
+t1279399032
+s243967
+
+N/Users/benoit/Documents/led_flash/build/Release-iphoneos/led_flash.app/led_flash
+t1279399046
+s58160
+
+N/Users/benoit/Documents/led_flash/build/led_flash.build/Release-iphoneos/led_flash.build/Objects-normal/armv6/led_flash
+t1279399045
+s25392
+
+N/Users/benoit/Documents/led_flash/build/led_flash.build/Release-iphoneos/led_flash.build/Objects-normal/armv6/led_flash.LinkFileList
+c000000004C421473000000000000017B
+t1279399027
+s379
+
+N/Users/benoit/Documents/led_flash/build/led_flash.build/Release-iphoneos/led_flash.build/Objects-normal/armv6/led_flashAppDelegate.o
+t1279399043
+s46160
+
+N/Users/benoit/Documents/led_flash/build/led_flash.build/Release-iphoneos/led_flash.build/Objects-normal/armv6/main.o
+t1279399043
+s6428
+
+N/Users/benoit/Documents/led_flash/build/led_flash.build/Release-iphoneos/led_flash.build/Objects-normal/armv6/myviewcontroller.o
+t1279399043
+s51712
+
+N/Users/benoit/Documents/led_flash/build/led_flash.build/Release-iphoneos/led_flash.build/Objects-normal/armv7/led_flash
+t1279399046
+s25392
+
+N/Users/benoit/Documents/led_flash/build/led_flash.build/Release-iphoneos/led_flash.build/Objects-normal/armv7/led_flash.LinkFileList
+c000000004C421473000000000000017B
+t1279399027
+s379
+
+N/Users/benoit/Documents/led_flash/build/led_flash.build/Release-iphoneos/led_flash.build/Objects-normal/armv7/led_flashAppDelegate.o
+t1279399045
+s46172
+
+N/Users/benoit/Documents/led_flash/build/led_flash.build/Release-iphoneos/led_flash.build/Objects-normal/armv7/main.o
+t1279399045
+s6408
+
+N/Users/benoit/Documents/led_flash/build/led_flash.build/Release-iphoneos/led_flash.build/Objects-normal/armv7/myviewcontroller.o
+t1279399045
+s51764
+
+N/Users/benoit/Documents/led_flash/build/led_flash.build/Release-iphoneos/led_flash.build/com.apple.build-tools.platform.validate
+t2
+s0
+
+N/Users/benoit/Documents/led_flash/build/led_flash.build/Release-iphoneos/led_flash.build/led_flash.xcent
+t1279399046
+s424
+
+N/Users/benoit/Documents/led_flash/flashlight-off-gris.png
+c000000004C4057AB0000000000017E1F
+t1279285163
+s97823
+
+N/Users/benoit/Documents/led_flash/flashlight-off.png
+c000000004C40C88800000000000181DD
+t1279314056
+s98781
+
+N/Users/benoit/Documents/led_flash/flashlight-on.png
+c000000004C3EAA76000000000003894B
+t1279175286
+s231755
+
+N/Users/benoit/Documents/led_flash/flashlight-on3GS.png
+c000000004C4058EC00000000000374AC
+t1279285484
+s226476
+
+N/Users/benoit/Documents/led_flash/led_flash_Prefix.pch
+c000000004C3B4D2B00000000000000BB
+t1278954795
+s187
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/benoit/Documents/led_flash/main.m
+c000000004C3B4D2B0000000000000165
+t1278954795
+s357
+i<UIKit/UIKit.h>
+
+N/Users/benoit/Documents/led_flash/myviewcontroller.h
+c000000004C3FA07F0000000000000475
+t1279238271
+s1141
+i<UIKit/UIKit.h>
+i<AVFoundation/AVFoundation.h>
+i<iAd/iAd.h>
+
+N/Users/benoit/Library/MobileDevice/Provisioning Profiles/8ABA2C0D-E644-4B13-9DEB-807CD4E54588.mobileprovision
+c000000004C3B6F4500000000000024A0
+t1278963525
+s9376
+
+N/var/folders/Oc/Oc-C5LQlEmyHldr4jELwU++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/led_flash_Prefix-amweompvkxydcsgmjaigbkxcacqd/led_flash_Prefix.pch.gch
+t1279288305
+s11701860
+
+N/var/folders/Oc/Oc-C5LQlEmyHldr4jELwU++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/led_flash_Prefix-cgbgsdhdbcfcgmfzxciricmidsqr/led_flash_Prefix.pch.gch
+t1279288305
+s11243108
+
+Nled_flash-Info.plist
+c000000004C3EB6DA00000000000003C4
+t1279178458
+s964
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies301091827#301091827#0(0"0(0#1#0"8604746400#0"0#
+
+CCodeSign /Users/benoit/Documents/led_flash/build/Release-iphoneos/led_flash.app
+s301091846.568935
+e301091847.124468
+r1
+xCodeSign
+x/Users/benoit/Documents/led_flash/build/Release-iphoneos/led_flash.app
+lSLF07#2@45"CodeSign build/Release-iphoneos/led_flash.app301091846#301091847#0(0"0(0#0#70"/Users/benoit/Documents/led_flash/build/Release-iphoneos/led_flash.app8605292064#648"    cd /Users/benoit/Documents/led_flash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: BENOIT MARILLEAU (3R84QE8773)" --resource-rules=/Users/benoit/Documents/led_flash/build/Release-iphoneos/led_flash.app/ResourceRules.plist --entitlements /Users/benoit/Documents/led_flash/build/led_flash.build/Release-iphoneos/led_flash.build/led_flash.xcent /Users/benoit/Documents/led_flash/build/Release-iphoneos/led_flash.app0#
+
+CCompileC build/led_flash.build/Release-iphoneos/led_flash.build/Objects-normal/armv6/led_flashAppDelegate.o /Users/benoit/Documents/led_flash/Classes/led_flashAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s301091841.086557
+e301091843.616448
+r1
+xCompileC
+xbuild/led_flash.build/Release-iphoneos/led_flash.build/Objects-normal/armv6/led_flashAppDelegate.o
+x/Users/benoit/Documents/led_flash/Classes/led_flashAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/benoit/Documents/led_flash/Classes/led_flashAppDelegate.m: In function '-[led_flashAppDelegate applicationDidBecomeActive:]':
+o/Users/benoit/Documents/led_flash/Classes/led_flashAppDelegate.m:56: warning: 'UIViewController' may not respond to '-devientActive'
+o/Users/benoit/Documents/led_flash/Classes/led_flashAppDelegate.m:56: warning: (Messages without a matching method signature
+o/Users/benoit/Documents/led_flash/Classes/led_flashAppDelegate.m:56: warning: will be assumed to return 'id' and accept
+o/Users/benoit/Documents/led_flash/Classes/led_flashAppDelegate.m:56: warning: '...' as arguments.)
+lSLF07#2@72"Compile /Users/benoit/Documents/led_flash/Classes/led_flashAppDelegate.m301091841#301091843#0(609"/Users/benoit/Documents/led_flash/Classes/led_flashAppDelegate.m: In function '-[led_flashAppDelegate applicationDidBecomeActive:]':/Users/benoit/Documents/led_flash/Classes/led_flashAppDelegate.m:56: warning: 'UIViewController' may not respond to '-devientActive'/Users/benoit/Documents/led_flash/Classes/led_flashAppDelegate.m:56: warning: (Messages without a matching method signature/Users/benoit/Documents/led_flash/Classes/led_flashAppDelegate.m:56: warning: will be assumed to return 'id' and accept/Users/benoit/Documents/led_flash/Classes/led_flashAppDelegate.m:56: warning: '...' as arguments.)2(22@54"'UIViewController' may not respond to '-devientActive'301091843#133#133#0(6@64"/Users/benoit/Documents/led_flash/Classes/led_flashAppDelegate.m300669919#56#0#56#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)301091843#266#124#0(6@64"/Users/benoit/Documents/led_flash/Classes/led_flashAppDelegate.m300669919#56#0#56#0#0"0(0#0#64"/Users/benoit/Documents/led_flash/Classes/led_flashAppDelegate.m8605889280#1808"    cd /Users/benoit/Documents/led_flash    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/benoit/Documents/led_flash/build/led_flash.build/Release-iphoneos/led_flash.build/led_flash-generated-files.hmap -I/Users/benoit/Documents/led_flash/build/led_flash.build/Release-iphoneos/led_flash.build/led_flash-own-target-headers.hmap -I/Users/benoit/Documents/led_flash/build/led_flash.build/Release-iphoneos/led_flash.build/led_flash-all-target-headers.hmap -iquote /Users/benoit/Documents/led_flash/build/led_flash.build/Release-iphoneos/led_flash.build/led_flash-project-headers.hmap -F/Users/benoit/Documents/led_flash/build/Release-iphoneos -I/Users/benoit/Documents/led_flash/build/Release-iphoneos/include -I/Users/benoit/Documents/led_flash/build/led_flash.build/Release-iphoneos/led_flash.build/DerivedSources/armv6 -I/Users/benoit/Documents/led_flash/build/led_flash.build/Release-iphoneos/led_flash.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Oc/Oc-C5LQlEmyHldr4jELwU++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/led_flash_Prefix-cgbgsdhdbcfcgmfzxciricmidsqr/led_flash_Prefix.pch -c /Users/benoit/Documents/led_flash/Classes/led_flashAppDelegate.m -o /Users/benoit/Documents/led_flash/build/led_flash.build/Release-iphoneos/led_flash.build/Objects-normal/armv6/led_flashAppDelegate.o0#
+
+CCompileC build/led_flash.build/Release-iphoneos/led_flash.build/Objects-normal/armv6/main.o /Users/benoit/Documents/led_flash/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s301091841.085298
+e301091843.613791
+r1
+xCompileC
+xbuild/led_flash.build/Release-iphoneos/led_flash.build/Objects-normal/armv6/main.o
+x/Users/benoit/Documents/led_flash/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@48"Compile /Users/benoit/Documents/led_flash/main.m301091841#301091843#0(0"0(0#0#40"/Users/benoit/Documents/led_flash/main.m8612218880#1768"    cd /Users/benoit/Documents/led_flash    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/benoit/Documents/led_flash/build/led_flash.build/Release-iphoneos/led_flash.build/led_flash-generated-files.hmap -I/Users/benoit/Documents/led_flash/build/led_flash.build/Release-iphoneos/led_flash.build/led_flash-own-target-headers.hmap -I/Users/benoit/Documents/led_flash/build/led_flash.build/Release-iphoneos/led_flash.build/led_flash-all-target-headers.hmap -iquote /Users/benoit/Documents/led_flash/build/led_flash.build/Release-iphoneos/led_flash.build/led_flash-project-headers.hmap -F/Users/benoit/Documents/led_flash/build/Release-iphoneos -I/Users/benoit/Documents/led_flash/build/Release-iphoneos/include -I/Users/benoit/Documents/led_flash/build/led_flash.build/Release-iphoneos/led_flash.build/DerivedSources/armv6 -I/Users/benoit/Documents/led_flash/build/led_flash.build/Release-iphoneos/led_flash.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Oc/Oc-C5LQlEmyHldr4jELwU++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/led_flash_Prefix-cgbgsdhdbcfcgmfzxciricmidsqr/led_flash_Prefix.pch -c /Users/benoit/Documents/led_flash/main.m -o /Users/benoit/Documents/led_flash/build/led_flash.build/Release-iphoneos/led_flash.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/led_flash.build/Release-iphoneos/led_flash.build/Objects-normal/armv6/myviewcontroller.o /Users/benoit/Documents/led_flash/Classes/../myviewcontroller.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s301091843.614013
+e301091843.989837
+r1
+xCompileC
+xbuild/led_flash.build/Release-iphoneos/led_flash.build/Objects-normal/armv6/myviewcontroller.o
+x/Users/benoit/Documents/led_flash/Classes/../myviewcontroller.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/benoit/Documents/led_flash/Classes/../myviewcontroller.m: In function '-[myviewcontroller viewDidLoad]':
+o/Users/benoit/Documents/led_flash/Classes/../myviewcontroller.m:46: warning: class 'myviewcontroller' does not implement the 'AVCaptureVideoDataOutputSampleBufferDelegate' protocol
+o/Users/benoit/Documents/led_flash/Classes/../myviewcontroller.m:66: warning: class 'myviewcontroller' does not implement the 'ADBannerViewDelegate' protocol
+lSLF07#2@71"Compile /Users/benoit/Documents/led_flash/Classes/../myviewcontroller.m301091843#301091843#0(450"/Users/benoit/Documents/led_flash/Classes/../myviewcontroller.m: In function '-[myviewcontroller viewDidLoad]':/Users/benoit/Documents/led_flash/Classes/../myviewcontroller.m:46: warning: class 'myviewcontroller' does not implement the 'AVCaptureVideoDataOutputSampleBufferDelegate' protocol/Users/benoit/Documents/led_flash/Classes/../myviewcontroller.m:66: warning: class 'myviewcontroller' does not implement the 'ADBannerViewDelegate' protocol2(22@103"Class 'myviewcontroller' does not implement the 'AVCaptureVideoDataOutputSampleBufferDelegate' protocol301091843#112#181#0(6@63"/Users/benoit/Documents/led_flash/Classes/../myviewcontroller.m300979715#46#0#46#0#45"class '*' does not implement the '*' protocol0(22@79"Class 'myviewcontroller' does not implement the 'ADBannerViewDelegate' protocol301091843#293#157#0(6@63"/Users/benoit/Documents/led_flash/Classes/../myviewcontroller.m300979715#66#0#66#0#45"class '*' does not implement the '*' protocol0(0#0#63"/Users/benoit/Documents/led_flash/Classes/../myviewcontroller.m8612201312#1803"    cd /Users/benoit/Documents/led_flash    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/benoit/Documents/led_flash/build/led_flash.build/Release-iphoneos/led_flash.build/led_flash-generated-files.hmap -I/Users/benoit/Documents/led_flash/build/led_flash.build/Release-iphoneos/led_flash.build/led_flash-own-target-headers.hmap -I/Users/benoit/Documents/led_flash/build/led_flash.build/Release-iphoneos/led_flash.build/led_flash-all-target-headers.hmap -iquote /Users/benoit/Documents/led_flash/build/led_flash.build/Release-iphoneos/led_flash.build/led_flash-project-headers.hmap -F/Users/benoit/Documents/led_flash/build/Release-iphoneos -I/Users/benoit/Documents/led_flash/build/Release-iphoneos/include -I/Users/benoit/Documents/led_flash/build/led_flash.build/Release-iphoneos/led_flash.build/DerivedSources/armv6 -I/Users/benoit/Documents/led_flash/build/led_flash.build/Release-iphoneos/led_flash.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Oc/Oc-C5LQlEmyHldr4jELwU++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/led_flash_Prefix-cgbgsdhdbcfcgmfzxciricmidsqr/led_flash_Prefix.pch -c /Users/benoit/Documents/led_flash/Classes/../myviewcontroller.m -o /Users/benoit/Documents/led_flash/build/led_flash.build/Release-iphoneos/led_flash.build/Objects-normal/armv6/myviewcontroller.o0#
+
+CCompileC build/led_flash.build/Release-iphoneos/led_flash.build/Objects-normal/armv7/led_flashAppDelegate.o /Users/benoit/Documents/led_flash/Classes/led_flashAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s301091845.693041
+e301091845.817920
+r1
+xCompileC
+xbuild/led_flash.build/Release-iphoneos/led_flash.build/Objects-normal/armv7/led_flashAppDelegate.o
+x/Users/benoit/Documents/led_flash/Classes/led_flashAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/benoit/Documents/led_flash/Classes/led_flashAppDelegate.m: In function '-[led_flashAppDelegate applicationDidBecomeActive:]':
+o/Users/benoit/Documents/led_flash/Classes/led_flashAppDelegate.m:56: warning: 'UIViewController' may not respond to '-devientActive'
+o/Users/benoit/Documents/led_flash/Classes/led_flashAppDelegate.m:56: warning: (Messages without a matching method signature
+o/Users/benoit/Documents/led_flash/Classes/led_flashAppDelegate.m:56: warning: will be assumed to return 'id' and accept
+o/Users/benoit/Documents/led_flash/Classes/led_flashAppDelegate.m:56: warning: '...' as arguments.)
+lSLF07#2@72"Compile /Users/benoit/Documents/led_flash/Classes/led_flashAppDelegate.m301091845#301091845#0(609"/Users/benoit/Documents/led_flash/Classes/led_flashAppDelegate.m: In function '-[led_flashAppDelegate applicationDidBecomeActive:]':/Users/benoit/Documents/led_flash/Classes/led_flashAppDelegate.m:56: warning: 'UIViewController' may not respond to '-devientActive'/Users/benoit/Documents/led_flash/Classes/led_flashAppDelegate.m:56: warning: (Messages without a matching method signature/Users/benoit/Documents/led_flash/Classes/led_flashAppDelegate.m:56: warning: will be assumed to return 'id' and accept/Users/benoit/Documents/led_flash/Classes/led_flashAppDelegate.m:56: warning: '...' as arguments.)2(22@54"'UIViewController' may not respond to '-devientActive'301091845#133#133#0(6@64"/Users/benoit/Documents/led_flash/Classes/led_flashAppDelegate.m300669919#56#0#56#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)301091845#266#124#0(6@64"/Users/benoit/Documents/led_flash/Classes/led_flashAppDelegate.m300669919#56#0#56#0#0"0(0#0#64"/Users/benoit/Documents/led_flash/Classes/led_flashAppDelegate.m8612437440#1808"    cd /Users/benoit/Documents/led_flash    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/benoit/Documents/led_flash/build/led_flash.build/Release-iphoneos/led_flash.build/led_flash-generated-files.hmap -I/Users/benoit/Documents/led_flash/build/led_flash.build/Release-iphoneos/led_flash.build/led_flash-own-target-headers.hmap -I/Users/benoit/Documents/led_flash/build/led_flash.build/Release-iphoneos/led_flash.build/led_flash-all-target-headers.hmap -iquote /Users/benoit/Documents/led_flash/build/led_flash.build/Release-iphoneos/led_flash.build/led_flash-project-headers.hmap -F/Users/benoit/Documents/led_flash/build/Release-iphoneos -I/Users/benoit/Documents/led_flash/build/Release-iphoneos/include -I/Users/benoit/Documents/led_flash/build/led_flash.build/Release-iphoneos/led_flash.build/DerivedSources/armv7 -I/Users/benoit/Documents/led_flash/build/led_flash.build/Release-iphoneos/led_flash.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Oc/Oc-C5LQlEmyHldr4jELwU++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/led_flash_Prefix-amweompvkxydcsgmjaigbkxcacqd/led_flash_Prefix.pch -c /Users/benoit/Documents/led_flash/Classes/led_flashAppDelegate.m -o /Users/benoit/Documents/led_flash/build/led_flash.build/Release-iphoneos/led_flash.build/Objects-normal/armv7/led_flashAppDelegate.o0#
+
+CCompileC build/led_flash.build/Release-iphoneos/led_flash.build/Objects-normal/armv7/main.o /Users/benoit/Documents/led_flash/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s301091843.616552
+e301091845.731608
+r1
+xCompileC
+xbuild/led_flash.build/Release-iphoneos/led_flash.build/Objects-normal/armv7/main.o
+x/Users/benoit/Documents/led_flash/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@48"Compile /Users/benoit/Documents/led_flash/main.m301091843#301091845#0(0"0(0#0#40"/Users/benoit/Documents/led_flash/main.m8605309536#1768"    cd /Users/benoit/Documents/led_flash    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/benoit/Documents/led_flash/build/led_flash.build/Release-iphoneos/led_flash.build/led_flash-generated-files.hmap -I/Users/benoit/Documents/led_flash/build/led_flash.build/Release-iphoneos/led_flash.build/led_flash-own-target-headers.hmap -I/Users/benoit/Documents/led_flash/build/led_flash.build/Release-iphoneos/led_flash.build/led_flash-all-target-headers.hmap -iquote /Users/benoit/Documents/led_flash/build/led_flash.build/Release-iphoneos/led_flash.build/led_flash-project-headers.hmap -F/Users/benoit/Documents/led_flash/build/Release-iphoneos -I/Users/benoit/Documents/led_flash/build/Release-iphoneos/include -I/Users/benoit/Documents/led_flash/build/led_flash.build/Release-iphoneos/led_flash.build/DerivedSources/armv7 -I/Users/benoit/Documents/led_flash/build/led_flash.build/Release-iphoneos/led_flash.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Oc/Oc-C5LQlEmyHldr4jELwU++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/led_flash_Prefix-amweompvkxydcsgmjaigbkxcacqd/led_flash_Prefix.pch -c /Users/benoit/Documents/led_flash/main.m -o /Users/benoit/Documents/led_flash/build/led_flash.build/Release-iphoneos/led_flash.build/Objects-normal/armv7/main.o0#
+
+CCompileC build/led_flash.build/Release-iphoneos/led_flash.build/Objects-normal/armv7/myviewcontroller.o /Users/benoit/Documents/led_flash/Classes/../myviewcontroller.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s301091845.731707
+e301091845.990395
+r1
+xCompileC
+xbuild/led_flash.build/Release-iphoneos/led_flash.build/Objects-normal/armv7/myviewcontroller.o
+x/Users/benoit/Documents/led_flash/Classes/../myviewcontroller.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/benoit/Documents/led_flash/Classes/../myviewcontroller.m: In function '-[myviewcontroller viewDidLoad]':
+o/Users/benoit/Documents/led_flash/Classes/../myviewcontroller.m:46: warning: class 'myviewcontroller' does not implement the 'AVCaptureVideoDataOutputSampleBufferDelegate' protocol
+o/Users/benoit/Documents/led_flash/Classes/../myviewcontroller.m:66: warning: class 'myviewcontroller' does not implement the 'ADBannerViewDelegate' protocol
+lSLF07#2@71"Compile /Users/benoit/Documents/led_flash/Classes/../myviewcontroller.m301091845#301091845#0(450"/Users/benoit/Documents/led_flash/Classes/../myviewcontroller.m: In function '-[myviewcontroller viewDidLoad]':/Users/benoit/Documents/led_flash/Classes/../myviewcontroller.m:46: warning: class 'myviewcontroller' does not implement the 'AVCaptureVideoDataOutputSampleBufferDelegate' protocol/Users/benoit/Documents/led_flash/Classes/../myviewcontroller.m:66: warning: class 'myviewcontroller' does not implement the 'ADBannerViewDelegate' protocol2(22@103"Class 'myviewcontroller' does not implement the 'AVCaptureVideoDataOutputSampleBufferDelegate' protocol301091845#112#181#0(6@63"/Users/benoit/Documents/led_flash/Classes/../myviewcontroller.m300979715#46#0#46#0#45"class '*' does not implement the '*' protocol0(22@79"Class 'myviewcontroller' does not implement the 'ADBannerViewDelegate' protocol301091845#293#157#0(6@63"/Users/benoit/Documents/led_flash/Classes/../myviewcontroller.m300979715#66#0#66#0#45"class '*' does not implement the '*' protocol0(0#0#63"/Users/benoit/Documents/led_flash/Classes/../myviewcontroller.m8606542912#1803"    cd /Users/benoit/Documents/led_flash    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/benoit/Documents/led_flash/build/led_flash.build/Release-iphoneos/led_flash.build/led_flash-generated-files.hmap -I/Users/benoit/Documents/led_flash/build/led_flash.build/Release-iphoneos/led_flash.build/led_flash-own-target-headers.hmap -I/Users/benoit/Documents/led_flash/build/led_flash.build/Release-iphoneos/led_flash.build/led_flash-all-target-headers.hmap -iquote /Users/benoit/Documents/led_flash/build/led_flash.build/Release-iphoneos/led_flash.build/led_flash-project-headers.hmap -F/Users/benoit/Documents/led_flash/build/Release-iphoneos -I/Users/benoit/Documents/led_flash/build/Release-iphoneos/include -I/Users/benoit/Documents/led_flash/build/led_flash.build/Release-iphoneos/led_flash.build/DerivedSources/armv7 -I/Users/benoit/Documents/led_flash/build/led_flash.build/Release-iphoneos/led_flash.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Oc/Oc-C5LQlEmyHldr4jELwU++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/led_flash_Prefix-amweompvkxydcsgmjaigbkxcacqd/led_flash_Prefix.pch -c /Users/benoit/Documents/led_flash/Classes/../myviewcontroller.m -o /Users/benoit/Documents/led_flash/build/led_flash.build/Release-iphoneos/led_flash.build/Objects-normal/armv7/myviewcontroller.o0#
+
+CCompileXIB /Users/benoit/Documents/led_flash/MainWindow.xib
+s301091827.649603
+e301091841.084933
+r1
+xCompileXIB
+x/Users/benoit/Documents/led_flash/MainWindow.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@25"CompileXIB MainWindow.xib301091827#301091841#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#48"/Users/benoit/Documents/led_flash/MainWindow.xib8612312000#531"    cd /Users/benoit/Documents/led_flash    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/benoit/Documents/led_flash/build/Release-iphoneos/led_flash.app/MainWindow.nib /Users/benoit/Documents/led_flash/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
+
+CCopyPNGFile /Users/benoit/Documents/led_flash/build/Release-iphoneos/led_flash.app/Icon.png Icon.png
+s301091830.111438
+e301091830.570934
+r1
+xCopyPNGFile
+x/Users/benoit/Documents/led_flash/build/Release-iphoneos/led_flash.app/Icon.png
+xIcon.png
+lSLF07#2@66"CopyPNGFile build/Release-iphoneos/led_flash.app/Icon.png Icon.png301091830#301091830#0(0"0(0#0#42"/Users/benoit/Documents/led_flash/Icon.png8596430720#545"    cd /Users/benoit/Documents/led_flash    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/benoit/Documents/led_flash/Icon.png /Users/benoit/Documents/led_flash/build/Release-iphoneos/led_flash.app/Icon.png0#
+
+CCopyPNGFile /Users/benoit/Documents/led_flash/build/Release-iphoneos/led_flash.app/flashlight-off-gris.png flashlight-off-gris.png
+s301091830.571026
+e301091831.039583
+r1
+xCopyPNGFile
+x/Users/benoit/Documents/led_flash/build/Release-iphoneos/led_flash.app/flashlight-off-gris.png
+xflashlight-off-gris.png
+lSLF07#2@96"CopyPNGFile build/Release-iphoneos/led_flash.app/flashlight-off-gris.png flashlight-off-gris.png301091830#301091831#0(0"0(0#0#57"/Users/benoit/Documents/led_flash/flashlight-off-gris.png8612638880#575"    cd /Users/benoit/Documents/led_flash    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/benoit/Documents/led_flash/flashlight-off-gris.png /Users/benoit/Documents/led_flash/build/Release-iphoneos/led_flash.app/flashlight-off-gris.png0#
+
+CCopyPNGFile /Users/benoit/Documents/led_flash/build/Release-iphoneos/led_flash.app/flashlight-off.png flashlight-off.png
+s301091832.187109
+e301091833.048202
+r1
+xCopyPNGFile
+x/Users/benoit/Documents/led_flash/build/Release-iphoneos/led_flash.app/flashlight-off.png
+xflashlight-off.png
+lSLF07#2@86"CopyPNGFile build/Release-iphoneos/led_flash.app/flashlight-off.png flashlight-off.png301091832#301091833#0(0"0(0#0#52"/Users/benoit/Documents/led_flash/flashlight-off.png8603931840#565"    cd /Users/benoit/Documents/led_flash    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/benoit/Documents/led_flash/flashlight-off.png /Users/benoit/Documents/led_flash/build/Release-iphoneos/led_flash.app/flashlight-off.png0#
+
+CCopyPNGFile /Users/benoit/Documents/led_flash/build/Release-iphoneos/led_flash.app/flashlight-on.png flashlight-on.png
+s301091827.650293
+e301091830.111252
+r1
+xCopyPNGFile
+x/Users/benoit/Documents/led_flash/build/Release-iphoneos/led_flash.app/flashlight-on.png
+xflashlight-on.png
+lSLF07#2@84"CopyPNGFile build/Release-iphoneos/led_flash.app/flashlight-on.png flashlight-on.png301091827#301091830#0(0"0(0#0#51"/Users/benoit/Documents/led_flash/flashlight-on.png8599474368#563"    cd /Users/benoit/Documents/led_flash    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/benoit/Documents/led_flash/flashlight-on.png /Users/benoit/Documents/led_flash/build/Release-iphoneos/led_flash.app/flashlight-on.png0#
+
+CCopyPNGFile /Users/benoit/Documents/led_flash/build/Release-iphoneos/led_flash.app/flashlight-on3GS.png flashlight-on3GS.png
+s301091831.039713
+e301091832.186875
+r1
+xCopyPNGFile
+x/Users/benoit/Documents/led_flash/build/Release-iphoneos/led_flash.app/flashlight-on3GS.png
+xflashlight-on3GS.png
+lSLF07#2@90"CopyPNGFile build/Release-iphoneos/led_flash.app/flashlight-on3GS.png flashlight-on3GS.png301091831#301091832#0(0"0(0#0#54"/Users/benoit/Documents/led_flash/flashlight-on3GS.png8612147776#569"    cd /Users/benoit/Documents/led_flash    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/benoit/Documents/led_flash/flashlight-on3GS.png /Users/benoit/Documents/led_flash/build/Release-iphoneos/led_flash.app/flashlight-on3GS.png0#
+
+CCpResource build/Release-iphoneos/led_flash.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+s301091827.547404
+e301091827.649512
+r1
+xCpResource
+xbuild/Release-iphoneos/led_flash.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist301091827#301091827#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist8598565184#495"    cd /Users/benoit/Documents/led_flash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist /Users/benoit/Documents/led_flash/build/Release-iphoneos/led_flash.app0#
+
+CCreateUniversalBinary /Users/benoit/Documents/led_flash/build/Release-iphoneos/led_flash.app/led_flash normal "armv6 armv7"
+s301091846.334000
+e301091846.407500
+r1
+xCreateUniversalBinary
+x/Users/benoit/Documents/led_flash/build/Release-iphoneos/led_flash.app/led_flash
+xnormal
+xarmv6 armv7
+lSLF07#2@89"CreateUniversalBinary build/Release-iphoneos/led_flash.app/led_flash normal "armv6 armv7"301091846#301091846#0(0"0(0#0#45"/Users/benoit/Documents/led_flash/armv6 armv78606752032#520"    cd /Users/benoit/Documents/led_flash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/benoit/Documents/led_flash/build/led_flash.build/Release-iphoneos/led_flash.build/Objects-normal/armv6/led_flash /Users/benoit/Documents/led_flash/build/led_flash.build/Release-iphoneos/led_flash.build/Objects-normal/armv7/led_flash -output /Users/benoit/Documents/led_flash/build/Release-iphoneos/led_flash.app/led_flash0#
+
+CGenerateDSYMFile /Users/benoit/Documents/led_flash/build/Release-iphoneos/led_flash.app.dSYM /Users/benoit/Documents/led_flash/build/Release-iphoneos/led_flash.app/led_flash
+s301091846.407633
+e301091846.490979
+r1
+xGenerateDSYMFile
+x/Users/benoit/Documents/led_flash/build/Release-iphoneos/led_flash.app.dSYM
+x/Users/benoit/Documents/led_flash/build/Release-iphoneos/led_flash.app/led_flash
+lSLF07#2@105"GenerateDSYMFile build/Release-iphoneos/led_flash.app.dSYM build/Release-iphoneos/led_flash.app/led_flash301091846#301091846#0(0"0(0#0#80"/Users/benoit/Documents/led_flash/build/Release-iphoneos/led_flash.app/led_flash8607030816#357"    cd /Users/benoit/Documents/led_flash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/benoit/Documents/led_flash/build/Release-iphoneos/led_flash.app/led_flash -o /Users/benoit/Documents/led_flash/build/Release-iphoneos/led_flash.app.dSYM0#
+
+CLd /Users/benoit/Documents/led_flash/build/led_flash.build/Release-iphoneos/led_flash.build/Objects-normal/armv6/led_flash normal armv6
+s301091843.989929
+e301091845.692865
+r1
+xLd
+x/Users/benoit/Documents/led_flash/build/led_flash.build/Release-iphoneos/led_flash.build/Objects-normal/armv6/led_flash
+xnormal
+xarmv6
+lSLF07#2@124"Link /Users/benoit/Documents/led_flash/build/led_flash.build/Release-iphoneos/led_flash.build/Objects-normal/armv6/led_flash301091843#301091845#0(0"0(0#0#0"8606699456#893"    cd /Users/benoit/Documents/led_flash    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -L/Users/benoit/Documents/led_flash/build/Release-iphoneos -F/Users/benoit/Documents/led_flash/build/Release-iphoneos -filelist /Users/benoit/Documents/led_flash/build/led_flash.build/Release-iphoneos/led_flash.build/Objects-normal/armv6/led_flash.LinkFileList -dead_strip -miphoneos-version-min=4.0 -framework Foundation -framework UIKit -framework CoreGraphics -framework AVFoundation -framework iAd -o /Users/benoit/Documents/led_flash/build/led_flash.build/Release-iphoneos/led_flash.build/Objects-normal/armv6/led_flash0#
+
+CLd /Users/benoit/Documents/led_flash/build/led_flash.build/Release-iphoneos/led_flash.build/Objects-normal/armv7/led_flash normal armv7
+s301091845.990484
+e301091846.333866
+r1
+xLd
+x/Users/benoit/Documents/led_flash/build/led_flash.build/Release-iphoneos/led_flash.build/Objects-normal/armv7/led_flash
+xnormal
+xarmv7
+lSLF07#2@124"Link /Users/benoit/Documents/led_flash/build/led_flash.build/Release-iphoneos/led_flash.build/Objects-normal/armv7/led_flash301091845#301091846#0(0"0(0#0#0"8612506144#893"    cd /Users/benoit/Documents/led_flash    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -L/Users/benoit/Documents/led_flash/build/Release-iphoneos -F/Users/benoit/Documents/led_flash/build/Release-iphoneos -filelist /Users/benoit/Documents/led_flash/build/led_flash.build/Release-iphoneos/led_flash.build/Objects-normal/armv7/led_flash.LinkFileList -dead_strip -miphoneos-version-min=4.0 -framework Foundation -framework UIKit -framework CoreGraphics -framework AVFoundation -framework iAd -o /Users/benoit/Documents/led_flash/build/led_flash.build/Release-iphoneos/led_flash.build/Objects-normal/armv7/led_flash0#
+
+CProcessInfoPlistFile /Users/benoit/Documents/led_flash/build/Release-iphoneos/led_flash.app/Info.plist led_flash-Info.plist
+s301091827.609960
+e301091827.629833
+r1
+xProcessInfoPlistFile
+x/Users/benoit/Documents/led_flash/build/Release-iphoneos/led_flash.app/Info.plist
+xled_flash-Info.plist
+lSLF07#2@28"Process led_flash-Info.plist301091827#301091827#0(0"0(0#0#54"/Users/benoit/Documents/led_flash/led_flash-Info.plist8605807488#556"    cd /Users/benoit/Documents/led_flash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility led_flash-Info.plist -genpkginfo /Users/benoit/Documents/led_flash/build/Release-iphoneos/led_flash.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/benoit/Documents/led_flash/build/Release-iphoneos/led_flash.app/ResourceRules.plist -o /Users/benoit/Documents/led_flash/build/Release-iphoneos/led_flash.app/Info.plist0#
+
+CProcessPCH /var/folders/Oc/Oc-C5LQlEmyHldr4jELwU++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/led_flash_Prefix-amweompvkxydcsgmjaigbkxcacqd/led_flash_Prefix.pch.gch led_flash_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/Oc/Oc-C5LQlEmyHldr4jELwU++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/led_flash_Prefix-cgbgsdhdbcfcgmfzxciricmidsqr/led_flash_Prefix.pch.gch led_flash_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessProductPackaging "/Users/benoit/Library/MobileDevice/Provisioning Profiles/8ABA2C0D-E644-4B13-9DEB-807CD4E54588.mobileprovision" /Users/benoit/Documents/led_flash/build/Release-iphoneos/led_flash.app/embedded.mobileprovision
+s301091846.491076
+e301091846.514613
+r1
+xProcessProductPackaging
+x/Users/benoit/Library/MobileDevice/Provisioning Profiles/8ABA2C0D-E644-4B13-9DEB-807CD4E54588.mobileprovision
+x/Users/benoit/Documents/led_flash/build/Release-iphoneos/led_flash.app/embedded.mobileprovision
+lSLF07#2@197"ProcessProductPackaging "/Users/benoit/Library/MobileDevice/Provisioning Profiles/8ABA2C0D-E644-4B13-9DEB-807CD4E54588.mobileprovision" build/Release-iphoneos/led_flash.app/embedded.mobileprovision301091846#301091846#0(0"0(0#0#95"/Users/benoit/Documents/led_flash/build/Release-iphoneos/led_flash.app/embedded.mobileprovision8607410496#418"    cd /Users/benoit/Documents/led_flash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/benoit/Library/MobileDevice/Provisioning Profiles/8ABA2C0D-E644-4B13-9DEB-807CD4E54588.mobileprovision" -o /Users/benoit/Documents/led_flash/build/Release-iphoneos/led_flash.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist /Users/benoit/Documents/led_flash/build/led_flash.build/Release-iphoneos/led_flash.build/led_flash.xcent
+s301091846.549252
+e301091846.568877
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist
+x/Users/benoit/Documents/led_flash/build/led_flash.build/Release-iphoneos/led_flash.build/led_flash.xcent
+lSLF07#2@183"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist build/led_flash.build/Release-iphoneos/led_flash.build/led_flash.xcent301091846#301091846#0(0"0(0#0#104"/Users/benoit/Documents/led_flash/build/led_flash.build/Release-iphoneos/led_flash.build/led_flash.xcent8606387072#430"    cd /Users/benoit/Documents/led_flash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/benoit/Documents/led_flash/build/led_flash.build/Release-iphoneos/led_flash.build/led_flash.xcent0#
+
+CTouch /Users/benoit/Documents/led_flash/build/Release-iphoneos/led_flash.app
+s301091846.514680
+e301091846.549162
+r1
+xTouch
+x/Users/benoit/Documents/led_flash/build/Release-iphoneos/led_flash.app
+lSLF07#2@76"Touch /Users/benoit/Documents/led_flash/build/Release-iphoneos/led_flash.app301091846#301091846#0(0"0(0#0#0"8607259648#258"    cd /Users/benoit/Documents/led_flash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/benoit/Documents/led_flash/build/Release-iphoneos/led_flash.app0#
+
+CValidate /Users/benoit/Documents/led_flash/build/Release-iphoneos/led_flash.app
+s301091847.124556
+e301091847.906686
+r1
+xValidate
+x/Users/benoit/Documents/led_flash/build/Release-iphoneos/led_flash.app
+owarning: iPhone/iPod Touch: Icon.png: icon dimensions (512 x 512) don't meet the size requirements.  The icon file must be 57x57 pixels, in .png format (-19014)
+oUnable to validate your application. - (null)
+o
+lSLF07#2@45"Validate build/Release-iphoneos/led_flash.app301091847#301091847#0(208"warning: iPhone/iPod Touch: Icon.png: icon dimensions (512 x 512) don't meet the size requirements.  The icon file must be 57x57 pixels, in .png format (-19014)Unable to validate your application. - (null)1(22@152" iPhone/iPod Touch: Icon.png: icon dimensions (512 x 512) don't meet the size requirements.  The icon file must be 57x57 pixels, in .png format (-19014)301091847#18446744073709551615#0#0(6@0"301091847#0#0#0#0#0"0(0#0#70"/Users/benoit/Documents/led_flash/build/Release-iphoneos/led_flash.app8595982976#367"    cd /Users/benoit/Documents/led_flash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PRODUCT_TYPE com.apple.product-type.application    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/Validation /Users/benoit/Documents/led_flash/build/Release-iphoneos/led_flash.app0#
+
