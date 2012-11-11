@@ -12,15 +12,14 @@
 #import <QuartzCore/QuartzCore.h>
 #import <StoreKit/StoreKit.h>
 
-#import "AdMobView.h"
-#import "AdMobDelegateProtocol.h"
+#import "GADBannerView.h"
 #import "ViralController.h"
 
 @class PrincipalView;
 @class LanguetteTouchImageView;
 
 
-@interface myviewcontroller : UIViewController <ADBannerViewDelegate, AdMobDelegate, SKProductsRequestDelegate, UIAlertViewDelegate, AVCaptureVideoDataOutputSampleBufferDelegate> {
+@interface myviewcontroller : UIViewController <ADBannerViewDelegate, SKProductsRequestDelegate, UIAlertViewDelegate, AVCaptureVideoDataOutputSampleBufferDelegate> {
     
     ViralController *viralController;
 	
@@ -60,7 +59,7 @@
 //tests v1.1	
 		
 	
-	AdMobView *adMobAd;
+	GADBannerView *adMobAd;
 
 	
 //--------------------------------------------
@@ -115,7 +114,7 @@
 
 - (IBAction)freqSlide:(UISlider*)sender;
 - (IBAction)changeMode:(UISegmentedControl*)segmentedControll;
-- (IBAction) purchase;
+//- (IBAction) purchase;
 - (void) failedTransaction;
 
 - (void) changeModeDisplayForMode:(NSInteger)mode;
@@ -152,7 +151,7 @@
 @property (nonatomic ,retain) ADBannerView *adView;
 @property (nonatomic, assign) BOOL bannerIsVisible;
 
-@property (nonatomic ,retain) AdMobView *adMobAd;
+@property (nonatomic ,retain) GADBannerView *adMobAd;
 
 
 @property (nonatomic,assign) BOOL flashAvailable;

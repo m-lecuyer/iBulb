@@ -36,7 +36,7 @@
 }
 
 - (void) displayShareOnTwitter {
-    // Set up the built-in twitter composition view controller.
+    /*// Set up the built-in twitter composition view controller.
     TWTweetComposeViewController *tweetViewController = [[TWTweetComposeViewController alloc] init];
     
     // Set the initial tweet text. See the framework for additional properties that can be set.
@@ -51,7 +51,7 @@
     
     // Present the tweet composition view controller modally.
     [self presentViewController:tweetViewController animated:YES completion:nil];
-    //[self presentModalViewController:tweetViewController animated:YES];
+    //[self presentModalViewController:tweetViewController animated:YES];*/
 }
 
 #pragma marks - controller life cycle

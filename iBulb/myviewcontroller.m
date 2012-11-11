@@ -8,7 +8,7 @@
 
 #import "myviewcontroller.h"
 #import "PrincipalView.h"
-#import "FlurryAnalytics.h"
+#import "Flurry.h"
 
 @implementation myviewcontroller
 
@@ -81,7 +81,7 @@
      if (videoInput) { 
      [captureSession addInput:videoInput];
      AVCaptureVideoDataOutput* videoOutput = [[AVCaptureVideoDataOutput alloc] init];
-     [videoOutput setSampleBufferDelegate:self queue:dispatch_get_current_queue()];
+     [videoOutput setSampleBufferDelegate:self queue:dispatch_get_main_queue()];
      [captureSession addOutput:videoOutput];
      [captureSession startRunning];
      [videoCaptureDevice lockForConfiguration:&error];
@@ -151,7 +151,19 @@
 		adView.frame = CGRectOffset(adView.frame, 0, -50);
 		bannerIsVisible = NO;
         
-		adMobAd = [AdMobView requestAdWithDelegate:self]; // start a new ad request
+        // Create a view of the standard size at the top of the screen.
+        // Available AdSize constants are explained in GADAdSize.h.
+        adMobAd = [[GADBannerView alloc] initWithAdSize:kGADAdSizeBanner];
+        adMobAd.frame = CGRectOffset(adMobAd.frame, 0, -48);
+        // Specify the ad's "unit identifier." This is your AdMob Publisher ID.
+        adMobAd.adUnitID = @"a1509f4388e628f";
+        // Let the runtime know which UIViewController to restore after taking
+        // the user wherever the ad goes and add it to the view hierarchy.
+        adMobAd.rootViewController = self;
+        
+        // Initiate a generic request to load it with an ad.
+        [adMobAd loadRequest:[GADRequest request]];
+        
 		[adMobAd retain];
 		adMobIsVisible = NO;
 	}
@@ -224,7 +236,7 @@
 }
 
 - (IBAction)buttonTouchedUp{	
-    [FlurryAnalytics logEvent:@"ON_OFF_BUTTON"];
+    [Flurry logEvent:@"ON_OFF_BUTTON"];
     
 	int mode = [[NSUserDefaults standardUserDefaults] integerForKey:@"currentMode"];
 	if (mode == 2) {
@@ -264,14 +276,26 @@
     
     if (torchIsOn) {
         if (flashAvailable) {
-            self.myImageView.image = [UIImage imageNamed:@"on-down.png"];
+            if ([[UIScreen mainScreen] bounds].size.height == 568) {
+                self.myImageView.image = [UIImage imageNamed:@"on-down-568h@2x.png"];
+            } else {
+                self.myImageView.image = [UIImage imageNamed:@"on-down.png"];
+            }
         }
         else {
-            self.myImageView.image = [UIImage imageNamed:@"on-down-noflash.png"];
+            if ([[UIScreen mainScreen] bounds].size.height == 568) {
+                self.myImageView.image = [UIImage imageNamed:@"on-down-noflash-568h@2x.png"];
+            } else {
+                self.myImageView.image = [UIImage imageNamed:@"on-down-noflash.png"];
+            }
         }
     }
     else {
-        self.myImageView.image = [UIImage imageNamed:@"off-down.png"];
+        if ([[UIScreen mainScreen] bounds].size.height == 568) {
+            self.myImageView.image = [UIImage imageNamed:@"off-down-568h@2x.png"];
+        } else {
+            self.myImageView.image = [UIImage imageNamed:@"off-down.png"];
+        }
     }
 }
 
@@ -299,20 +323,32 @@
 			[videoCaptureDevice setTorchMode:AVCaptureTorchModeOn];
 			torchIsOn = YES;
 			//on met la bonne image
-			self.myImageView.image = [UIImage imageNamed:@"on-up.png"];
+			if ([[UIScreen mainScreen] bounds].size.height == 568) {
+                self.myImageView.image = [UIImage imageNamed:@"on-up-568h@2x.png"];
+            } else {
+                self.myImageView.image = [UIImage imageNamed:@"on-up.png"];
+            }
 		}
 		else {
             [UIScreen mainScreen].brightness = brightness;
 			[videoCaptureDevice setTorchMode:AVCaptureTorchModeOff];
 			torchIsOn = NO;
-			self.myImageView.image = [UIImage imageNamed:@"off-up.png"];
+			if ([[UIScreen mainScreen] bounds].size.height == 568) {
+                self.myImageView.image = [UIImage imageNamed:@"off-up-568h@2x.png"];
+            } else {
+                self.myImageView.image = [UIImage imageNamed:@"off-up.png"];
+            }
 		}
 	}
 	else {
 		if (forStateOn) {
             [UIScreen mainScreen].brightness = onBrightness;
             
-			self.myImageView.image = [UIImage imageNamed:@"on-up-noflash.png"];
+			if ([[UIScreen mainScreen] bounds].size.height == 568) {
+                self.myImageView.image = [UIImage imageNamed:@"on-up-noflash-568h@2x.png"];
+            } else {
+                self.myImageView.image = [UIImage imageNamed:@"on-up-noflash.png"];
+            }
             
 			torchIsOn = YES;
 			
@@ -323,7 +359,11 @@
 		else {
             [UIScreen mainScreen].brightness = brightness;
             
-			self.myImageView.image = [UIImage imageNamed:@"off-up.png"];
+			if ([[UIScreen mainScreen] bounds].size.height == 568) {
+                self.myImageView.image = [UIImage imageNamed:@"off-up-568h@2x.png"];
+            } else {
+                self.myImageView.image = [UIImage imageNamed:@"off-up.png"];
+            }
             
 			torchIsOn = NO;
             
@@ -435,25 +475,25 @@
 #pragma mark - Settings pannel
 
 - (IBAction) settingsPannel {
-    [FlurryAnalytics logEvent:@"DISPLAY_SETTINGS"];
+    [Flurry logEvent:@"DISPLAY_SETTINGS"];
 
     [(PrincipalView*)self.view settingsPannel];
 }
 
 - (IBAction)shakeSwitchSwitched:(UISwitch *)shakeSwitch {
-    [FlurryAnalytics logEvent:@"SHAKE_TO_LIGHT"];
+    [Flurry logEvent:@"SHAKE_TO_LIGHT"];
 
 	[[NSUserDefaults standardUserDefaults] setBool:shakeSwitch.on forKey:@"shakeToLight"];
 }
 
 - (IBAction)flashSwitchSwitched:(UISwitch *)flashSwitch {
-    [FlurryAnalytics logEvent:@"FLASH_SWITCH"];
+    [Flurry logEvent:@"FLASH_SWITCH"];
 
 	[self mySwitchSwitched:flashSwitch];
 }
 
 - (IBAction)lockSwitchSwitched:(UISwitch *)lockSwitch {
-    [FlurryAnalytics logEvent:@"LOCK_SWITCH"];
+    [Flurry logEvent:@"LOCK_SWITCH"];
 
 	[[NSUserDefaults standardUserDefaults] setBool:!lockSwitch.on forKey:@"idleTimerDisabled"];
 	UIApplication *app = [UIApplication sharedApplication];
@@ -489,13 +529,13 @@
 @synthesize torchModeOptionsView;
 
 - (IBAction) optionsPannel {
-    [FlurryAnalytics logEvent:@"DISPLAY_OPTIONS"];
+    [Flurry logEvent:@"DISPLAY_OPTIONS"];
 
     [(PrincipalView*)self.view optionsPannel];
 }
 
 - (IBAction)changeMode:(UISegmentedControl*)segmentedControll {
-    [FlurryAnalytics logEvent:@"CHANGE_MODE"];
+    [Flurry logEvent:@"CHANGE_MODE"];
     
     NSInteger newMode = segmentedControll.selectedSegmentIndex;	
     [[NSUserDefaults standardUserDefaults] setInteger:newMode forKey:@"currentMode"];
@@ -542,7 +582,7 @@
 }
 
 - (IBAction)freqSlide:(UISlider*)sender {
-    [FlurryAnalytics logEvent:@"FREQ_SLIDER"];
+    [Flurry logEvent:@"FREQ_SLIDER"];
     NSInteger mode = [[NSUserDefaults standardUserDefaults] integerForKey:@"currentMode"];
     switch (mode) {
         case 1:
@@ -563,7 +603,7 @@
 }
 
 - (IBAction) brightnessSlide:(UISlider*)slider {
-    [FlurryAnalytics logEvent:@"BRIGHTNESS_SLIDER"];
+    [Flurry logEvent:@"BRIGHTNESS_SLIDER"];
     [UIScreen mainScreen].brightness = slider.value;
     onBrightness = slider.value;
 }
@@ -591,7 +631,7 @@
 		adMobIsVisible = YES;
 	}
 	else if (!adMobAd) {
-		adMobAd = [AdMobView requestAdWithDelegate:self]; // start a new ad request
+		[adMobAd loadRequest:[GADRequest request]]; // start a new ad request
 		[adMobAd retain];
 	}
     
@@ -619,54 +659,6 @@
 	adView.frame = CGRectOffset(adView.frame, 0, 50);
 	[UIView commitAnimations];
 	self.bannerIsVisible = YES;
-}
-
-//AdMob
-
-- (NSString *)publisherIdForAd:(AdMobView *)adView {
-	return @"a14c8e53102d0c7"; // this should be prefilled; if not, get it from www.admob.com
-}
-
-- (UIViewController *)currentViewControllerForAd:(AdMobView *)adView {
-	return self;
-}
-
-- (UIColor *)adBackgroundColorForAd:(AdMobView *)adView {
-	return [UIColor colorWithRed:0.498 green:0.565 blue:0.667 alpha:1];
-}
-
-- (UIColor *)primaryTextColorForAd:(AdMobView *)adView {
-	return [UIColor colorWithRed:1 green:1 blue:1 alpha:1];
-}
-
-- (UIColor *)secondaryTextColorForAd:(AdMobView *)adView {
-	return [UIColor colorWithRed:1 green:1 blue:1 alpha:1];
-}
-
-// Sent when an ad request loaded an ad; this is a good opportunity to attach
-// the ad view to the hierachy.
-- (void)didReceiveAd:(AdMobView *)adView {
-	adMobAd.frame = CGRectMake(0, 0, 320, 48);
-	adMobAd.frame = CGRectOffset(adMobAd.frame, 0, -48);
-	
-	if (!bannerIsVisible) {
-		[self.view addSubview:adMobAd];
-		[UIView beginAnimations:@"animateAdMobBannerOn" context:NULL];
-		adMobAd.frame = CGRectOffset(adMobAd.frame, 0, 48);
-        [UIView commitAnimations];
-		adMobIsVisible = YES;
-	}
-}
-
-// Sent when an ad request failed to load an ad
-- (void)didFailToReceiveAd:(AdMobView *)adView {
-	[UIView beginAnimations:@"animateAdMobBannerOn" context:NULL];
-	adMobAd.frame = CGRectOffset(adMobAd.frame, 0, -48);
-	[UIView commitAnimations];
-	[adMobAd removeFromSuperview];
-	[adMobAd release];
-	adMobAd = nil;
-	adMobIsVisible = NO;
 }
 
 #pragma mark - In-app gestion
@@ -708,7 +700,7 @@
     [request autorelease];
 }
 
-- (IBAction) purchase {
+/*- (IBAction) purchase {
 	if ([SKPaymentQueue canMakePayments])
 	{
 		SKPayment *payment = [SKPayment paymentWithProductIdentifier:[NSString stringWithFormat:@"com.pionid.LED.iBulbAdFree"]];
@@ -728,7 +720,7 @@
 		[alert show];
 		[alert release];
 	}
-}
+}*/
 
 - (void) failedTransaction {
 	[cellAdFreePurchase.accessoryView removeFromSuperview];
@@ -737,7 +729,7 @@
 
 - (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex {
 	if (buttonIndex == 1) {
-		[self purchase];
+		//[self purchase];
 	}
 }
 
@@ -755,12 +747,12 @@
 }
 
 - (IBAction) shareThisAppButton {
-    [FlurryAnalytics logEvent:@"SHARE_THE_APP"];
+    [Flurry logEvent:@"SHARE_THE_APP"];
     [self.viralController displayShareControllerInController:self];
 }
 
 - (IBAction) onpenBuyCenter {
-    [FlurryAnalytics logEvent:@"BUY_CENTER"];
+    [Flurry logEvent:@"BUY_CENTER"];
     [self.viralController displayBuyControllerInController:self];
 }
 

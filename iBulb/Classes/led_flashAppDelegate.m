@@ -8,7 +8,7 @@
 
 #import "led_flashAppDelegate.h"
 #import "MyStoreObserver.h"
-#import "FlurryAnalytics.h"
+#import "Flurry.h"
 
 @implementation led_flashAppDelegate
 
@@ -21,7 +21,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
     
-    [FlurryAnalytics startSession:@"66RNHG8P7C2N7JSHPWP5"];
+    [Flurry startSession:@"66RNHG8P7C2N7JSHPWP5"];
     
     brightness = [UIScreen mainScreen].brightness;
 
