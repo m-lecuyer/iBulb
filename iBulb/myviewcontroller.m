@@ -36,7 +36,7 @@
 @synthesize morseCode;
 
 @synthesize adFreePurchaseLabel;
-@synthesize cellAdFreePurchase;
+@synthesize adFreePurchaseWaiting;
 @synthesize buyButton;
 @synthesize plusOneToDisplayBuyButton;
 
@@ -117,9 +117,11 @@
 
 	if (![self adFreeVersionPruchased]) {
 		[self requestProductData];
-	}
+	} else {
+        buyButton.hidden = YES;
+    }
+    
 	plusOneToDisplayBuyButton = 0;
-	
 }
 
 - (void)viewDidAppear:(BOOL)animated {
@@ -137,6 +139,7 @@
         
         rightPannel.frame = CGRectMake(405, 37, 320, 380);
         leftPannel.frame = CGRectMake(-405, 37, 320, 380);
+        [adFreePurchaseWaiting removeFromSuperview];
         [self.view addSubview:rightPannel];
         [self.view addSubview:leftPannel];
     }
@@ -156,7 +159,7 @@
         adMobAd = [[GADBannerView alloc] initWithAdSize:kGADAdSizeBanner];
         adMobAd.frame = CGRectOffset(adMobAd.frame, 0, -48);
         // Specify the ad's "unit identifier." This is your AdMob Publisher ID.
-        adMobAd.adUnitID = @"a1509f4388e628f";
+        adMobAd.adUnitID = @"a14c8e53102d0c7";
         // Let the runtime know which UIViewController to restore after taking
         // the user wherever the ad goes and add it to the view hierarchy.
         adMobAd.rootViewController = self;
@@ -183,7 +186,7 @@
 	self.mySlider = nil;
 	self.myImageView = nil;
 	self.adFreePurchaseLabel = nil;
-	self.cellAdFreePurchase = nil;
+	self.adFreePurchaseWaiting = nil;
 	self.buyButton = nil;
 	self.adView = nil;
 	self.adMobAd = nil;
@@ -200,7 +203,7 @@
 	[timerStrombo release];
 	[morseCode release];
 	[adFreePurchaseLabel release];
-	[cellAdFreePurchase release];
+	[adFreePurchaseWaiting release];
 	[buyButton release];
 }
 
@@ -682,35 +685,27 @@
 	for( NSString *invalidId in response.invalidProductIdentifiers )
         
         if ([myProduct count] != 0) {
-            plusOneToDisplayBuyButton = 1;
-            
-            NSString *iD = [[myProduct objectAtIndex:0] localizedTitle];
-            adFreePurchaseLabel.text = iD;
-            
             NSNumberFormatter *numberFormatter = [[NSNumberFormatter alloc] init];
             [numberFormatter setFormatterBehavior:NSNumberFormatterBehavior10_4];
             [numberFormatter setNumberStyle:NSNumberFormatterCurrencyStyle];
             [numberFormatter setLocale:[[myProduct objectAtIndex:0] priceLocale]];
             NSString *formattedString = [numberFormatter stringFromNumber:[[myProduct objectAtIndex:0] price]];
             
-            [buyButton setTitle:formattedString forState:UIControlStateNormal];
-            //buyButton.backgroundColor = [UIColor grayColor];
-            
+            [buyButton setTitle:formattedString forState:UIControlStateNormal];            
         }
     [request autorelease];
 }
 
-/*- (IBAction) purchase {
+- (IBAction) purchase {
 	if ([SKPaymentQueue canMakePayments])
 	{
 		SKPayment *payment = [SKPayment paymentWithProductIdentifier:[NSString stringWithFormat:@"com.pionid.LED.iBulbAdFree"]];
 		[[SKPaymentQueue defaultQueue] addPayment:payment];
-		[buyButton removeFromSuperview];
+		//[buyButton removeFromSuperview];
 		
-		UIActivityIndicatorView *waitSymbol = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhiteLarge];
-		cellAdFreePurchase.accessoryView = waitSymbol;
-		[waitSymbol startAnimating];
-		[waitSymbol release];
+        buyButton.hidden = YES;
+        [self.rightPannel addSubview:adFreePurchaseWaiting];
+		[adFreePurchaseWaiting startAnimating];
 	}
 	else
 	{
@@ -720,17 +715,19 @@
 		[alert show];
 		[alert release];
 	}
-}*/
+}
 
 - (void) failedTransaction {
-	[cellAdFreePurchase.accessoryView removeFromSuperview];
-	cellAdFreePurchase.accessoryView = buyButton;
+    [adFreePurchaseWaiting stopAnimating];
+    [adFreePurchaseWaiting removeFromSuperview];
+	buyButton.hidden = NO;
 }
 
 - (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex {
 	if (buttonIndex == 1) {
-		//[self purchase];
-	}
+		[self purchase];
+    }
+    buyButton.hidden = NO;
 }
 
 #pragma mark - Viral

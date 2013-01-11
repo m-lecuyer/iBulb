@@ -48,6 +48,7 @@
 				<string key="NSFrameSize">{320, 480}</string>
 				<reference key="NSSuperview"/>
 				<reference key="NSWindow"/>
+				<reference key="NSNextKeyView"/>
 				<object class="NSColor" key="IBUIBackgroundColor">
 					<int key="NSColorSpace">1</int>
 					<bytes key="NSRGB">MSAxIDEAA</bytes>
@@ -126,13 +127,14 @@
 							<string key="NSFrame">{{241, 416}, {72, 37}}</string>
 							<reference key="NSSuperview" ref="811704858"/>
 							<reference key="NSWindow"/>
+							<reference key="NSNextKeyView"/>
 							<string key="NSReuseIdentifierKey">_NS:9</string>
 							<reference key="IBUIBackgroundColor" ref="76262435"/>
 							<bool key="IBUIOpaque">NO</bool>
 							<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 							<int key="IBUIContentHorizontalAlignment">0</int>
 							<int key="IBUIContentVerticalAlignment">0</int>
-							<string key="IBUINormalTitle">Settings</string>
+							<string key="IBUINormalTitle">Réglages</string>
 							<object class="NSColor" key="IBUIHighlightedTitleColor" id="696420342">
 								<int key="NSColorSpace">3</int>
 								<bytes key="NSWhite">MC42NjY2NjY2NjY3AA</bytes>
@@ -558,6 +560,7 @@
 							<string>lockSwitchSwitched:</string>
 							<string>mySwitchSwitched:</string>
 							<string>optionsPannel</string>
+							<string>purchase</string>
 							<string>settingsPannel</string>
 							<string>shakeSwitchSwitched:</string>
 							<string>shareThisAppButton</string>
@@ -572,6 +575,7 @@
 							<string>UISlider</string>
 							<string>UISwitch</string>
 							<string>UISwitch</string>
+							<string>id</string>
 							<string>id</string>
 							<string>id</string>
 							<string>UISwitch</string>
@@ -591,6 +595,7 @@
 							<string>lockSwitchSwitched:</string>
 							<string>mySwitchSwitched:</string>
 							<string>optionsPannel</string>
+							<string>purchase</string>
 							<string>settingsPannel</string>
 							<string>shakeSwitchSwitched:</string>
 							<string>shareThisAppButton</string>
@@ -634,6 +639,10 @@
 								<string key="candidateClassName">id</string>
 							</object>
 							<object class="IBActionInfo">
+								<string key="name">purchase</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBActionInfo">
 								<string key="name">settingsPannel</string>
 								<string key="candidateClassName">id</string>
 							</object>
@@ -652,10 +661,10 @@
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>adFreePurchaseLabel</string>
+							<string>adFreePurchaseWaiting</string>
 							<string>bouton</string>
 							<string>brihgtnessSlider</string>
 							<string>buyButton</string>
-							<string>cellAdFreePurchase</string>
 							<string>freqSlider</string>
 							<string>freqSliderView</string>
 							<string>leftPannel</string>
@@ -671,10 +680,10 @@
 						<object class="NSArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>UILabel</string>
+							<string>UIActivityIndicatorView</string>
 							<string>UIButton</string>
 							<string>UISlider</string>
 							<string>UIButton</string>
-							<string>UITableViewCell</string>
 							<string>UISlider</string>
 							<string>UIView</string>
 							<string>UIView</string>
@@ -693,10 +702,10 @@
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>adFreePurchaseLabel</string>
+							<string>adFreePurchaseWaiting</string>
 							<string>bouton</string>
 							<string>brihgtnessSlider</string>
 							<string>buyButton</string>
-							<string>cellAdFreePurchase</string>
 							<string>freqSlider</string>
 							<string>freqSliderView</string>
 							<string>leftPannel</string>
@@ -716,6 +725,10 @@
 								<string key="candidateClassName">UILabel</string>
 							</object>
 							<object class="IBToOneOutletInfo">
+								<string key="name">adFreePurchaseWaiting</string>
+								<string key="candidateClassName">UIActivityIndicatorView</string>
+							</object>
+							<object class="IBToOneOutletInfo">
 								<string key="name">bouton</string>
 								<string key="candidateClassName">UIButton</string>
 							</object>
@@ -726,10 +739,6 @@
 							<object class="IBToOneOutletInfo">
 								<string key="name">buyButton</string>
 								<string key="candidateClassName">UIButton</string>
-							</object>
-							<object class="IBToOneOutletInfo">
-								<string key="name">cellAdFreePurchase</string>
-								<string key="candidateClassName">UITableViewCell</string>
 							</object>
 							<object class="IBToOneOutletInfo">
 								<string key="name">freqSlider</string>

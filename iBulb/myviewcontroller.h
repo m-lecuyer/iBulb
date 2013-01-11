@@ -67,7 +67,7 @@
 	NSTimer *timerStrombo;
 	
 	UILabel *adFreePurchaseLabel;
-	UITableViewCell *cellAdFreePurchase;
+	UIActivityIndicatorView *adFreePurchaseWaiting;
 	UIButton *buyButton;
 	int plusOneToDisplayBuyButton;
 	
@@ -92,7 +92,7 @@
 @property (nonatomic, retain) IBOutlet ViralController *viralController;
 
 @property (nonatomic, retain) IBOutlet UILabel *adFreePurchaseLabel;
-@property (nonatomic, retain) IBOutlet UITableViewCell *cellAdFreePurchase;
+@property (nonatomic, retain) IBOutlet UIActivityIndicatorView *adFreePurchaseWaiting;
 @property (nonatomic, retain) IBOutlet UIButton *buyButton;
 @property (nonatomic, retain) IBOutlet UIView *rightPannel;
 @property (nonatomic, retain) IBOutlet UIView *leftPannel;
@@ -114,7 +114,7 @@
 
 - (IBAction)freqSlide:(UISlider*)sender;
 - (IBAction)changeMode:(UISegmentedControl*)segmentedControll;
-//- (IBAction) purchase;
+- (IBAction) purchase;
 - (void) failedTransaction;
 
 - (void) changeModeDisplayForMode:(NSInteger)mode;

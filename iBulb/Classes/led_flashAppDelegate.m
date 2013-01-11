@@ -21,7 +21,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
     
-    [Flurry startSession:@"66RNHG8P7C2N7JSHPWP5"];
+    [Flurry startSession:@"4YBWT233JP4W82QPZXCW"];
     
     brightness = [UIScreen mainScreen].brightness;
 
