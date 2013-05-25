@@ -758,7 +758,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = led_flash;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "288CB057-85EF-4D64-ABD1-3EEEEF331A6F";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "CAE28686-1C37-4746-8128-69C5D6E5BC0A";
 			};
 			name = Debug;
 		};
@@ -766,8 +766,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Pionid";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Pionid";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Pionid (E8YKCDS3Q2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Pionid (E8YKCDS3Q2)";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = led_flash_Prefix.pch;
@@ -782,8 +782,8 @@
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = led_flash;
-				PROVISIONING_PROFILE = "9B250415-634A-4B2F-A351-EAE359330327";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9B250415-634A-4B2F-A351-EAE359330327";
+				PROVISIONING_PROFILE = "01CACAAD-D7A5-464A-9A65-9E0D261A6BCC";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "01CACAAD-D7A5-464A-9A65-9E0D261A6BCC";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -843,8 +843,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Pionid";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Pionid";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Pionid (E8YKCDS3Q2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Pionid (E8YKCDS3Q2)";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = led_flash_Prefix.pch;
@@ -859,8 +859,8 @@
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = led_flash;
-				PROVISIONING_PROFILE = "9B250415-634A-4B2F-A351-EAE359330327";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9B250415-634A-4B2F-A351-EAE359330327";
+				PROVISIONING_PROFILE = "01CACAAD-D7A5-464A-9A65-9E0D261A6BCC";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "01CACAAD-D7A5-464A-9A65-9E0D261A6BCC";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Distribution;

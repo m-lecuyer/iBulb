@@ -41,66 +41,67 @@
 @synthesize plusOneToDisplayBuyButton;
 
 @synthesize textToPlayInMorse;
-
+@synthesize shakeSwitch, flashSwitch, lockSwitch;
 
 #pragma mark - View life cycle
 
 - (void)viewDidLoad {	
     [super viewDidLoad];
 	
-    brightness = [UIScreen mainScreen].brightness;    
+    brightness = [UIScreen mainScreen].brightness;
     
 	if(self){
-		[[NSNotificationCenter defaultCenter] addObserver:self 
-												 selector:@selector(keyboardWillShow:) 
-													 name:UIKeyboardWillShowNotification 
+		[[NSNotificationCenter defaultCenter] addObserver:self
+												 selector:@selector(keyboardWillShow:)
+													 name:UIKeyboardWillShowNotification
 												   object:nil];
-		[[NSNotificationCenter defaultCenter] addObserver:self 
-												 selector:@selector(keyboardWillHide:) 
-													 name:UIKeyboardWillHideNotification 
-                                                object:nil];		
+		[[NSNotificationCenter defaultCenter] addObserver:self
+												 selector:@selector(keyboardWillHide:)
+													 name:UIKeyboardWillHideNotification
+                                                   object:nil];
 	}
-
+    
 	if (![[NSUserDefaults standardUserDefaults] boolForKey:@"notFirstUseOfApplication"]) {
+        NSLog(@"PPPUUUUUUTTTTEEEE");
 		[[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"shakeToLight"];
 		[[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"idleTimerDisabled"];
 		[[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"notFirstUseOfApplication"];
 	}
 	
 	[self loadUserPreferences];
-
+    
 	if([UIImagePickerController isSourceTypeAvailable:UIImagePickerControllerSourceTypeCamera]){
-    
-    AVCaptureSession *captureSession = [[AVCaptureSession alloc] init];
-    videoCaptureDevice = [AVCaptureDevice defaultDeviceWithMediaType:AVMediaTypeVideo];
-	
-    
-     if ([videoCaptureDevice hasTorch]) {			
-     NSError *error = nil; 
-     videoInput = [AVCaptureDeviceInput deviceInputWithDevice:videoCaptureDevice error:&error];
-     if (videoInput) { 
-     [captureSession addInput:videoInput];
-     AVCaptureVideoDataOutput* videoOutput = [[AVCaptureVideoDataOutput alloc] init];
-     [videoOutput setSampleBufferDelegate:self queue:dispatch_get_main_queue()];
-     [captureSession addOutput:videoOutput];
-     [captureSession startRunning];
-     [videoCaptureDevice lockForConfiguration:&error];
-     [videoCaptureDevice setTorchMode:AVCaptureTorchModeOn];
-     
-     if (!isTheirAFlashOnTheDevice && !flashAvailable) {
-     flashAvailable = YES;
-     }
-     isTheirAFlashOnTheDevice = YES;
-     }
-     }
-     else{
-     flashAvailable = NO;
-     isTheirAFlashOnTheDevice = NO;
-     }
-     }
+        
+        AVCaptureSession *captureSession = [[AVCaptureSession alloc] init];
+        videoCaptureDevice = [AVCaptureDevice defaultDeviceWithMediaType:AVMediaTypeVideo];
+        
+        
+        if ([videoCaptureDevice hasTorch]) {
+            NSError *error = nil;
+            videoInput = [AVCaptureDeviceInput deviceInputWithDevice:videoCaptureDevice error:&error];
+            if (videoInput) {
+                [captureSession addInput:videoInput];
+                AVCaptureVideoDataOutput* videoOutput = [[AVCaptureVideoDataOutput alloc] init];
+                [videoOutput setSampleBufferDelegate:self queue:dispatch_get_main_queue()];
+                [captureSession addOutput:videoOutput];
+                [captureSession startRunning];
+                [videoCaptureDevice lockForConfiguration:&error];
+                [videoCaptureDevice setTorchMode:AVCaptureTorchModeOn];
+                
+                if (!isTheirAFlashOnTheDevice && !flashAvailable) {
+                    flashAvailable = YES;
+                }
+                isTheirAFlashOnTheDevice = YES;
+            }
+        }
         else{
             flashAvailable = NO;
             isTheirAFlashOnTheDevice = NO;
+        }
+    }
+    else{
+        flashAvailable = NO;
+        isTheirAFlashOnTheDevice = NO;
 	}
     
     if (flashAvailable) {
@@ -109,12 +110,12 @@
     else {
         onBrightness = 1.0;
     }
-
+    
     [self saveUserPreferences];
     [self changeStateViewWithFlash:flashAvailable forStateOn:YES];
     torchIsOn = YES;
     ((PrincipalView*)self.view).currentView = 0;
-
+    
 	if (![self adFreeVersionPruchased]) {
 		[self requestProductData];
 	} else {
@@ -129,12 +130,12 @@
     UIApplication *app = [UIApplication sharedApplication];
 	app.idleTimerDisabled = [[NSUserDefaults standardUserDefaults] boolForKey:@"idleTimerDisabled"];
     NSInteger mode = [[NSUserDefaults standardUserDefaults] integerForKey:@"currentMode"];
-
+    
     if (!rightPannel) {
         [[NSBundle mainBundle] loadNibNamed:@"Pannels" owner:self options:nil];
         modeControll.selectedSegmentIndex = mode;
         
-        brihgtnessSlider.value = onBrightness;    
+        brihgtnessSlider.value = onBrightness;
         [self changeModeDisplayForMode:mode];
         
         rightPannel.frame = CGRectMake(405, 37, 320, 380);
@@ -142,6 +143,10 @@
         [adFreePurchaseWaiting removeFromSuperview];
         [self.view addSubview:rightPannel];
         [self.view addSubview:leftPannel];
+        
+        shakeSwitch.on = [[NSUserDefaults standardUserDefaults] boolForKey:@"shakeToLight"];
+        lockSwitch.on = ![[NSUserDefaults standardUserDefaults] boolForKey:@"idleTimerDisabled"];
+        flashSwitch.on = [[NSUserDefaults standardUserDefaults] boolForKey:@"flashAvailable"];
     }
     
     if (![self adFreeVersionPruchased] && !adView) {
@@ -483,24 +488,27 @@
     [(PrincipalView*)self.view settingsPannel];
 }
 
-- (IBAction)shakeSwitchSwitched:(UISwitch *)shakeSwitch {
+- (IBAction)shakeSwitchSwitched:(UISwitch *)sSwitch {
     [Flurry logEvent:@"SHAKE_TO_LIGHT"];
 
-	[[NSUserDefaults standardUserDefaults] setBool:shakeSwitch.on forKey:@"shakeToLight"];
+	[[NSUserDefaults standardUserDefaults] setBool:sSwitch.on forKey:@"shakeToLight"];
+    [[NSUserDefaults standardUserDefaults] synchronize];
 }
 
-- (IBAction)flashSwitchSwitched:(UISwitch *)flashSwitch {
+- (IBAction)flashSwitchSwitched:(UISwitch *)fSwitch {
     [Flurry logEvent:@"FLASH_SWITCH"];
 
-	[self mySwitchSwitched:flashSwitch];
+	[self mySwitchSwitched:fSwitch];
+    [[NSUserDefaults standardUserDefaults] synchronize];
 }
 
-- (IBAction)lockSwitchSwitched:(UISwitch *)lockSwitch {
+- (IBAction)lockSwitchSwitched:(UISwitch *)lSwitch {
     [Flurry logEvent:@"LOCK_SWITCH"];
 
 	[[NSUserDefaults standardUserDefaults] setBool:!lockSwitch.on forKey:@"idleTimerDisabled"];
 	UIApplication *app = [UIApplication sharedApplication];
-	app.idleTimerDisabled = !lockSwitch.on;
+	app.idleTimerDisabled = !lSwitch.on;
+    [[NSUserDefaults standardUserDefaults] synchronize];
 }
 
 - (void)mySwitchSwitched:(UISwitch *)theSwitch{

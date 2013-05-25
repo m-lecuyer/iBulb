@@ -8,7 +8,7 @@
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 #import <CoreFoundation/CoreFoundation.h>
-
+#import "myviewcontroller.h"
 
 @interface PrincipalView : UIView {
 	CGPoint startTouchPosition;
@@ -16,6 +16,8 @@
 		
 	BOOL torchIsOn;
 }
+
+@property (nonatomic, retain) IBOutlet myviewcontroller *vc;
 
 @property (nonatomic, assign) CGPoint startTouchPosition;
 @property (nonatomic, assign) int currentView;

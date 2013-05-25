@@ -28,7 +28,7 @@
 @synthesize currentView;
 
 @synthesize torchIsOn;
-
+@synthesize vc;
 
 /*- (void) hitTest:(CGPoint)point withEvent:(UIEvent *)event {
 	
@@ -115,7 +115,7 @@
     if (currentView == 1)
         [self endOfTouch:YES goingLeft:YES];
     else
-        [self endOfTouch:YES goingLeft:NO];
+        [self endOfTouch:YES goingLeft:NO];    
 }
 
 - (void) optionsPannel {
@@ -173,6 +173,10 @@
 	[UIView setAnimationDidStopSelector:@selector(finAnimation)];
 	
 	[UIView commitAnimations];
+    
+    vc.shakeSwitch.on = [[NSUserDefaults standardUserDefaults] boolForKey:@"shakeToLight"];
+    vc.lockSwitch.on = ![[NSUserDefaults standardUserDefaults] boolForKey:@"idleTimerDisabled"];
+    vc.flashSwitch.on = [[NSUserDefaults standardUserDefaults] boolForKey:@"flashAvailable"];
 }
 
 - (void)touchesCancelled:(NSSet *)touches withEvent:(UIEvent *)event {	

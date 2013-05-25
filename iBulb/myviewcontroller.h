@@ -89,6 +89,10 @@
 	
 }
 
+@property (nonatomic, retain) IBOutlet UISwitch *flashSwitch;
+@property (nonatomic, retain) IBOutlet UISwitch *shakeSwitch;
+@property (nonatomic, retain) IBOutlet UISwitch *lockSwitch;
+
 @property (nonatomic, retain) IBOutlet ViralController *viralController;
 
 @property (nonatomic, retain) IBOutlet UILabel *adFreePurchaseLabel;
